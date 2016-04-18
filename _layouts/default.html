@@ -1,51 +1,7 @@
-<!--HEADER-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>
-        {% if page.title %}
-        {{ page.title }}
-        {% else %}
-        Hanszen College
-        {% endif %}
-    </title>
-
-    <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto|Karla' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- CSS -->
-    <link href="/css/style.css" rel="stylesheet">
-
-</head>
-<body>
-{% include nav.html %}
-<!--END HEADER-->
+{% include header.html %}
 
 <!--CONTENT-->
 {{ content }}
 <!--END CONTENT-->
 
-<!--FOOTER-->
-<footer class="footer">
-    <div class="container">
-        <p class="text-muted">Hanszen College {{ site.time | date: '%Y' }}. 6350 Main Street, Houston, TX 77005
-            <br>
-            Adapted from <a href="http://www.lovett.rice.edu">Lovett College's Website</a>
-            (<a href="https://github.com/nguyenkvi/lovett-college">source</a>).
-        </p>
-    </div>
-</footer>
-
-<!-- Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
-<!--END FOOTER-->
+{% include footer.html %}
