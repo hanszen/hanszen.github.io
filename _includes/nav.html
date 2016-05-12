@@ -63,7 +63,10 @@
                 {% for cat in site.categories %}
                     <li><a href="#">{{ cat | first }}</a></li>
                 {% endfor %}
-                <li><a href="#">{{ site.categories }}</a></li>
+                <li><a href="#">{{ site.categories.ABOUT }}</a></li>
+                <li><a href="#">{{ site.categories.about }}</a></li>
+                <li><a href="#">{{ site.categories[about] }}</a></li>
+                <li><a href="#">{{ site.categories['about'] }}</a></li>
                 <li><a href="#">{{ page.categories }} End</a></li>
 
                 <!--&lt;!&ndash; Government &ndash;&gt;-->
