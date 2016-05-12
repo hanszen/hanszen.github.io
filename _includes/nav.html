@@ -47,8 +47,14 @@
                 </li>
 
                 {% for cat in site.category-list %}
-                ### {{ cat }}
-                <ul>
+                    {% if page.categories.contains(cat) %}
+                    <li class="dropdown active">
+                    {% else %}
+                    <li class="dropdown">
+                    {% endif %}
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">{{ cat }}</a>
+                        <ul class="dropdown-menu">
                     {% for page in site.pages %}
                         {% for pc in page.categories %}
                             {% if pc == cat %}
@@ -56,7 +62,8 @@
                             {% endif %}   <!-- cat-match-p -->
                         {% endfor %}  <!-- page-category -->
                     {% endfor %}  <!-- page -->
-                </ul>
+                        </ul>
+                    </li>
                 {% endfor %}  <!-- cat -->
 
                 <li><a href="#">{{ page.categories }} End</a></li>
