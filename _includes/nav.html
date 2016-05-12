@@ -17,6 +17,19 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
 
+                <!-- Temporary Master List -->
+                {% if page.categories.contains('about') %}
+                <li class="dropdown active">
+                {% else %}
+                <li class="dropdown">
+                {% endif %}
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Temporary Master List</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/about/history.html">History</a></li>
+                    </ul>
+                </li>
+
                 <!-- About -->
                 {% if page.categories.contains('about') %}
                 <li class="dropdown active">
@@ -25,9 +38,14 @@
                 {% endif %}
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                     <ul class="dropdown-menu">
-                        <li><a href="/about/history.php">History</a></li>
-                        <li><a href="/about/facilities.php">Facilities</a></li>
-                        <li><a href="/about/events.php">Traditions</a></li>
+                        {% for page in site.pages %}
+                            {% if page.categories.contains('about') %}
+                                <li><a href="{{page.url}}">{{page.title}}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        <!--<li><a href="/about/history.html">History</a></li>-->
+                        <!--<li><a href="/about/facilities.php">Facilities</a></li>-->
+                        <!--<li><a href="/about/events.php">Traditions</a></li>-->
                     </ul>
                 </li>
 
