@@ -2,7 +2,7 @@
     <div class="container">
 
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div cl ass="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -38,10 +38,8 @@
                 {% endif %}
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                     <ul class="dropdown-menu">
-                        {% for page in site.pages %}
-                            {% if page.categories.contains('about') %}
+                        {% for page in site.categories.ABOUT %}
                                 <li><a href="{{page.url}}">{{page.title}}</a></li>
-                            {% endif %}
                         {% endfor %}
                         <!--<li><a href="/about/history.html">History</a></li>-->
                         <!--<li><a href="/about/facilities.php">Facilities</a></li>-->
@@ -49,32 +47,36 @@
                     </ul>
                 </li>
 
-                <!-- Government -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Government</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/government/constitution.php">Constitution</a></li>
-                        <li><a href="/government/cc.php">Central Committee</a></li>
-                        <li><a href="/government/minutes.php">Minutes</a></li>
-                    </ul>
-                </li>
+                {% for category in site.categories %}
+                <li><a href="#">{{category}}</a></li>
+                {% endfor %}
 
-                <!-- People -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/people/masters.php">Adult Team</a></li>
-                        <li><a href="/people/paa.php">Peer Academic Advisors</a></li>
-                        <li><a href="/people/academic-fellow.php">Academic Fellows</a></li>
-                        <li><a href="/people/divisionaladvisors.php">Divisional Advisors</a></li>
-                        <li><a href="/people/rha.php">Rice Health Advisors</a></li>
-                    </ul>
-                </li>
+                <!--&lt;!&ndash; Government &ndash;&gt;-->
+                <!--<li class="dropdown">-->
+                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Government</a>-->
+                    <!--<ul class="dropdown-menu">-->
+                        <!--<li><a href="/government/constitution.php">Constitution</a></li>-->
+                        <!--<li><a href="/government/cc.php">Central Committee</a></li>-->
+                        <!--<li><a href="/government/minutes.php">Minutes</a></li>-->
+                    <!--</ul>-->
+                <!--</li>-->
 
-                <li><a href="/calendar.php">Calendar</a></li>
-                <li><a href="/lovettpalooza">O-Week 2015</a></li>
-                <li><a href="/resources.php">Resources</a></li>
-                <li><a href="/contact.php">Contact</a></li>
+                <!--&lt;!&ndash; People &ndash;&gt;-->
+                <!--<li class="dropdown">-->
+                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People</a>-->
+                    <!--<ul class="dropdown-menu">-->
+                        <!--<li><a href="/people/masters.php">Adult Team</a></li>-->
+                        <!--<li><a href="/people/paa.php">Peer Academic Advisors</a></li>-->
+                        <!--<li><a href="/people/academic-fellow.php">Academic Fellows</a></li>-->
+                        <!--<li><a href="/people/divisionaladvisors.php">Divisional Advisors</a></li>-->
+                        <!--<li><a href="/people/rha.php">Rice Health Advisors</a></li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+
+                <!--<li><a href="/calendar.php">Calendar</a></li>-->
+                <!--<li><a href="/lovettpalooza">O-Week 2015</a></li>-->
+                <!--<li><a href="/resources.php">Resources</a></li>-->
+                <!--<li><a href="/contact.php">Contact</a></li>-->
 
             </ul>
 
