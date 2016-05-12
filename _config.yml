@@ -1,3 +1,4 @@
 name: Hanszen College
 
-categories: ['about', 'calendar', 'contact', 'forms', 'government', 'oweek', 'resources']
+#categories: ['about', 'calendar', 'contact', 'forms', 'government', 'oweek', 'resources']
+category-list: [about, calendar, contact, forms, government, oweek, resources]
