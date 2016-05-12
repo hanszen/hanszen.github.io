@@ -39,11 +39,15 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                     <ul class="dropdown-menu">
                         {% for page in site.categories.about %}
-                                <li><a href="{{page.url}}">{{page.title}}</a></li>
+                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        {% endfor %}
+                        {% for page in site.categories['about'] %}
+                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                         {% endfor %}
                         {% for page in site.categories[about] %}
-                            <li><a href="{{page.url}}">{{page.title}}</a></li>
+                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                         {% endfor %}
+                        <li><a href="#">anything</a></li>
                         <!--<li><a href="/about/history.html">History</a></li>-->
                         <!--<li><a href="/about/facilities.php">Facilities</a></li>-->
                         <!--<li><a href="/about/events.php">Traditions</a></li>-->
@@ -51,8 +55,12 @@
                 </li>
 
                 {% for cat in site.categories %}
-                <li><a href="#">{{cat[0]}}</a></li>
+                    <li><a href="#">{{ cat[0] }}</a></li>
                 {% endfor %}
+                {% for cat in site.categories %}
+                    <li><a href="#">{{ cat }}</a></li>
+                {% endfor %}
+                <li><a href="#">End</a></li>
 
                 <!--&lt;!&ndash; Government &ndash;&gt;-->
                 <!--<li class="dropdown">-->
