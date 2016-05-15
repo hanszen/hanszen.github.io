@@ -15,14 +15,15 @@ a {
 .nav {
 	text-transform: uppercase;
 	color: #FFDC00;
-	background-color: #0074D9;
+	background-color: #2678c0;
 }
-.nav.li.a {
+
+.navbar-default .navbar-nav>li>a {
 	color: #FFDC00;
 }
 
 .navbar {
-	background-color: #0074D9;
+	background-color: #2678c0;
 }
 
 .jumbotron {
@@ -40,7 +41,7 @@ footer {
 	bottom: 0;
 	height: 60px;
 	color: #FFDC00;
-	background-color: #0074D9;
+	background-color: #2678c0;
 }
 html {
 	position: relative;
