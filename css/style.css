@@ -14,17 +14,17 @@ a {
 
 .nav {
 	text-transform: uppercase;
-	color: #FFDC00;
-	background-color: #2678c0;
+	/*color: #FFDC00;*/
+	/*background-color: #0074D9;*/
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #FFDC00;
-}
+/*.navbar-default .navbar-nav>li>a {*/
+	/*color: #FFDC00;*/
+/*}*/
 
-.navbar {
-	background-color: #2678c0;
-}
+/*.navbar {*/
+	/*background-color: #0074D9;*/
+/*}*/
 
 .jumbotron {
 	color: white;
@@ -40,8 +40,8 @@ footer {
 	position: absolute;
 	bottom: 0;
 	height: 60px;
-	color: #FFDC00;
-	background-color: #2678c0;
+	/*color: #FFDC00;*/
+	/*background-color: #0074D9;*/
 }
 html {
 	position: relative;
@@ -52,8 +52,8 @@ body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
 	padding-top: 80px;
-	color: #FFDC00;
-	background-color: #0074D9;
+	/*color: #FFDC00;*/
+	/*background-color: #2678c0;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -61,8 +61,8 @@ body {
 		/* Margin bottom by footer height */
 		margin-bottom: 60px;
 		padding-top: 0px;
-		color: #FFDC00;
-		background-color: #0074D9;
+		/*color: #FFDC00;*/
+		/*background-color: #0074D9;*/
 	}
 }
 
