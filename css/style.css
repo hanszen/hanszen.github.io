@@ -17,6 +17,13 @@ a {
 	color: #FFDC00;
 	background-color: #0074D9;
 }
+.nav.li.a {
+	color: #FFDC00;
+}
+
+.navbar {
+	background-color: #0074D9;
+}
 
 .jumbotron {
 	color: white;
@@ -43,7 +50,7 @@ html {
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
-	padding-top: 40px;
+	padding-top: 80px;
 	color: #FFDC00;
 	background-color: #0074D9;
 }
