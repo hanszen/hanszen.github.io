@@ -36,10 +36,13 @@ html {
 	position: relative;
 	min-height: 100%;
 }
+
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
 	padding-top: 40px;
+	color: #FFDC00;
+	background-color: #0074D9;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,3 +57,4 @@ body {
     display: block;
     margin-top: 0;
  }
+
