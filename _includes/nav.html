@@ -18,32 +18,31 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
 
-                {% for cat in site.category-list %}
-                {% if page.categories.contains(cat) %}
-                <li class="dropdown active">
+                {% for category in site.category-list %}
+                    {% if page.categories.contains(category) %}
+                        <li class="dropdown active">
                     {% else %}
-                <li class="dropdown">
+                        <li class="dropdown">
                     {% endif %}
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">{{ cat }}</a>
-                    <ul class="dropdown-menu">
-                        {% for page in site.pages %}
-                        {% for pc in page.categories %}
-                        {% if pc == cat %}
-                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                        {% endif %}   <!-- cat-match-p -->
-                        {% endfor %}  <!-- page-category -->
-                        {% endfor %}  <!-- page -->
-                    </ul>
-                </li>
-                {% endfor %}  <!-- cat -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">{{ category }}</a>
+                            <ul class="dropdown-menu">
+                                {% for page in site.pages %}
+                                    {% for page_category in page.categories %}
+                                        {% if page_category == category %}
+                                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                                        {% endif %}   <!-- cat-match-p -->
+                                    {% endfor %}  <!-- page-category -->
+                                {% endfor %}  <!-- page -->
+                            </ul>
+                        </li>
+                {% endfor %}  <!-- category -->
 
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="https://www.facebook.com/groups/hanszen/"><img src="/img/FB-f-Logo__blue_29.png"
-                                                                            width="20"></a>
+                    <a href="https://www.facebook.com/groups/hanszen/"><img src="/img/FB-f-Logo__blue_29.png" width="20"></a>
                 </li>
             </ul>
         </div>
