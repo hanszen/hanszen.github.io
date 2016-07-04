@@ -1,5 +1,5 @@
 * {
-	font-family: Karla;
+	font-family: Karla, sans-serif;
 }
 
 p {
@@ -28,7 +28,7 @@ a {
 
 .jumbotron {
 	color: white;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-weight: bolder;
 }
 
@@ -51,7 +51,7 @@ html {
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
-	padding-top: 80px;
+	/*padding-top: 80px;*/
 	/*color: #FFDC00;*/
 	/*background-color: #2678c0;*/
 }
@@ -60,7 +60,7 @@ body {
 	body {
 		/* Margin bottom by footer height */
 		margin-bottom: 60px;
-		padding-top: 0px;
+		/*padding-top: 0px;*/
 		/*color: #FFDC00;*/
 		/*background-color: #0074D9;*/
 	}
