@@ -71,3 +71,5 @@ body {
     margin-top: 0;
  }
 
+ 
+ @font-face { font-family: TheBoldFont; scr: url('../fonts/theboldfont.ttf');}
