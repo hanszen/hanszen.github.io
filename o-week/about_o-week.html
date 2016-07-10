@@ -5,6 +5,38 @@ categories: ['o-week']
 ---
 
 <div class="row">
+
+
+	<!-- countdown timer -->
+	<link rel="stylesheet" href="../css/flipclock.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/flipclock.js"></script>	
+	
+	<div class="clock" style="margin:2em;"></div>		
+	<script type="text/javascript">
+		var clock;
+
+		$(document).ready(function() {
+
+			// Grab the current date
+			var currentDate = new Date();
+
+			// Set some date in the future. In this case, it's always Jan 1
+			var futureDate  = new Date(2016,7,13,8,0,0,0);
+
+			// Calculate the difference in seconds between the future and current date
+			var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+			// Instantiate a coutdown FlipClock
+			clock = $('.clock').FlipClock(diff, {
+				clockFace: 'DailyCounter',
+				countdown: true
+			});
+		});
+	</script>
+	<!-- end countdown timer-->
+	
+	
     <div class="col-md-4">
         <img src="/img/rice_o-week.png" class="img-thumbnail">
     </div>
