@@ -5,3 +5,5 @@ category-list: [about, government, o-week, resources, forms, calendar, contact]
 
 gems:
   - jekyll-sitemap
+
+google_analytics: UA-98714024-1
