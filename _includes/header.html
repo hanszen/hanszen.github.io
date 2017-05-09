@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- ****** google analytics ****** -->
+    
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+
     <title>
         {% if page.title %}
         {{ page.title }}
@@ -19,12 +25,6 @@
 
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- ****** google analytics ****** -->
-    
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
 
     <!-- CSS -->
     <link href="/css/style.css" rel="stylesheet">
