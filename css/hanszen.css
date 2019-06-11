@@ -38,3 +38,7 @@ Overwrites
 .container {
   position: relative;
 }
+
+.card {
+  width: 100% !important;
+}
