@@ -1,0 +1,44 @@
+/*
+General Body Design
+*/
+
+body {
+  padding-top: 3.5rem;
+}
+
+/*
+Navigation
+*/
+
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*
+Text Styles
+*/
+
+.light {
+  font-weight: 300;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.text-muted-white {
+  color: #DDD;
+}
+
+/*
+Overwrites
+*/
+
+.container {
+  position: relative;
+}
+
+.card {
+  width: 100% !important;
+}

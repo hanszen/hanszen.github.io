@@ -1,0 +1,21 @@
+/*
+    Page Header
+*/
+
+.pg-header {
+    padding: 2rem 2rem;
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.3) 100%), url("../assets/img/colorpowder.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+    color: #FFF;
+
+    margin-bottom: 2rem;
+}
+
+.pg-header h1 {
+    font-size: 300%;
+}
