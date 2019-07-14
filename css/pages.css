@@ -19,3 +19,18 @@
 .pg-header h1 {
     font-size: 300%;
 }
+
+
+/*
+About/History
+*/
+.about-history-bottom {
+    padding-top: 270px;
+    padding-bottom: 270px;
+  
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 80%), url("../assets/img/zen_night.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
