@@ -34,3 +34,17 @@ About/History
     background-attachment: scroll;
     background-size: cover;
 }
+
+/*
+Government/H-Team
+*/
+.pg-header-hteam {
+    padding-top: 280px;
+    padding-bottom: 40px;
+  
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 80%), url("../assets/img/h-team-new.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
