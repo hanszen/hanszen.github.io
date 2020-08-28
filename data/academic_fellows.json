@@ -1,0 +1,140 @@
+[
+    {
+        "Subject": "BIOC",
+        "Major": "BIOC, pre-med",
+        "Minor": "MDHM",
+        "Name": "[HEAD] Natalie Gault",
+        "Email": "nag6@rice.edu"
+    },
+    {
+        "Subject": "CAAM 3XX",
+        "Major": "CAAM, pre-med",
+        "Minor": "BIOC",
+        "Name": "[HEAD] Anthony (Min) Kang",
+        "Email": "amk17@rice.edu"
+    },
+    {
+        "Subject": "POLI/SOPA",
+        "Major": "POLI, SOPA",
+        "Minor": "DSCI",
+        "Name": "[HEAD] Mason Reece",
+        "Email": "mpr9@rice.edu"
+    },
+    {
+        "Subject": "BIOE",
+        "Major": "BIOE, pre-med",
+        "Minor": "MDHM",
+        "Name": "Austin Hwang",
+        "Email": "ah53@rice.edu"
+    },
+    {
+        "Subject": "CAAM 210",
+        "Major": "CAAM",
+        "Minor": "DSCI",
+        "Name": "Ari Vilker",
+        "Email": "av61@rice.edu"
+    },
+    {
+        "Subject": "CHEM 121/122",
+        "Major": "NEUR, pre-med",
+        "Minor": "BIOC",
+        "Name": "Sai Govindu",
+        "Email": "srg10@rice.edu"
+    },
+    {
+        "Subject": "CHEM 211/212",
+        "Major": "ECON, pre-med",
+        "Name": "Daniel Wang",
+        "Email": "dw44@rice.edu"
+    },
+    {
+        "Subject": "CHEM 211/212",
+        "Major": "CHEM, pre-med",
+        "Minor": "BIOC",
+        "Name": "Vy Dang",
+        "Email": "vcd1@rice.edu"
+    },
+    {
+        "Subject": "CHEM 211/212",
+        "Major": "CHEM, BIOC, pre-med",
+        "Name": "Eliot Behr",
+        "Email": "eib2@rice.edu"
+    },
+    {
+        "Subject": "COMP, DSCI",
+        "Major": "COMP",
+        "Minor": "DSCI",
+        "Name": "Will Ledig",
+        "Email": "wpl1@rice.edu"
+    },
+    {
+        "Subject": "D1 Writing",
+        "Major": "ENGL, PSYC",
+        "Minor": "PLST",
+        "Name": "Jeeyoon Kim",
+        "Email": "jsk4@rice.edu"
+    },
+    {
+        "Subject": "D1/ D3 Writing",
+        "Major": "BIOC, ENGL",
+        "Name": "Syed Shams",
+        "Email": "sss13@rice.edu"
+    },
+    {
+        "Subject": "D2 Writing",
+        "Major": "PSYC",
+        "Name": "Andreas Weyland",
+        "Email": "ahw2@rice.edu"
+    },
+    {
+        "Subject": "ECON",
+        "Major": "ECON, pre-med",
+        "Minor": "BIOC",
+        "Name": "Jacob Doddridge",
+        "Email": "jrd14@rice.edu"
+    },
+    {
+        "Subject": "MATH 101/102",
+        "Major": "CEVE",
+        "Name": "Hannah Meeks",
+        "Email": "hem4@rice.edu"
+    },
+    {
+        "Subject": "MATH 211/212/355",
+        "Major": "COMP",
+        "Minor": "MATH",
+        "Name": "Lauren Ivory",
+        "Email": "lni1@rice.edu"
+    },
+    {
+        "Subject": "MECH",
+        "Major": "MECH",
+        "Name": "Rahul Kilambi",
+        "Email": "rk59@rice.edu"
+    },
+    {
+        "Subject": "MUSI",
+        "Major": "MUSI",
+        "Name": "Lucas Lemonholm",
+        "Email": "lel8@rice.edu"
+    },
+    {
+        "Subject": "PHYS 101/102",
+        "Major": "COMP, ELEC",
+        "Minor": "RCEL",
+        "Name": "Daniel Rothfusz",
+        "Email": "dpr7@rice.edu"
+    },
+    {
+        "Subject": "PSYC",
+        "Major": "MANA, CGCI",
+        "Name": "Vickie Liu",
+        "Email": "vl9@rice.edu"
+    },
+    {
+        "Subject": "STAT",
+        "Major": "STAT",
+        "Name": "Zach Rewolinski",
+        "Email": "ztr2@rice.edu"
+    }
+]

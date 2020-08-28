@@ -1,0 +1,27 @@
+[
+    {
+        "Name": "[HEAD] Will Ledig",
+        "Email": "wpl1@rice.edu",
+        "Major": "COMP"
+    },
+    {
+        "Name": "Anthony Bagamian",
+        "Email": "avb5@rice.edu",
+        "Major": "COMP"
+    },
+    {
+        "Name": "Radhika Patel",
+        "Email": "rpb7@rice.edu",
+        "Major": "PSYC"
+    },
+    {
+        "Name": "Sanjana Krishnan",
+        "Email": "skk5@rice.edu",
+        "Major": "PSYC"
+    },
+    {
+        "Name": "Andrea Lin",
+        "Email": "all11@rice.edu",
+        "Major": "PSYC/POLI"
+    }
+]

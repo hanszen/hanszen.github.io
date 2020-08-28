@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Matthew Wettergreen",
+        "email": "mwettergreen@",
+        "division": "Engineering",
+        "department": "Bioengineering"
+    },
+    {
+        "name": "Edison Liang",
+        "email": "liang@",
+        "division": "Natural Sciences",
+        "department": "Astrophysics, Physics & Astronomy"
+    },
+    {
+        "name": "Sophie Esch",
+        "email": "sophie.esch@",
+        "division": "Humanities",
+        "department": "Spanish, Portuguese & Latin American Studies"
+    },
+    {
+        "name": "Songying Fang",
+        "email": "sfang@",
+        "division": "Social Sciences",
+        "department": "Political Science"
+    }
+]
