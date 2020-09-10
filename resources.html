@@ -37,7 +37,7 @@ permalink: /resources/
                         <th data-field="Major">Major</th>
                         <th data-field="Minor">Minor</th>
 						<th data-field="OfficeHours">Office Hours</th>
-						<th data-field="Zoom">Zoom Info</th>
+						<th data-field="Zoom" data-formatter="zoom_link_embedder">Zoom Info</th>
                     </tr>
                 </thead>
             </table>
@@ -250,3 +250,17 @@ permalink: /resources/
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+function zoom_link_embedder(value) {
+    if (value != null && value != "") {
+        if (value.substring(0, 4) == "http") {
+            return '<a href="'+value+'" target="_blank">Zoom Link</a>';
+        } else {
+            return value
+        }
+    } else {
+        return "Info Not Available"
+    }
+}
+</script>
