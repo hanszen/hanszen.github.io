@@ -4,137 +4,179 @@
         "Major": "BIOC, pre-med",
         "Minor": "MDHM",
         "Name": "[HEAD] Natalie Gault",
-        "Email": "nag6@rice.edu"
+        "Email": "nag6@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": ""
     },
     {
         "Subject": "CAAM 3XX",
         "Major": "CAAM, pre-med",
         "Minor": "BIOC",
         "Name": "[HEAD] Anthony (Min) Kang",
-        "Email": "amk17@rice.edu"
+        "Email": "amk17@rice.edu",
+		"OfficeHours": "Sun 7-9pm CST",
+		"Zoom": "https://riceuniversity.zoom.us/j/3348654853?pwd=WitKN1VpY1E3d1Y4dThsSWsrdHdsQT09"
     },
     {
         "Subject": "POLI/SOPA",
         "Major": "POLI, SOPA",
         "Minor": "DSCI",
         "Name": "[HEAD] Mason Reece",
-        "Email": "mpr9@rice.edu"
+        "Email": "mpr9@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": "https://riceuniversity.zoom.us/j/9872471926?pwd=SW5PN3dHQ2hKcm9MZWRRSkpDSG9rZz09"
     },
     {
         "Subject": "BIOE",
         "Major": "BIOE, pre-med",
         "Minor": "MDHM",
         "Name": "Austin Hwang",
-        "Email": "ah53@rice.edu"
+        "Email": "ah53@rice.edu",
+		"OfficeHours": "Wed 8-10pm CST",
+		"Zoom": ""
     },
     {
         "Subject": "CAAM 210",
         "Major": "CAAM",
         "Minor": "DSCI",
         "Name": "Ari Vilker",
-        "Email": "av61@rice.edu"
+        "Email": "av61@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": ""
     },
     {
         "Subject": "CHEM 121/122",
         "Major": "NEUR, pre-med",
         "Minor": "BIOC",
         "Name": "Sai Govindu",
-        "Email": "srg10@rice.edu"
+        "Email": "srg10@rice.edu",
+		"OfficeHours": "Thu 3-5pm CST",
+		"Zoom": "https://us02web.zoom.us/j/5443070259?pwd=ckNOU1lIVUp5UkVlUnU2YXRBK3dlQT09"
     },
     {
         "Subject": "CHEM 211/212",
         "Major": "ECON, pre-med",
         "Name": "Daniel Wang",
-        "Email": "dw44@rice.edu"
+        "Email": "dw44@rice.edu",
+		"OfficeHours": "Wed 9-10pm CST",
+		"Zoom": "https://riceuniversity.zoom.us/j/97211026889?pwd=ZUU4OGcxTHVwUGFYVERLUjNURmVHZz09"
     },
     {
         "Subject": "CHEM 211/212",
         "Major": "CHEM, pre-med",
         "Minor": "BIOC",
         "Name": "Vy Dang",
-        "Email": "vcd1@rice.edu"
+        "Email": "vcd1@rice.edu",
+		"OfficeHours": "Thu 3-5pm CST",
+		"Zoom": "https://riceuniversity.zoom.us/j/5953210230?pwd=cTlrZk1KYkx0VXJrWnpOUHliRGZXZz09"
     },
     {
         "Subject": "CHEM 211/212",
         "Major": "CHEM, BIOC, pre-med",
         "Name": "Eliot Behr",
-        "Email": "eib2@rice.edu"
+        "Email": "eib2@rice.edu",
+		"OfficeHours": "Wed 1-3pm CST & Sat 10pm-12am CST",
+		"Zoom": "https://riceuniversity.zoom.us/j/3014867426?pwd=WGlMZ3M1SmFxUW9ta2t2a3pmbGhwUT09"
     },
     {
         "Subject": "COMP, DSCI",
         "Major": "COMP",
         "Minor": "DSCI",
         "Name": "Will Ledig",
-        "Email": "wpl1@rice.edu"
+        "Email": "wpl1@rice.edu",
+		"OfficeHours": "Sun 3-5pm CST",
+		"Zoom": "Meeting Id: 7717154603 Password: 604217"
     },
     {
         "Subject": "D1 Writing",
         "Major": "ENGL, PSYC",
         "Minor": "PLST",
         "Name": "Jeeyoon Kim",
-        "Email": "jsk4@rice.edu"
+        "Email": "jsk4@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": ""
     },
     {
         "Subject": "D1/ D3 Writing",
         "Major": "BIOC, ENGL",
         "Name": "Syed Shams",
-        "Email": "sss13@rice.edu"
+        "Email": "sss13@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": ""
     },
     {
         "Subject": "D2 Writing",
         "Major": "PSYC",
         "Name": "Andreas Weyland",
-        "Email": "ahw2@rice.edu"
+        "Email": "ahw2@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": ""
     },
     {
         "Subject": "ECON",
         "Major": "ECON, pre-med",
         "Minor": "BIOC",
         "Name": "Jacob Doddridge",
-        "Email": "jrd14@rice.edu"
+        "Email": "jrd14@rice.edu",
+		"OfficeHours": "Sun 4-6pm CST",
+		"Zoom": "https://riceuniversity.zoom.us/j/97988563646?pwd=ZG1RREhhdFU3TGxGOEkzQ3JOUDZRUT09"
     },
     {
         "Subject": "MATH 101/102",
         "Major": "CEVE",
         "Name": "Hannah Meeks",
-        "Email": "hem4@rice.edu"
+        "Email": "hem4@rice.edu",
+		"OfficeHours": "Fri 6-8pm CST",
+		"Zoom": "Meeting ID: 7436920732 Password: 127146"
     },
     {
         "Subject": "MATH 211/212/355",
         "Major": "COMP",
         "Minor": "MATH",
         "Name": "Lauren Ivory",
-        "Email": "lni1@rice.edu"
+        "Email": "lni1@rice.edu",
+		"OfficeHours": "Sun 7-9pm CST",
+		"Zoom": ""
     },
     {
         "Subject": "MECH",
         "Major": "MECH",
         "Name": "Rahul Kilambi",
-        "Email": "rk59@rice.edu"
+        "Email": "rk59@rice.edu",
+		"OfficeHours": "Mon 5-7pm CST",
+		"Zoom": "https://riceuniversity.zoom.us/u/ac1c6S8ADZ  password: 917079"
     },
     {
         "Subject": "MUSI",
         "Major": "MUSI",
         "Name": "Lucas Lemonholm",
-        "Email": "lel8@rice.edu"
+        "Email": "lel8@rice.edu",
+		"OfficeHours": "By appointment",
+		"Zoom": ""
     },
     {
         "Subject": "PHYS 101/102",
         "Major": "COMP, ELEC",
         "Minor": "RCEL",
         "Name": "Daniel Rothfusz",
-        "Email": "dpr7@rice.edu"
+        "Email": "dpr7@rice.edu",
+		"OfficeHours": "Sun 7-9pm CST",
+		"Zoom": ""
     },
     {
         "Subject": "PSYC",
         "Major": "MANA, CGCI",
         "Name": "Vickie Liu",
-        "Email": "vl9@rice.edu"
+        "Email": "vl9@rice.edu",
+		"OfficeHours": "Sun 7-9pm CST",
+		"Zoom": "https://riceuniversity.zoom.us/j/9539633389?pwd=S2docmMzQ3QwTnZ6anVpMzVlbEJVQT09 Password: vickie"
     },
     {
         "Subject": "STAT",
         "Major": "STAT",
         "Name": "Zach Rewolinski",
-        "Email": "ztr2@rice.edu"
+        "Email": "ztr2@rice.edu",
+		"OfficeHours": "Wed 1-3pm CST",
+		"Zoom": ""
     }
 ]
