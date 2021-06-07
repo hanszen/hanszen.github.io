@@ -1,27 +1,17 @@
 [
     {
-        "Name": "[HEAD] Will Ledig",
-        "Email": "wpl1@rice.edu",
-        "Major": "COMP"
-    },
-    {
-        "Name": "Anthony Bagamian",
-        "Email": "avb5@rice.edu",
-        "Major": "COMP"
-    },
-    {
-        "Name": "Radhika Patel",
-        "Email": "rpb7@rice.edu",
-        "Major": "PSYC"
-    },
-    {
-        "Name": "Sanjana Krishnan",
-        "Email": "skk5@rice.edu",
-        "Major": "PSYC"
-    },
-    {
-        "Name": "Andrea Lin",
+        "Name": "Lara Lin",
         "Email": "all11@rice.edu",
-        "Major": "PSYC/POLI"
+        "Major": "PSYC, POLI"
+    },
+    {
+        "Name": "Makayla Brown",
+        "Email": "mab33@rice.edu",
+        "Major": "Neuroscience"
+    },
+    {
+        "Name": "Ashley Noh",
+        "Email": "yn22@rice.edu",
+        "Major": "Cognitive Sciences"
     }
 ]
