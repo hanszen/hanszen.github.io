@@ -94,4 +94,17 @@ Landing Page Sections
   background-size: cover;
 
   color: #FFF;
-}  
+}
+
+.oweek-logo {
+  height: auto;
+  width: 100%;
+  max-width: 425px;
+  overflow:  hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .hfh-head {
+    font-size: 7rem;
+  }
+}
