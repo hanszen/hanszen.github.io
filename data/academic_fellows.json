@@ -9,20 +9,19 @@
 		"GradYear": "2022"
     },
     {
+        "Subject": "CHEM 211/212",
+        "Major": "CHEM, BIOC, Pre-Med",
+        "Name": "[HEAD] Eliot Behr",
+        "Email": "eib2@rice.edu",
+        "OfficeHours": "TBA",
+        "GradYear": "2023"
+    },
+    {
         "Subject": "D2 Writing",
         "Major": "PSYC, Pre-Grad",
         "Minor": "STAT",
         "Name": "[HEAD] Andreas Weyland",
         "Email": "ahw2@rice.edu",
-        "OfficeHours": "TBA",
-        "GradYear": "2022"
-    },
-        {
-        "Subject": "ECON",
-        "Major": "ECON, Pre-Med",
-        "Minor": "BIOC",
-        "Name": "[HEAD] Jacob Doddridge",
-        "Email": "jrd14@rice.edu",
         "OfficeHours": "TBA",
         "GradYear": "2022"
     },
@@ -61,14 +60,6 @@
     },
     {
         "Subject": "CHEM 211/212",
-        "Major": "CHEM, BIOC, Pre-Med",
-        "Name": "Eliot Behr",
-        "Email": "eib2@rice.edu",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "CHEM 211/212",
         "Major": "BIOC, Pre-Med",
         "Name": "Ananda Nandigam",
         "Email": "aln7@rice.edu",
@@ -88,6 +79,15 @@
         "Major": "BIOC, ENGL, Pre-Med",
         "Name": "Syed Shams",
         "Email": "sss13@rice.edu",
+        "OfficeHours": "TBA",
+        "GradYear": "2022"
+    },
+    {
+        "Subject": "ECON",
+        "Major": "ECON, Pre-Med",
+        "Minor": "BIOC",
+        "Name": "Jacob Doddridge",
+        "Email": "jrd14@rice.edu",
         "OfficeHours": "TBA",
         "GradYear": "2022"
     },
