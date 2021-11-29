@@ -1,101 +1,121 @@
 [
     {
         "Name": "[HEAD] Anthony (Min) Kang",
+        "Year": "Sr.",
         "Email": "amk17@rice.edu",
         "Major": "Computational and Applied Mathematics, Biochemistry and Cell Biology minor, Data Science minor; Pre-med, Pre-grad"
     },
     {
         "Name": "[HEAD] Piyusha Kundu",
+        "Year": "Jr.",
         "Email": "pk29@rice.edu",
         "Major": "Cognitive Sciences; Pre-med"
     },
     {
         "Name": "[HEAD] Andreas Weyland",
+        "Year": "Sr.",
         "Email": "ahw2@rice.edu",
         "Major": "Psychology; Statistics Minor; Pre-grad"
     },
     {
         "Name": "[O-WEEK] Tyler Braito",
+        "Year": "So.",
         "Email": "ttb2@rice.edu",
         "Major": "Linguistics, Data Science Minor"
     },
     {
         "Name": "[O-WEEK] Arnav Burudgunte",
+        "Year": "So.",
         "Email": "ab141@rice.edu",
         "Major": "Computer Science, Data Science minor; Pre-grad"
     },
     {
         "Name": "[O-WEEK] Brian Lee",
+        "Year": "So.",
         "Email": "bsl4@rice.edu",
         "Major": "Biosciences, Statistics minor; Pre-med, Pre-grad"
     },
     {
         "Name": "[O-WEEK] Michelle Martinez",
+        "Year": "Jr.",
         "Email": "mm142@rice.edu",
         "Major": "Sport Management, Kinesiology; Pre-med"
     },
     {
         "Name": "Arshia Batra",
+        "Year": "Sr.",
         "Email": "ab115@rice.edu",
         "Major": "Cognitive Sciences, Economics"
     },
     {
         "Name": "Matthew Brun",
+        "Year": "Sr.",
         "Email": "meb21@rice.edu",
         "Major": "Computational and Applied Mathematics; Pre-grad"
     },
     {
         "Name": "Jack Fain",
+        "Year": "Sr.",
         "Email": "jmf9@rice.edu",
         "Major": "Philosophy, Religion, Politics, Law and Social Thought minor; Pre-law, Pre-grad"
     },
     {
         "Name": "Robert Heeter",
+        "Year": "So.",
         "Email": "rch5@rice.edu",
         "Major": "Undecided, Bioengineering, Physics; Pre-grad"
     },
     {
         "Name": "Dani Knobloch",
+        "Year": "Jr.",
         "Email": "dsk5@rice.edu",
         "Major": "Social Policy Analysis, Biochemistry and Cell Biology minor, Pre-med"
     },
     {
         "Name": "Heather Kong",
+        "Year": "Jr.",
         "Email": "hzk1@rice.edu",
         "Major": "Kinesiology, Poverty, Justice and Human Capabilities Minor; Pre-med"
     },
     {
         "Name": "Andrew Li",
+        "Year": "Jr.",
         "Email": "azl1@rice.edu",
         "Major": "Statistics, Data Science, Biochemistry minor; Pre-med"
     },
     {
         "Name": "Amanda Lopatin",
+        "Year": "Sr.",
         "Email": "ael8@rice.edu",
         "Major": "Linguistics, Philosophy, Politics, Law & Social Thought minor; Pre-law, Pre-grad"
     },
     {
         "Name": "Bill Qian",
+        "Year": "Jr.",
         "Email": "zq4@rice.edu",
         "Major": "Computer Science; pre-grad"
     },
     {
         "Name": "Mason Reece",
+        "Year": "Sr.",
         "Email": "mpr9@rice.edu",
         "Major": "Cognitive Sciences, Political Science, Data Science minor; Pre-grad"
     },
     {
         "Name": "Carlos Rivera",
+        "Year": "Jr.",
         "Email": "cdr5@rice.edu",
         "Major": "Sport Management, Sports Medicine and Exercise Physiology; Pre-health"
     },
     {
         "Name": "Daniel Rothfusz",
+        "Year": "Sr.",
         "Email": "dpr7@rice.edu",
         "Major": "Computer Science, Electrical Engineering"
     },
     {
         "Name": "Syed Shams",
+        "Year": "Sr.",
         "Email": "sss13@rice.edu",
         "Major": "Biochemistry & Cell Biology, English, CCL certificate; pre-grad"
     }

@@ -1,14 +1,17 @@
 [
     {
         "Name": "Chloe Hur",
+        "Year": "Jr.",
         "Email": "sh85@rice.edu"
     },
     {
         "Name": "Sarah Kim",
+        "Year": "So.",
         "Email": "ek34@rice.edu"
     },
     {
         "Name": "Marc Armeña",
+        "Year": "So.",
         "Email": "mba4@rice.edu"
     }
 ]
