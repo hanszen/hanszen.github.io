@@ -1,16 +1,19 @@
 [
     {
         "Name": "Lara Lin",
+        "Year": "Jr.",
         "Email": "all11@rice.edu",
         "Major": "Psychology, Political Science"
     },
     {
         "Name": "Makayla Brown",
+        "Year": "So.",
         "Email": "mab33@rice.edu",
         "Major": "Neuroscience"
     },
     {
         "Name": "Ashley Noh",
+        "Year": "Jr.",
         "Email": "yn22@rice.edu",
         "Major": "Cognitive Sciences"
     }

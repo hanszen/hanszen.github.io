@@ -1,51 +1,61 @@
 [
     {
         "Name": "Piper Harris",
+        "Year": "Sr.",
         "Email": "pmh6@rice.edu",
         "Room": "Old Sid 550"
     },
     {
         "Name": "Makayla Franco",
+        "Year": "Sr.",
         "Email": "mjf12@rice.edu",
         "Room": "Old Sid 701"
     },
     {
         "Name": "Chidera Ibezue",
+        "Year": "Sr.",
         "Email": "ici1@rice.edu",
         "Room": "Off Campus"
     },
     {
         "Name": "Carlos Rivera",
+        "Year": "Jr.",
         "Email": "cdr5@rice.edu",
         "Room": "Off Campus"
     },
     {
         "Name": "Jarrett Prchal",
+        "Year": "Sr.",
         "Email": "jtp4@rice.edu",
         "Room": "Old Sid 252"
     },
     {
         "Name": "Kourtney Kanja",
+        "Year": "Jr.",
         "Email": "knk3@rice.edu",
         "Room": "Off Campus"
     },
     {
         "Name": "Janya Ram",
+        "Year": "Jr.",
         "Email": "jmr23@rice.edu",
         "Room": "Old Sid 702"
     },
     {
         "Name": "Jesus Galvan",
+        "Year": "Jr.",
         "Email": "jmg29@rice.edu",
         "Room": "Room 252"
     },
     {
         "Name": "Rian Philip",
+        "Year": "Sr.",
         "Email": "rap9@rice.edu",
         "Room": "Off Campus"
     },
     {
         "Name": "William Zheng",
+        "Year": "So.",
         "Email": "jz93@rice.edu",
         "Room": "Hanszen 512"
     }
