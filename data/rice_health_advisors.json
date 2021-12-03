@@ -64,5 +64,17 @@
         "Year": "Jr.",
         "Email": "krb9@rice.edu",
         "Room": "Old Sid 706"
+    },
+    {
+        "Name": "Michelle Martinez",
+        "Year": "Jr.",
+        "Email": "mm142@rice.edu",
+        "Room": "Off Campus"
+    },
+    {
+        "Name": "Maggie Han",
+        "Year": "So.",
+        "Email": "maggie.han@rice.edu",
+        "Room": "Old Sid 753"
     }
 ]
