@@ -45,7 +45,7 @@
         "Name": "Jesus Galvan",
         "Year": "Jr.",
         "Email": "jmg29@rice.edu",
-        "Room": "Room 252"
+        "Room": "Old Sid 252"
     },
     {
         "Name": "Rian Philip",
@@ -58,5 +58,11 @@
         "Year": "So.",
         "Email": "jz93@rice.edu",
         "Room": "Hanszen 512"
+    },
+    {
+        "Name": "Katie Bablak",
+        "Year": "Jr.",
+        "Email": "krb9@rice.edu",
+        "Room": "Old Sid 706"
     }
 ]
