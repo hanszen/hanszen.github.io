@@ -5,7 +5,7 @@
 .pg-header {
     padding: 2rem 2rem;
 
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.3) 100%), url("../assets/img/colorpowder.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.3) 100%), url("../assets/img/scenery/colorpowder.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -28,7 +28,7 @@ About/History
     padding-top: 270px;
     padding-bottom: 270px;
   
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 80%), url("../assets/img/zen_night.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 80%), url("../assets/img/scenery/zen_night.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -42,7 +42,7 @@ Government/H-Team
     padding-top: 280px;
     padding-bottom: 40px;
   
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 80%), url("../assets/img/h-team-new.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 80%), url("../assets/img/h-team/h-team-new.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -56,7 +56,7 @@ Resources
     padding-top: 280px;
     padding-bottom: 40px;
   
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 80%), url("../assets/img/hfh.jpg");
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 80%), url("../assets/img/hanszen_on_ice_2018.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
