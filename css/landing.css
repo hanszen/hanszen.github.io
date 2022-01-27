@@ -70,8 +70,10 @@ Info Section
 .infosection {
   background-color: black;
   color: #FFF;
+  /*
   padding-top: 25px;
   padding-bottom: 25px;
+  */
 }
 
 /*
