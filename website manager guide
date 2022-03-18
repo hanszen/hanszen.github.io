@@ -12,40 +12,61 @@ If you have any questions or need help with anything, talk to the other website 
 First of all, this site is hosted using GitHub Pages, a free static web hosting service through GitHub. It takes html files in this directory and displays them using Jekyll as website pages.
 
 Some of the html files are in the root directory itself, and some are in folders.
-The _includes, _layouts, about, government, and oweek folders contain html files.
+
+The _includes, _layouts, about, government, and oweek folders contain html files that appear on the site.
+
 The assets folder contains various documents images, and videos that are used throughout the website.
+
 The data folder contains data about various positions and resources, and is referred to by some of the html files.
 
 
-Some of the folders contain files that deal with the behind-the-scenes stuff. You shouldn't need to mess with these.
+Some of the folders contain files that deal with the behind-the-scenes stuff. You shouldn't need to mess with these:
 
-The css folder includes stylesheets to format elements correctly. 
-The js folder includes various javascript functions to make the stylesheets work.
-The vendor folder has a bunch of various files that I don't even know what they do.
+    The css folder includes stylesheets to format elements correctly. 
+
+    The js folder includes various javascript functions to make the stylesheets work.
+
+    The vendor folder has a bunch of various files that I don't even know what they do.
 
 
 # DUTIES OF THE WEBSITE MANAGERS
 
 When changeover happens, update the positions of cab in the government file.
+
 Over the summer, update everyone's year.
+
 Work with the IVP to get descriptions for committees.
-During/after O-Week, update the Hanszen Genealogy Website to include the new O-Week Groups.
+
+During/shortly after O-Week, update the Hanszen Genealogy Website to include the incoming class.
+
 Check the Website Change Requests form to see if anyone wants anything changed.
+
 In whatever way you like, make the website fun and interesting. Examples include creating joke committees, hiding Harry Femur Hanszen somewhere on the website, etc.
+
+Make countdown timers for Beer Bike, O-Week, and whatever other events you feel like. I use https://www.timeanddate.com/clocks/freecountdown.html but you are welcome to use other sites.
+
+COMMENT YOUR CODE.
 
 
 # GETTING STARTED
 
 First, ask an outgoing website manager to invite you to edit the repository.
+
 Clone the repository to your computer so you can edit the code offline.
+
 You can use GitHub desktop or command line tools to commit changes, GitHub desktop is pretty easy to learn and get used to, but many people prefer to use the command line.
 
 
 # HOW TO EDIT THE WEBSITE
 
 Open the repository in your favorite text editor. I recommend Visual Studio Code, but plenty of others work well too.
+
 Make a change in the code.
+
 If using GitHub desktop, open the app and select the hanszen.github.io repository. You should see your changes listed. Click push to commit changes.
+
 If using the command line, see https://cli.github.com/ for instructions.
+
 Once you commit a change, GitHub pages has to rebuild the website. This happens automatically, and takes ~2 minutes. Check the status on the GitHub website under the actions tab.
+
 Once the site has been built, the site should be updated to include your change.
