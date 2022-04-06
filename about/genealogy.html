@@ -8,21 +8,21 @@ permalink: /about/genealogy/
     </div>
 </div>
 
-<html>
-<head>
-    <h1>Genealogy Calculator</h1>
-</head>
-<body>
-<p>This site enables you to find the distance and path between two people in the tree through O-Week families.
-</p>
-<p id="total-people-count"></p>
-<p>
-Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
-<br><br>
-Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
-</p>
-<h6>Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!</h6>
-    <form>
+<div class="container">
+    <div class="row">
+        <p class="text-justify">This site enables you to find the distance and path between two people in the tree through O-Week families.</p>
+        
+        <p class="text-justify" id="total-people-count"></p>
+        
+        <p class="text-justify">Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
+    
+        <br><br>
+    
+        Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.</p>
+
+        <h6 class="text-justify">Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!</h6>
+    
+        <form>
         <div>
             <label>Action</label>
             <select name="action" id="action">
@@ -809,5 +809,5 @@ document.getElementById("total-people-count").innerHTML = "Currently there are <
     <button type="button" onclick="readMore()">Read more about the project!</button>
         <p id="readmore">
     </p>
-</body>
-</html>
+    </div>
+</div>
