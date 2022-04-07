@@ -10,7 +10,7 @@ permalink: /about/genealogy/
 
 <div class="container">
     <div class="row">
-        <p class="text-justify">This interactive site enables you to find the distance and path between two people in the tree through O-Week "families" (O-Week groups, with advisors as "parents" and new students as "children").</p>
+        <p class="text-justify">This interactive site enables you to find the distance and path between two people in the tree through "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").</p>
         
         <p class="text-justify">Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
     
@@ -33,11 +33,11 @@ permalink: /about/genealogy/
                 </select>
             </div>
             <div>
-                <label for="person1name">Person 1</label>
+                <label id="person1label" for="person1name">Person 1</label>
                 <input type="text" id="person1name" name="person1name" list="people">
             </div>
             <div>
-                <label for="person2name">Person 2</label>
+                <label id="person2label" for="person2name">Person 2</label>
                 <input type="text" id="person2name" name="person2name" list="people">
             </div>
 
@@ -45,12 +45,12 @@ permalink: /about/genealogy/
                 <option value=""></option>
             </datalist>
 
-            <button type="button" onclick="doStuff()">Submit</button>
+            <button type="button" class="text-justify btn btn-primary" onclick="doStuff()">Submit</button>
 
             <div>
                 <script>
 
-                    //when the submit button is clicked
+                    //runs when the submit button is clicked
                     function doStuff() {
                         
                         //retrieve the data submitted
@@ -60,6 +60,7 @@ permalink: /about/genealogy/
                        
                         var person2 = document.getElementById("person2name").value
                         
+                        //prints the inputs to the console
                         console.log([action, person1, person2])
                         
                         if (person1 !== "" && person2 !== "" && action === "find-path") {
@@ -498,7 +499,7 @@ permalink: /about/genealogy/
 
 <div class="container">
     <div class="row">
-
+        <!--These are disabled by default and are enabled to show the path between people or a single person's immediate family-->
         <p class="text-justify" id="pathdisplay" disabled></p>
     
         <p class="text-justify" id="exploredisplay" disabled></p>
@@ -509,7 +510,7 @@ permalink: /about/genealogy/
 <div class="container">
     <div class="row">
 
-        <button class="text-justify" type="button" onclick="readMore()">Read more about the project!</button>
+        <button class="text-justify btn btn-primary" type="button" onclick="readMore()">Read more about the project!</button>
         
         <p class="text-justify" id="readmore"></p>
 
