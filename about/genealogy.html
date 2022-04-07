@@ -10,15 +10,22 @@ permalink: /about/genealogy/
 
 <div class="container">
     <div class="row">
-        <p class="text-justify">This interactive site enables you to find the distance and path between two people in the tree through "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").</p>
+        <p class="text-justify">This interactive site enables you to find the distance and path between two people in the tree through "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").
         
-        <p class="text-justify">Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
+            <br>
+        
+            Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
     
-        <br><br>
+            <br>
     
-        Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.</p>
+            Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
+        
+        </p>
 
         <h6 class="text-justify">Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!</h6>
+        
+        <br>
+
     </div>
 </div>
 
@@ -46,6 +53,8 @@ permalink: /about/genealogy/
             </datalist>
 
             <button type="button" class="text-justify btn btn-primary" onclick="doStuff()">Submit</button>
+
+            <br>
 
             <div>
                 <script>
@@ -248,6 +257,8 @@ permalink: /about/genealogy/
                         }
                         return people
                     }
+
+                    everyone = getEveryone()
                     
                     //returns the immediate family of source
                     function getImmediateFamily(source) {
@@ -259,11 +270,16 @@ permalink: /about/genealogy/
                         var sum = 0
                         var people = 0
                         
-                        for (let person of getEveryone()) {
+                        for (let person of everyone) {
                             sum += findDistance(source, person)
                             people += 1
                         }
                         return sum / people
+                    }
+
+                    //returns the person with the lowest average distance from everyone in the network
+                    function minAvgDistance() {
+
                     }
                     
                     //returns the person with the most immediate connections
@@ -271,7 +287,7 @@ permalink: /about/genealogy/
                         var num = 0
                         var person = ""
                         
-                        for (let source of getEveryone()) {
+                        for (let source of everyone) {
                             if (getImmediateFamily(source).length > num && source) {
                                 person = source
                                 num = getImmediateFamily(source).length
@@ -285,7 +301,7 @@ permalink: /about/genealogy/
                         var num = 0
                         var person = ""
                         
-                        for (let source of getEveryone()) {
+                        for (let source of everyone) {
                             if (getDescendants(source).length > num && source) {
                                 person = source
                                 num = getDescendants(source).length
@@ -339,7 +355,7 @@ permalink: /about/genealogy/
                         var dist = {}
                         var predecessor = {}
                         
-                        for (let person in getEveryone()) {
+                        for (let person in everyone) {
                             dist[person] = null
                             predecessor[person] = null
                         }
@@ -363,7 +379,7 @@ permalink: /about/genealogy/
                         predecessor[source] = null
                         var toReturn = {}
                         
-                        for (let person of getEveryone()) {
+                        for (let person of everyone) {
                             toReturn[person] = [dist[person], predecessor[person]]
                         }
                         return toReturn
@@ -471,7 +487,7 @@ permalink: /about/genealogy/
                     //toggles the read more section
                     function readMore() {
                         if (document.getElementById("readmore").innerHTML.length < 10) {
-                        document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University.<br><br>The system was created by Alan Tapper in 2021, and includes Hanszenites who matriculated in or after 2017.<br><br>This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree.<br><br><strong>Structure</strong><br><br>During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos).<br><br><strong>Features</strong><br><br>Find the path between any two people in the network<br><br>Explore the family around any specific person<br><br><strong>Statistics</strong><br><br>Number of people in the network: " + getEveryone().length + "<br>Most immediate connections: " + getMostImmediateConnections() + " with " + getImmediateFamily(getMostImmediateConnections()).length + "<br>Most descendants: " + getMostDescendants() + " with " + getDescendants(getMostDescendants()).length  + "<br><br><br>If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
+                        document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University. <br><br> The system was initially created by Alan Tapper in December 2021, and includes Hanszenites who were at Rice as early as 2016. <br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree. <br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). <br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person <br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + everyone.length + "<br>Most immediate connections: " + getMostImmediateConnections() + " with " + getImmediateFamily(getMostImmediateConnections()).length + "<br>Most descendants: " + getMostDescendants() + " with " + getDescendants(getMostDescendants()).length  + "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
                         }
                         else {
                             document.getElementById("readmore").innerHTML = ""
@@ -479,15 +495,14 @@ permalink: /about/genealogy/
                     }
 
                     //creates the datalists
-                    var everyone = getEveryone().sort()
-                    console.log(everyone)
-                    for (let name of everyone) {
-
+                    var everyone_sorted = everyone.sort()
+                    console.log(everyone_sorted)
+                    for (let name of everyone_sorted) {
+                        //creates an option element with the appropriate name
                         var option = document.createElement("option")
-
-
                         option.innerHTML = name
 
+                        //adds the option to the datalists
                         document.getElementById("people").appendChild(option)
                     }
 
@@ -512,6 +527,8 @@ permalink: /about/genealogy/
 
         <button class="text-justify btn btn-primary" type="button" onclick="readMore()">Read more about the project!</button>
         
+        <br>
+
         <p class="text-justify" id="readmore"></p>
 
     </div>
