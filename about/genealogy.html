@@ -10,18 +10,18 @@ permalink: /about/genealogy/
 
 <div class="container">
     <div class="row">
-        <p class="text-justify">This interactive site enables you to find the distance and path between two people in the tree through "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").
+        <p class="text-justify">This interactive site enables you to find the distance and path between two people in the tree through "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").</p>
         
-            <br>
+        <br>
         
-            Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
+        <p class="text-justify">Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.</p>
     
-            <br>
+        <br>
     
-            Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
-        
-        </p>
+        <p class="text-justify">Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.</p>
 
+        <br>
+        
         <h6 class="text-justify">Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!</h6>
         
         <br>
@@ -191,13 +191,13 @@ permalink: /about/genealogy/
                                 }
                             }
                         }
-                        return toReturn
+                        return toReturn.sort()
                     }
                     
                     //returns the parents of source
                     function getParents(source) {
                         if (parentsOf[source]) {
-                            return parentsOf[source]
+                            return parentsOf[source].sort()
                         }
                         return []
                     }
@@ -222,7 +222,7 @@ permalink: /about/genealogy/
                                 toReturn2.push(advisor)
                             }
                         }
-                        return toReturn2
+                        return toReturn2.sort()
                     }
                     
                     //returns the siblings of source
@@ -237,10 +237,10 @@ permalink: /about/genealogy/
                                 }
                             }
                         }
-                        return toReturn
+                        return toReturn.sort()
                     }
                     
-                    //returns a list of everyone in the tree
+                    //returns a sorted list of everyone in the tree
                     function getEveryone() {
                         var people = []
                         
@@ -255,14 +255,15 @@ permalink: /about/genealogy/
                                 }
                             }
                         }
-                        return people
+                        return people.sort()
                     }
 
+                    //a sorted list of everyone in the tree
                     everyone = getEveryone()
                     
                     //returns the immediate family of source
                     function getImmediateFamily(source) {
-                        return getChildren(source).concat(getParents(source), getCos(source), getSiblings(source))
+                        return getChildren(source).concat(getParents(source), getCos(source), getSiblings(source)).sort()
                     }
                     
                     //returns the average distance from everyone in the network
@@ -277,9 +278,21 @@ permalink: /about/genealogy/
                         return sum / people
                     }
 
-                    //returns the person with the lowest average distance from everyone in the network
-                    function minAvgDistance() {
-
+                    //returns the person with the lowest average distance from everyone in the network and their average distance
+                    function minAvgDistancePerson() {
+                        minAvg = 1000
+                        minAvgPerson = everyone[0]
+                        
+                        for (person in everyone) {
+                            console.log(person, avgDistance(person))
+                            if (person) {
+                                if (minAvg > avgDistance(person)) {
+                                    minAvg = avgDistance(person)
+                                    minAvgPerson = person
+                                }
+                            }
+                        }
+                        return [minAvgPerson, minAvg]
                     }
                     
                     //returns the person with the most immediate connections
@@ -427,19 +440,25 @@ permalink: /about/genealogy/
                         return path.length - 1
                     }
                     
-                    //displays the descendants of person1
+                    //returns the descendants of person1
                     function getDescendants(person1) {
                         var descendants = []
                         for (let child of getChildren(person1)) {
                             descendants.push(child)
-                            for (let grandchild of getDescendants(child)) {
+                            for (let grandchild of getChildren(child)) {
                                 descendants.push(grandchild)
-                                for (let greatgrandchild of getDescendants(grandchild)) {
+                                for (let greatgrandchild of getChildren(grandchild)) {
                                     descendants.push(greatgrandchild)
-                                    for (let great2grandchild of getDescendants(greatgrandchild)) {
+                                    for (let great2grandchild of getChildren(greatgrandchild)) {
                                         descendants.push(great2grandchild)
-                                        for (let great3grandchild of getDescendants(great2grandchild)) {
+                                        for (let great3grandchild of getChildren(great2grandchild)) {
                                             descendants.push(great3grandchild)
+                                            for (let great4grandchild of getChildren(great3grandchild)) {
+                                                descendants.push(great4grandchild)
+                                                for (let great5grandchild of getChildren(great4grandchild)) {
+                                                    descendants.push(great5grandchild)
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -452,52 +471,57 @@ permalink: /about/genealogy/
                     function explore(person1) {
                         var toReturn = "Looking at: " + person1
                         toReturn += "<br>Immediate connections: " + getImmediateFamily(person1).length
+                        
                         if (getDescendants(person1).length) {
                             toReturn += "<br>Descendants: " + getDescendants(person1).length
                         }
-                    if (getParents(person1).length) {
-                        toReturn += "<br><br>Parents:"
-                        for (let parent of getParents(person1)) {
-                            toReturn += "<br>" + parent
-                        }
-                    }
-                    if (getChildren(person1).length && getChildren(person1)[0]) {
-                        toReturn += "<br><br>Children:"
-                        for (let child of getChildren(person1)) {
-                            if (child) {
-                                toReturn += "<br>" + child
+                        
+                        if (getParents(person1).length) {
+                            toReturn += "<br><br>Parents:"
+                                for (let parent of getParents(person1)) {
+                                toReturn += "<br>" + parent
                             }
                         }
-                    }
-                    if (getSiblings(person1).length) {
-                        toReturn += "<br><br>Siblings:"
-                        for (let sibling of getSiblings(person1)) {
-                        toReturn += "<br>" + sibling
+
+                        if (getChildren(person1).length && getChildren(person1)[0]) {
+                            toReturn += "<br><br>Children:"
+                            for (let child of getChildren(person1)) {
+                                if (child) {
+                                    toReturn += "<br>" + child
+                                }
+                            }
                         }
-                    }
-                    if (getCos(person1).length) {
-                        toReturn += "<br><br>Cos:"
-                        for (let co of getCos(person1)) {
-                        toReturn += "<br>" + co
+
+                        if (getSiblings(person1).length) {
+                            toReturn += "<br><br>Siblings:"
+                            for (let sibling of getSiblings(person1)) {
+                            toReturn += "<br>" + sibling
+                            }
                         }
-                    }
+
+                        if (getCos(person1).length) {
+                            toReturn += "<br><br>Cos:"
+                            for (let co of getCos(person1)) {
+                            toReturn += "<br>" + co
+                            }
+                        }
+
                     return toReturn
                     }
                     
                     //toggles the read more section
                     function readMore() {
                         if (document.getElementById("readmore").innerHTML.length < 10) {
-                        document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University. <br><br> The system was initially created by Alan Tapper in December 2021, and includes Hanszenites who were at Rice as early as 2016. <br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree. <br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). <br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person <br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + everyone.length + "<br>Most immediate connections: " + getMostImmediateConnections() + " with " + getImmediateFamily(getMostImmediateConnections()).length + "<br>Most descendants: " + getMostDescendants() + " with " + getDescendants(getMostDescendants()).length  + "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
+                            document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University. <br><br> The system was initially created by Alan Tapper in December 2021, and includes Hanszenites who were at Rice as early as 2016. <br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree. <br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). <br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person <br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + everyone.length + "<br>Most immediate connections: " + getMostImmediateConnections() + " with " + getImmediateFamily(getMostImmediateConnections()).length + "<br>Most descendants: " + getMostDescendants() + " with " + getDescendants(getMostDescendants()).length + "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
                         }
+                        
                         else {
                             document.getElementById("readmore").innerHTML = ""
                         }
                     }
 
                     //creates the datalists
-                    var everyone_sorted = everyone.sort()
-                    console.log(everyone_sorted)
-                    for (let name of everyone_sorted) {
+                    for (let name of everyone) {
                         //creates an option element with the appropriate name
                         var option = document.createElement("option")
                         option.innerHTML = name
