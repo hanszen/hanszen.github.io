@@ -73,14 +73,14 @@ permalink: /about/genealogy/
                         console.log([action, person1, person2])
                         
                         if (person1 !== "" && person2 !== "" && action === "find-path") {
-                            document.getElementById("pathdisplay").innerHTML = printPath(person1, person2)
+                            document.getElementById("pathdisplay").innerHTML = "<br>" + printPath(person1, person2)
                             document.getElementById("exploredisplay").innerHTML = ""
                         }
                         
                         if (person1 !== "" && action === "explore-tree") {
-                            document.getElementById("exploredisplay").innerHTML = explore(person1)
-                        document.getElementById("pathdisplay").innerHTML = ""
-                        } 
+                            document.getElementById("exploredisplay").innerHTML = "<br>" + explore(person1)
+                            document.getElementById("pathdisplay").innerHTML = ""
+                        }
                     }
 
                     var data = [
@@ -92,7 +92,7 @@ permalink: /about/genealogy/
                         [["Julia Englehardt (McMurtry)", "Anthony Guzzo", "Corey Donovan", "Sini Koivu"], ["Emily Pena", "Ellie Cha", "Darcey Lonsdale", "Nayna Nambiar", "Sara Price", "Joseph Flores", "Sam Sarver", "Suraj Chandramouli", "Noah Hight"]],
                         [["Gia Braddock (Brown)", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Bella Bartos", "Adi Zytek", "Michelle Fox", "Yulin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"]],
                         [["Ben Murdoch (Lovett)", "Aaron Lin", "Sarah Kim", "Victoria Johns"], ["Crystal Unegbu", "Danika Li", "Daniela Covarrubias", "Lauren Hu", "Thara Venkateswaran", "Emery Engling", "Jonathan Seyoum", "Zarek Lu", "Arturo Rodriguez Lopez", "James Belanger"]],
-                        [["Sadie Siegel (Lovett)", "Madhu Venkatesalu", "Jarrett Prchal", "Arvind Ramesh"], ["Sarah Davidson", "Whitney Ball", "Jo Harikrishna", "Genesis Hahn", "Riya Pagilla", "Marcus Williams", "Lucas Newman", "Jordan Contreras", "Nikhil Samudrala", "Ken Chen"]],
+                        [["Sadie Siegel (Lovett)", "Madhu Venkatesalu", "Jarrett Prchal", "Arvind Ramesh"], ["Sarah Davidson", "Whitney Ball", "Jyotsna Harikrishna", "Genesis Hahn", "Riya Pagilla", "Marcus Williams", "Lucas Newman", "Jordan Contreras", "Nikhil Samudrala", "Ken Chen"]],
                         [["Temi Dada", "Alp Yakici", "Ridhi Gari", "Andrew Li"], ["Stephanie Agu", "Leora Maksoud", "Basma Bedawi", "Kaylah Patel", "Jiwon Han", "Brian Baskin", "Shihab Ahmed", "Kai Cowin", "Hari Gotluru", "Bill Nguyen"]],
                         [["Praneel Joshi (Lovett)", "Amanda Mae Ashley", "Shawn Zheng", "Maanvi Thawani"], ["Hannah Son", "Priscilla Ibrahim", "Christina Wong", "Victoria Albanese", "Kenna Dixon", "Will Ramos", "Javi Milagro Caro", "Josh Yu", "Daniel Brown", "Melvin Zarghooni"]],
                         [["Claire Xu", "Moses Glickman (Martel)", "McKenna Tanner", "Carlos Rivera"], ["Claire Brix", "Azhariya Ellis", "Lily Remington", "Hannah Kim", "Christy Deng", "Stephen Xu", "Jay Folmar", "Dillon Akerman", "Jonah Lubin", "Wyatt Cho"]],
@@ -408,7 +408,7 @@ permalink: /about/genealogy/
                         return path
                     }
                     
-                    //web-friendly path printer
+                    //web-friendly path printer with links
                     function printPath(source, name) {
                         var path = findPath(source, name)
                         var toReturn = ""
@@ -478,7 +478,7 @@ permalink: /about/genealogy/
                         
                         if (getParents(person1).length) {
                             toReturn += "<br><br>Parents:"
-                                for (let parent of getParents(person1)) {
+                            for (let parent of getParents(person1)) {
                                 toReturn += "<br>" + parent
                             }
                         }
@@ -495,14 +495,14 @@ permalink: /about/genealogy/
                         if (getSiblings(person1).length) {
                             toReturn += "<br><br>Siblings:"
                             for (let sibling of getSiblings(person1)) {
-                            toReturn += "<br>" + sibling
+                                toReturn += "<br>" + sibling
                             }
                         }
 
                         if (getCos(person1).length) {
                             toReturn += "<br><br>Cos:"
                             for (let co of getCos(person1)) {
-                            toReturn += "<br>" + co
+                                toReturn += "<br>" + co
                             }
                         }
 
@@ -512,9 +512,9 @@ permalink: /about/genealogy/
                     //toggles the read more section
                     function readMore() {
                         if (document.getElementById("readmore").innerHTML.length < 10) {
-                            document.getElementById("readmore").innerHTML = "The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University. <br><br> The system was initially created by Alan Tapper in December 2021, and includes Hanszenites who were at Rice as early as 2016. <br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree. <br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). <br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person <br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + everyone.length + "<br>Most immediate connections: " + getMostImmediateConnections() + " with " + getImmediateFamily(getMostImmediateConnections()).length + "<br>Most descendants: " + getMostDescendants() + " with " + getDescendants(getMostDescendants()).length + "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
+                            document.getElementById("readmore").innerHTML = "<br> The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University. <br><br> The system was initially created by Alan Tapper in December 2021, and includes Hanszenites who were at Rice as early as 2016. <br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree. <br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). <br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person <br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + everyone.length + "<br>Most immediate connections: " + getMostImmediateConnections() + " with " + getImmediateFamily(getMostImmediateConnections()).length + "<br>Most descendants: " + getMostDescendants() + " with " + getDescendants(getMostDescendants()).length + "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
                         }
-                        
+
                         else {
                             document.getElementById("readmore").innerHTML = ""
                         }
