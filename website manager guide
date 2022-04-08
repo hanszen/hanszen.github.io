@@ -54,7 +54,7 @@ First, ask an outgoing website manager to invite you to edit the repository.
 
 Clone the repository to your computer so you can edit the code offline.
 
-You can use GitHub desktop or command line tools to commit changes, GitHub desktop is pretty easy to learn and get used to, but many people prefer to use the command line.
+You can use GitHub desktop or command line tools to commit changes, GitHub desktop is pretty easy to learn and get used to, but some people prefer to use the command line.
 
 
 # HOW TO EDIT THE WEBSITE
@@ -67,6 +67,6 @@ If using GitHub desktop, open the app and select the hanszen.github.io repositor
 
 If using the command line, see https://cli.github.com/ for instructions.
 
-Once you commit a change, GitHub pages has to rebuild the website. This happens automatically, and takes ~2 minutes. Check the status on the GitHub website under the actions tab.
+Once you commit a change, GitHub pages has to rebuild and republish the website. This happens automatically, and takes about 2 minutes. Check the status on the GitHub website under the actions tab.
 
 Once the site has been built, the site should be updated to include your change.
