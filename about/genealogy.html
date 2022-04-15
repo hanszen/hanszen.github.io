@@ -77,13 +77,11 @@ permalink: /about/genealogy/
                         console.log([action, person1, person2])
                         
                         if (person1 !== "" && person2 !== "" && action === "find-path") {
-                            document.getElementById("pathdisplay").innerHTML = printPath(person1, person2)
-                            document.getElementById("exploredisplay").innerHTML = ""
+                            findPath2(person1, person2)
                         }
                         
                         if (person1 !== "" && action === "explore-tree") {
-                            document.getElementById("exploredisplay").innerHTML = explore(person1)
-                            document.getElementById("pathdisplay").innerHTML = ""
+                            explore2(person1)
                         }
                     }
 
@@ -116,7 +114,7 @@ permalink: /about/genealogy/
                         [["Temi Dada", "Alp Yakici", "Ridhi Gari", "Andrew Li"], ["Stephanie Agu", "Leora Maksoud", "Basma Bedawi", "Kaylah Patel", "Jiwon Han", "Brian Baskin", "Shihab Ahmed", "Kai Cowin", "Hari Gotluru", "Bill Nguyen"]],
                         [["Praneel Joshi (Lovett)", "Amanda Mae Ashley", "Shawn Zheng", "Maanvi Thawani"], ["Hannah Son", "Priscilla Ibrahim", "Christina Wong", "Victoria Albanese", "Kenna Dixon", "Will Ramos", "Javi Milagro Caro", "Josh Yu", "Daniel Brown", "Melvin Zarghooni"]],
                         [["Claire Xu", "Moses Glickman (Martel)", "McKenna Tanner", "Carlos Rivera"], ["Claire Brix", "Azhariya Ellis", "Lily Remington", "Hannah Kim", "Christy Deng", "Stephen Xu", "Jay Folmar", "Dillon Akerman", "Jonah Lubin", "Wyatt Cho"]],
-                        [["Jackie Wu", "Sara Mansfield", "Isabelle Scott", "Jose Oviedo"], ["Lillian Sims", "Emily Wu", "Alison Qiu", "Celeste Colato", "Dylan Grant", "Byron Hart", "Pablo Solano", "Chuck Wells", "David Zhu"]],
+                        [["Jackie Wu", "Sara Mansfield", "Isabelle Scott", "Jose Oviedo"], ["Lillian Sims", "Emily Wu", "Alison Qiu", "Celeste Colato", "Dylan Grant", "Byron Hart", "Pablo Solano", "Charlie Wells", "David Zhu"]],
                         [["Christa Westheimer (McMurtry)", "Valentina Osorio", "Bert Odinet", "Juan Rubio"], ["Angelina Puente-Perez", "Julia Hanson", "Laney Schewgman", "Anagha Alapati", "Michelle Pham", "Nathaniel Moriss", "Sebastian Molina", "Ben Montag", "Daniel Zhao"]],
                         
                         //2020 O-Week Groups
@@ -428,49 +426,6 @@ permalink: /about/genealogy/
                         }
                         return toReturn
                     }
-                    
-                    //finds the shortest path from source to name
-                    function findPath(source, name) {
-                        var map = BFSMap(source)
-                        var path = [name]
-                        while (path[0] !== source) {
-                            path.unshift(map[path[0]][1])
-                        }
-                        return path
-                    }
-                    
-                    //web-friendly path printer with links
-                    function printPath(source, name) {
-                        var path = findPath(source, name)
-                        var toReturn = ""
-                        for (let i = 0; i < path.length - 1; i++) {
-                            var relation = findRelation(path[i], path[i + 1])
-                            var relText = ""
-                            if (relation === "Parent") {
-                                relText = path[i] + " is " + path[i + 1] + "'s parent"
-                            }
-                            if (relation === "Child") {
-                                relText = path[i] + " is " + path[i + 1] + "'s child"
-                            }
-                            if (relation === "Sibling") {
-                                relText = path[i] + " is " + path[i + 1] + "'s sibling"
-                            }
-                            if (relation === "Co") {
-                                relText = path[i] + " is " + path[i + 1] + "'s co"
-                            }
-                            toReturn += relText + "<br>"
-                        }
-                        var len = path.length - 1
-                        toReturn += "Path length: " + len
-                        return toReturn
-                    }
-                    
-                    //finds the distance from source to name
-                    function findDistance(source, name) {
-                        var path = findPath(source, name)
-                        return path.length - 1
-                    }
-                    
 
                     //getDescendants rewrite
                     function getDescendants(source) {
@@ -508,51 +463,6 @@ permalink: /about/genealogy/
                         }
                         return toReturn.sort()
                     }
-                    
-                    //displays person1 and their immediate family
-                    function explore(person1) {
-                        var toReturn = "Looking at: " + person1
-                        toReturn += "<br><br>Immediate connections: " + getImmediateFamily(person1).length
-
-                        if (getDescendants(person1).length) {
-                            toReturn += "<br>Descendants: " + getDescendants(person1).length
-                            for (let descendant of getDescendants(person1)) {
-                                console.log(descendant)
-                            }
-                        }
-                        
-                        if (getParents(person1).length) {
-                            toReturn += "<br><br>Parents:"
-                            for (let parent of getParents(person1)) {
-                                toReturn += "<br>" + parent
-                            }
-                        }
-
-                        if (getChildren(person1).length && getChildren(person1)[0]) {
-                            toReturn += "<br><br>Children:"
-                            for (let child of getChildren(person1)) {
-                                if (child) {
-                                    toReturn += "<br>" + child
-                                }
-                            }
-                        }
-
-                        if (getSiblings(person1).length) {
-                            toReturn += "<br><br>Siblings:"
-                            for (let sibling of getSiblings(person1)) {
-                                toReturn += "<br>" + sibling
-                            }
-                        }
-
-                        if (getCos(person1).length) {
-                            toReturn += "<br><br>Cos:"
-                            for (let co of getCos(person1)) {
-                                toReturn += "<br>" + co
-                            }
-                        }
-
-                    return toReturn
-                    }
 
                     //takes some text and converts to an html p element
                     function text2html(text) {
@@ -566,36 +476,174 @@ permalink: /about/genealogy/
 
                     //converts a name to a link
                     function text2link(text) {
-                        console.log(text)
+                        console.log("link")
+                        
+                        //creates a button
                         var node = document.createElement("button")
                         node.className = "text-justify link"
                         node.style = "background:none; border:none; padding:0px"
                         node.innerHTML = text
-                        node.addEventListener("click", explore2(text))
+                        node.addEventListener("click", function(e) {
+                            console.log(explore2(node.innerHTML))
+                        })
+
+                        //creates a p element and embeds the button in it
+                        var node2 = document.createElement("p")
+                        node2.className = "text-justify"
+                        node2.style = "margin:0px;"
+                        node2.appendChild(node)
+
+                        return node2
+                    }
+
+                    //FIX THIS
+                    //converts a name to an inline link
+                    function text2inlinelink(text) {
+                        console.log("link")
+                        
+                        //creates a button
+                        var node = document.createElement("button")
+                        node.className = "text-justify link"
+                        node.style = "background:none; border:none; padding:0px"
+                        node.innerHTML = text
+                        node.addEventListener("click", function(e) {
+                            console.log(explore2(node.innerHTML))
+                        })
+
                         return node
+                    }
+
+                    //finds the shortest path from source to name
+                    function findPath(source, name) {
+                        var map = BFSMap(source)
+                        var path = [name]
+                        while (path[0] !== source) {
+                            path.unshift(map[path[0]][1])
+                        }
+                        return path
+                    }
+
+                    function findPath2(person1, person2) {
+                        //clear the displays
+                        var pathDisplay = document.getElementById("pathdisplay")
+                        var exploreDisplay = document.getElementById("exploredisplay2")
+                        pathDisplay.innerHTML = ""
+                        exploreDisplay.innerHTML = ""
+
+                        var path = findPath(person1, person2)
+
+                        console.log("previous is " + pathdisplay.innerHTML)
+                        console.log(path)
+
+                        //add the path, one connection at a time
+                        for (let i = 0; i < path.length - 1; i++) {
+                            var relation = findRelation(path[i], path[i + 1])
+                            if (relation === "Parent") {
+                                pathDisplay.appendChild(text2html(path[i] + " is " + path[i + 1] + "'s parent" + "<br>"))
+                            }
+                            if (relation === "Child") {
+                                pathDisplay.appendChild(text2html(path[i] + " is " + path[i + 1] + "'s child" + "<br>"))
+                            }
+                            if (relation === "Sibling") {
+                                pathDisplay.appendChild(text2html(path[i] + " is " + path[i + 1] + "'s sibling" + "<br>"))
+                            }
+                            if (relation === "Co") {
+                                pathDisplay.appendChild(text2html(path[i] + " is " + path[i + 1] + "'s co" + "<br>"))
+                            }
+                        }
+                        var len = path.length - 1
+                        pathDisplay.appendChild(text2html("Path length: " + len + "<br>"))
+                    }
+                    
+                    //web-friendly path printer with links
+                    function printPath(source, name) {
+                        var path = findPath(source, name)
+                        var toReturn = ""
+                        for (let i = 0; i < path.length - 1; i++) {
+                            var relation = findRelation(path[i], path[i + 1])
+                            var relText = ""
+                            if (relation === "Parent") {
+                                relText = path[i] + " is " + path[i + 1] + "'s parent"
+                            }
+                            if (relation === "Child") {
+                                relText = path[i] + " is " + path[i + 1] + "'s child"
+                            }
+                            if (relation === "Sibling") {
+                                relText = path[i] + " is " + path[i + 1] + "'s sibling"
+                            }
+                            if (relation === "Co") {
+                                relText = path[i] + " is " + path[i + 1] + "'s co"
+                            }
+                            toReturn += relText + "<br>"
+                        }
+                        var len = path.length - 1
+                        toReturn += "Path length: " + len
+                        return toReturn
                     }
 
                     //displays person1 and their immediate family (a better way)
                     function explore2(person1) {
-                        console.log("Looking at " + person1)
-                        var display = document.getElementById("exploredisplay2")
+                        //clear the displays
+                        var pathDisplay = document.getElementById("pathdisplay")
+                        var exploreDisplay = document.getElementById("exploredisplay2")
+                        pathDisplay.innerHTML = ""
+                        exploreDisplay.innerHTML = ""
 
+                        console.log("previous is " + exploreDisplay.innerHTML)
+                        console.log("Looking at " + person1)
+                        
                         //looking at
                         var lookingAt = text2html("Looking at:")
                         var lookingAtPerson = text2link(person1)
-                        display.appendChild(lookingAt)
-                        display.appendChild(lookingAtPerson)
-
+                        exploreDisplay.appendChild(lookingAt)
+                        exploreDisplay.appendChild(lookingAtPerson)
 
                         //number of immediate connections
-                        var numImmediateConnections = text2html("<br>Immediate connections: " + getImmediateFamily(person1).length)
-                        display.appendChild(numImmediateConnections)
+                        exploreDisplay.appendChild(text2html("<br>Immediate connections: " + getImmediateFamily(person1).length))
 
                         //descendants
-                        var numDescendants = text2html("Descendants: " + getDescendants(person1).length)
-                        display.appendChild(numDescendants)
+                        exploreDisplay.appendChild(text2html("Descendants: " + getDescendants(person1).length))
 
+                        //parents
+                        if (getParents(person1).length) {
+                            exploreDisplay.appendChild(text2html("<br>Parents:<br>"))
 
+                            for (let parent of getParents(person1)) {
+                                exploreDisplay.appendChild(text2link(parent))
+                            }
+                        }
+
+                        //children
+                        if (getChildren(person1).length) {
+                            var childrenLabel = text2html("<br>Children:<br>")
+                            exploreDisplay.appendChild(childrenLabel)
+
+                            for (let child of getChildren(person1)) {
+                                exploreDisplay.appendChild(text2link(child))
+                            }
+                        }
+
+                        //siblings
+                        if (getSiblings(person1).length) {
+                            var siblingsLabel = text2html("<br>Siblings:<br>")
+                            exploreDisplay.appendChild(siblingsLabel)
+
+                            for (let sibling of getSiblings(person1)) {
+                                exploreDisplay.appendChild(text2link(sibling))
+                            }
+                        }
+
+                        //cos
+                        if (getCos(person1).length) {
+                            var cosLabel = text2html("<br>Cos:<br>")
+                            exploreDisplay.appendChild(cosLabel)
+
+                            for (let co of getCos(person1)) {
+                                exploreDisplay.appendChild(text2link(co))
+                            }
+                        }
+
+                        exploreDisplay.appendChild(text2html("<br>"))
                     }
                     
                     //toggles the read more section
@@ -628,9 +676,9 @@ permalink: /about/genealogy/
 <div class="container">
     <div class="row">
         <!--These are disabled by default and are enabled to show the path between people or a single person's immediate family-->
-        <p class="text-justify" id="pathdisplay" disabled></p>
+        <p class="text-justify" id="pathdisplay"></p>
     
-        <p class="text-justify" id="exploredisplay" disabled></p>
+        <p class="text-justify" id="exploredisplay"></p>
 
         <div class="text-justify" id="exploredisplay2"></p>
 
