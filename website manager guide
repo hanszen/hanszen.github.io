@@ -61,7 +61,7 @@ You can use GitHub desktop or command line tools to commit changes, GitHub deskt
 
 Open the repository in your favorite text editor. I recommend Visual Studio Code, but plenty of others work well too.
 
-Make a change in the code.
+Make a change in the code. Save your changes with command+C or similar.
 
 If using GitHub desktop, open the app and select the hanszen.github.io repository. You should see your changes listed. Click push to commit changes.
 
