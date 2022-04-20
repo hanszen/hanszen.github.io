@@ -6,7 +6,7 @@
         "Name": "[HEAD] Anthony (Min) Kang",
         "Email": "amk17@",
 		"OfficeHours": "TBA",
-		"GradYear": "Sr."
+		"GradYear": "2022"
     },
     {
         "Subject": "CHEM 211/212",
@@ -14,7 +14,7 @@
         "Name": "[HEAD] Eliot Behr",
         "Email": "eib2@",
         "OfficeHours": "TBA",
-        "GradYear": "Jr."
+        "GradYear": "2023"
     },
     {
         "Subject": "D2 Writing",
@@ -23,7 +23,7 @@
         "Name": "[HEAD] Andreas Weyland",
         "Email": "ahw2@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "BIOS",
@@ -31,7 +31,7 @@
         "Name": "Arvind Ramesh",
         "Email": "avr8@",
         "OfficeHours": "TBA",
-        "GradYear": "Jr."
+        "GradYear": "2023"
     },
         {
         "Subject": "BIOS",
@@ -40,7 +40,7 @@
         "Name": "Truman Archer",
         "Email": "tsa5@",
         "OfficeHours": "TBA",
-        "GradYear": "Jr."
+        "GradYear": "2023"
     },
         {
         "Subject": "BIOS 201/CHEM 211",
@@ -48,7 +48,7 @@
         "Name": "Adam He",
         "Email": "aqh1@",
         "OfficeHours": "TBA",
-        "GradYear": "So."
+        "GradYear": "2024"
     },
     {
         "Subject": "CHEM 121/122",
@@ -56,7 +56,7 @@
         "Name": "Sai Govindu",
         "Email": "srg10@",
         "OfficeHours": "TBA",
-        "GradYear": "Jr."
+        "GradYear": "2023"
     },
     {
         "Subject": "CHEM 211/212",
@@ -64,7 +64,7 @@
         "Name": "Ananda Nandigam",
         "Email": "aln7@",
         "OfficeHours": "TBA",
-        "GradYear": "Jr."
+        "GradYear": "2023"
     },
     {
         "Subject": "CHEM 211/212",
@@ -72,7 +72,7 @@
         "Name": "Aaron Lin",
         "Email": "ajl15@",
         "OfficeHours": "TBA",
-        "GradYear": "Jr."
+        "GradYear": "2023"
     },
     {
         "Subject": "D1/D3 Writing",
@@ -80,7 +80,7 @@
         "Name": "Syed Shams",
         "Email": "sss13@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "ECON",
@@ -89,7 +89,7 @@
         "Name": "Jacob Doddridge",
         "Email": "jrd14@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "LING, PHIL, D1 Writing",
@@ -98,7 +98,7 @@
         "Name": "Amanda Lopatin",
         "Email": "ael8@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "MATH 101/102",
@@ -107,7 +107,7 @@
         "Name": "Reece Lusich",
         "Email": "rel5@",
         "OfficeHours": "TBA",
-        "GradYear": "So."
+        "GradYear": "2024"
     },
     {
         "Subject": "MATH 211/212/355",
@@ -116,7 +116,7 @@
         "Name": "Lauren Ivory",
         "Email": "lni1@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "MUSI",
@@ -124,7 +124,7 @@
         "Name": "Lucas Lemonholm",
         "Email": "lel8@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "PHYS 101/102",
@@ -133,7 +133,7 @@
         "Name": "Daniel Rothfusz",
         "Email": "dpr7@",
         "OfficeHours": "TBA",
-        "GradYear": "Sr."
+        "GradYear": "2022"
     },
     {
         "Subject": "POLI/SOPA",
@@ -142,7 +142,7 @@
         "Name": "Mason Reece",
         "Email": "mpr9@",
 		"OfficeHours": "TBA",
-		"GradYear": "Sr."
+		"GradYear": "2022"
     },
     {
         "Subject": "PSYC",
@@ -150,7 +150,7 @@
         "Name": "Vickie Liu",
         "Email": "vl9@",
 		"OfficeHours": "TBA",
-		"GradYear": "Sr."
+		"GradYear": "2022"
     },
     {
         "Subject": "STAT",
@@ -158,6 +158,6 @@
         "Name": "Zach Rewolinski",
         "Email": "ztr2@",
 		"OfficeHours": "TBA",
-		"GradYear": "Jr."
+		"GradYear": "2023"
     }
 ]
