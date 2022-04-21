@@ -3,24 +3,32 @@
         "Subject": "BIOS (especially 301!)",
         "Major": "SMEP, Pre-Med",
         "Minor": "BIOC",
-        "Name": "Truman Archer",
-        "Email": "tsa5@rice.edu",
+        "Name": "[HEAD] Truman Archer",
+        "Email": "tsa5@",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
     {
         "Subject": "BIOS (general, but only BIOS301 for F2021)",
         "Major": "BIOC, Pre-Med",
-        "Name": "Arvind Ramesh",
-        "Email": "avr8@rice.edu",
+        "Name": "[HEAD] Arvind Ramesh",
+        "Email": "avr8@",
         "OfficeHours": "TBA",
         "GradYear": "2023"
+    },
+    {
+        "Subject": "CHEM 211/BIOS 201",
+        "Major": "BIOS, Pre-Med",
+        "Name": "[HEAD] Adam He",
+        "Email": "aqh1@",
+        "OfficeHours": "TBA",
+        "GradYear": "2024"
     },
     {
         "Subject": "CHEM 121/122",
         "Major": "BIOS, Pre-Med",
         "Name": "Sai Govindu",
-        "Email": "srg10@rice.edu",
+        "Email": "srg10@",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
@@ -28,7 +36,7 @@
         "Subject": "CHEM 211/212",
         "Major": "BIOC, Pre-Med",
         "Name": "Aaron Lin",
-        "Email": "ajl15@rice.edu",
+        "Email": "ajl15@",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
@@ -36,7 +44,7 @@
         "Subject": "CHEM 211/212",
         "Major": "BIOC, Pre-Med",
         "Name": "Ananda Nandigam",
-        "Email": "aln7@rice.edu",
+        "Email": "aln7@",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
@@ -44,24 +52,16 @@
         "Subject": "CHEM 211/212",
         "Major": "CHEM, BIOC, Pre-Med",
         "Name": "Eliot Behr",
-        "Email": "eib2@rice.edu",
+        "Email": "eib2@",
         "OfficeHours": "TBA",
         "GradYear": "2023"
-    },
-    {
-        "Subject": "CHEM 211/BIOS 201",
-        "Major": "BIOS, Pre-Med",
-        "Name": "Adam He",
-        "Email": "aqh1@rice.edu",
-        "OfficeHours": "TBA",
-        "GradYear": "2024"
     },
     {
         "Subject": "MATH 101/102",
         "Major": "MECH",
         "Minor": "Entrepreneurship, Eng. Design",
         "Name": "Reece Lusich",
-        "Email": "rel5@rice.edu",
+        "Email": "rel5@",
         "OfficeHours": "TBA",
         "GradYear": "2024"
     },
@@ -69,31 +69,31 @@
         "Subject": "STAT",
         "Major": "STAT, COMP, Pre-Grad",
         "Name": "Zach Rewolinski",
-        "Email": "ztr2@rice.edu",
+        "Email": "ztr2@",
 		"OfficeHours": "TBA",
 		"GradYear": "2023"
     },
     {
         "Subject": "SOPA/SOCI",
-        "Major": "2023",
+        "Major": "",
         "Name": "Juan Rubio",
-        "Email": "jmr22@rice.edu",
+        "Email": "jmr22@",
 		"OfficeHours": "TBA",
-		"GradYear": ""
+		"GradYear": "2023"
     },
     {
         "Subject": "SMEP",
-        "Major": "2023",
+        "Major": "",
         "Name": "Sawyer Archer",
-        "Email": "sga4@rice.edu",
+        "Email": "sga4@",
 		"OfficeHours": "TBA",
-		"GradYear": ""
+		"GradYear": "2023"
     },
     {
         "Subject": "COMP/MATH/PHYS",
         "Major": "",
         "Name": "Stephen Xu",
-        "Email": "smx2@rice.edu",
+        "Email": "smx2@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"
     },
@@ -101,7 +101,7 @@
         "Subject": "ENGL",
         "Major": "",
         "Name": "Ellie Cha",
-        "Email": "ebc4@rice.edu",
+        "Email": "ebc4@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"
     },
@@ -109,7 +109,7 @@
         "Subject": "BIOE/MATH",
         "Major": "",
         "Name": "Riya Pagilla",
-        "Email": "rp53@rice.edu",
+        "Email": "rp53@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"
     },
@@ -117,7 +117,7 @@
         "Subject": "MTEC/ECON",
         "Major": "",
         "Name": "Adelia Zytec",
-        "Email": "az29@rice.edu",
+        "Email": "az29@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"
     },
@@ -125,7 +125,7 @@
         "Subject": "BIOS/Asian Studies",
         "Major": "",
         "Name": "Lily Remington",
-        "Email": "ler12@rice.edu",
+        "Email": "ler12@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"
     }
