@@ -1,68 +1,26 @@
 [
     {
-        "Subject": "CAAM 3XX",
-        "Major": "CAAM, Pre-Med, Pre-Grad",
-        "Minor": "BIOC, DSCI",
-        "Name": "[HEAD] Anthony (Min) Kang",
-        "Email": "amk17@",
-		"OfficeHours": "TBA",
-		"GradYear": "2022"
-    },
-    {
-        "Subject": "CHEM 211/212",
-        "Major": "CHEM, BIOC, Pre-Med",
-        "Name": "[HEAD] Eliot Behr",
-        "Email": "eib2@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "D2 Writing",
-        "Major": "PSYC, Pre-Grad",
-        "Minor": "STAT",
-        "Name": "[HEAD] Andreas Weyland",
-        "Email": "ahw2@",
-        "OfficeHours": "TBA",
-        "GradYear": "2022"
-    },
-    {
-        "Subject": "BIOS",
-        "Major": "BIOC, Pre-Med",
-        "Name": "[HEAD] Arvind Ramesh",
-        "Email": "avr8@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-        {
-        "Subject": "BIOS",
+        "Subject": "BIOS (especially 301!)",
         "Major": "SMEP, Pre-Med",
         "Minor": "BIOC",
-        "Name": "[HEAD] Truman Archer",
-        "Email": "tsa5@",
+        "Name": "Truman Archer",
+        "Email": "tsa5@rice.edu",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
-        {
-        "Subject": "BIOS 201/CHEM 211",
-        "Major": "BIOS, Pre-Med",
-        "Name": "[HEAD] Adam He",
-        "Email": "aqh1@",
+    {
+        "Subject": "BIOS (general, but only BIOS301 for F2021)",
+        "Major": "BIOC, Pre-Med",
+        "Name": "Arvind Ramesh",
+        "Email": "avr8@rice.edu",
         "OfficeHours": "TBA",
-        "GradYear": "2024"
+        "GradYear": "2023"
     },
     {
         "Subject": "CHEM 121/122",
         "Major": "BIOS, Pre-Med",
         "Name": "Sai Govindu",
-        "Email": "srg10@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "CHEM 211/212",
-        "Major": "BIOC, Pre-Med",
-        "Name": "Ananda Nandigam",
-        "Email": "aln7@",
+        "Email": "srg10@rice.edu",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
@@ -70,94 +28,105 @@
         "Subject": "CHEM 211/212",
         "Major": "BIOC, Pre-Med",
         "Name": "Aaron Lin",
-        "Email": "ajl15@",
+        "Email": "ajl15@rice.edu",
         "OfficeHours": "TBA",
         "GradYear": "2023"
     },
     {
-        "Subject": "D1/D3 Writing",
-        "Major": "BIOC, ENGL, Pre-Med",
-        "Name": "Syed Shams",
-        "Email": "sss13@",
+        "Subject": "CHEM 211/212",
+        "Major": "BIOC, Pre-Med",
+        "Name": "Ananda Nandigam",
+        "Email": "aln7@rice.edu",
         "OfficeHours": "TBA",
-        "GradYear": "2022"
+        "GradYear": "2023"
     },
     {
-        "Subject": "ECON",
-        "Major": "ECON, Pre-Med",
-        "Minor": "BIOC",
-        "Name": "Jacob Doddridge",
-        "Email": "jrd14@",
+        "Subject": "CHEM 211/212",
+        "Major": "CHEM, BIOC, Pre-Med",
+        "Name": "Eliot Behr",
+        "Email": "eib2@rice.edu",
         "OfficeHours": "TBA",
-        "GradYear": "2022"
+        "GradYear": "2023"
     },
     {
-        "Subject": "LING, PHIL, D1 Writing",
-        "Major": "LING, PHIL, Pre-Law, Pre-Grad",
-        "Minor": "PLST",
-        "Name": "Amanda Lopatin",
-        "Email": "ael8@",
+        "Subject": "CHEM 211/BIOS 201",
+        "Major": "BIOS, Pre-Med",
+        "Name": "Adam He",
+        "Email": "aqh1@rice.edu",
         "OfficeHours": "TBA",
-        "GradYear": "2022"
+        "GradYear": "2024"
     },
     {
         "Subject": "MATH 101/102",
         "Major": "MECH",
         "Minor": "Entrepreneurship, Eng. Design",
         "Name": "Reece Lusich",
-        "Email": "rel5@",
+        "Email": "rel5@rice.edu",
         "OfficeHours": "TBA",
         "GradYear": "2024"
-    },
-    {
-        "Subject": "MATH 211/212/355",
-        "Major": "COMP",
-        "Minor": "MATH",
-        "Name": "Lauren Ivory",
-        "Email": "lni1@",
-        "OfficeHours": "TBA",
-        "GradYear": "2022"
-    },
-    {
-        "Subject": "MUSI",
-        "Major": "MUSI",
-        "Name": "Lucas Lemonholm",
-        "Email": "lel8@",
-        "OfficeHours": "TBA",
-        "GradYear": "2022"
-    },
-    {
-        "Subject": "PHYS 101/102",
-        "Major": "ELEC",
-        "Minor": "RCEL",
-        "Name": "Daniel Rothfusz",
-        "Email": "dpr7@",
-        "OfficeHours": "TBA",
-        "GradYear": "2022"
-    },
-    {
-        "Subject": "POLI/SOPA",
-        "Major": "POLI, SOPA, Pre-Grad",
-        "Minor": "DSCI",
-        "Name": "Mason Reece",
-        "Email": "mpr9@",
-		"OfficeHours": "TBA",
-		"GradYear": "2022"
-    },
-    {
-        "Subject": "PSYC",
-        "Major": "MANA, CGCI",
-        "Name": "Vickie Liu",
-        "Email": "vl9@",
-		"OfficeHours": "TBA",
-		"GradYear": "2022"
     },
     {
         "Subject": "STAT",
         "Major": "STAT, COMP, Pre-Grad",
         "Name": "Zach Rewolinski",
-        "Email": "ztr2@",
+        "Email": "ztr2@rice.edu",
 		"OfficeHours": "TBA",
 		"GradYear": "2023"
+    },
+    {
+        "Subject": "SOPA/SOCI",
+        "Major": "",
+        "Name": "Juan Rubio",
+        "Email": "jmr22@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": ""
+    },
+    {
+        "Subject": "SMEP",
+        "Major": "",
+        "Name": "Sawyer Archer",
+        "Email": "sga4@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": ""
+    },
+    {
+        "Subject": "COMP/MATH/PHYS",
+        "Major": "",
+        "Name": "Stephen Xu",
+        "Email": "smx2@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "ENGL",
+        "Major": "",
+        "Name": "Ellie Cha",
+        "Email": "ebc4@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "BIOE/MATH",
+        "Major": "",
+        "Name": "Riya Pagilla",
+        "Email": "rp53@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "MTEC/ECON",
+        "Major": "",
+        "Name": "Adelia Zytec",
+        "Email": "az29@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "BIOS/Asian Studies",
+        "Major": "",
+        "Name": "Lily Remington",
+        "Email": "ler12@rice.edu",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
     }
 ]
