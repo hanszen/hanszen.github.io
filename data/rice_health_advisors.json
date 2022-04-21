@@ -18,16 +18,16 @@
         "Room": "Off Campus"
     },
     {
-        "Name": "Carlos Rivera",
-        "Year": "2023",
-        "Email": "cdr5@",
-        "Room": "Off Campus"
-    },
-    {
         "Name": "Jarrett Prchal",
         "Year": "2022",
         "Email": "jtp4@",
         "Room": "Old Sid 252"
+    },
+    {
+        "Name": "Carlos Rivera",
+        "Year": "2023",
+        "Email": "cdr5@",
+        "Room": "Off Campus"
     },
     {
         "Name": "Kourtney Kanja",
@@ -48,18 +48,6 @@
         "Room": "Old Sid 252"
     },
     {
-        "Name": "Rian Philip",
-        "Year": "2022",
-        "Email": "rap9@",
-        "Room": "Off Campus"
-    },
-    {
-        "Name": "William Zheng",
-        "Year": "2024",
-        "Email": "jz93@",
-        "Room": "Hanszen 512"
-    },
-    {
         "Name": "Katie Bablak",
         "Year": "2023",
         "Email": "krb9@",
@@ -70,6 +58,18 @@
         "Year": "2023",
         "Email": "mm142@",
         "Room": "Off Campus"
+    },
+    {
+        "Name": "Rian Philip",
+        "Year": "2024",
+        "Email": "rap9@",
+        "Room": "Off Campus"
+    },
+    {
+        "Name": "William Zheng",
+        "Year": "2024",
+        "Email": "jz93@",
+        "Room": "Hanszen 512"
     },
     {
         "Name": "Maggie Han",

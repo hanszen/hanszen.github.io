@@ -57,15 +57,6 @@
         "GradYear": "2023"
     },
     {
-        "Subject": "MATH 101/102",
-        "Major": "MECH",
-        "Minor": "Entrepreneurship, Eng. Design",
-        "Name": "Reece Lusich",
-        "Email": "rel5@",
-        "OfficeHours": "TBA",
-        "GradYear": "2024"
-    },
-    {
         "Subject": "STAT",
         "Major": "STAT, COMP, Pre-Grad",
         "Name": "Zach Rewolinski",
@@ -88,6 +79,15 @@
         "Email": "sga4@",
 		"OfficeHours": "TBA",
 		"GradYear": "2023"
+    },
+    {
+        "Subject": "MATH 101/102",
+        "Major": "MECH",
+        "Minor": "Entrepreneurship, Eng. Design",
+        "Name": "Reece Lusich",
+        "Email": "rel5@",
+        "OfficeHours": "TBA",
+        "GradYear": "2024"
     },
     {
         "Subject": "COMP/MATH/PHYS",
@@ -116,7 +116,7 @@
     {
         "Subject": "MTEC/ECON",
         "Major": "",
-        "Name": "Adelia Zytec",
+        "Name": "Adi Zytek",
         "Email": "az29@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"

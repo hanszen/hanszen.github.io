@@ -6,16 +6,16 @@
         "Major": "Statistics, Data Science minor, Biochemistry and Cell Boilogy minor; Pre-Med"
     },
     {
-        "Name": "[HEAD] Arnav Burudgunte",
-        "Year": "2024",
-        "Email": "ab141@rice.edu",
-        "Major": "Computer Science, Data Science minor, Pre-Grad"
-    },
-    {
         "Name": "[HEAD] Piyusha Kundu",
         "Year": "2023",
         "Email": "pk29@rice.edu",
         "Major": "Cognitive Sciences; Pre-Med"
+    },
+    {
+        "Name": "[HEAD] Arnav Burudgunte",
+        "Year": "2024",
+        "Email": "ab141@rice.edu",
+        "Major": "Computer Science, Data Science minor, Pre-Grad"
     },
     {
         "Name": "[O-WEEK] Christina Wong",
@@ -66,6 +66,18 @@
         "Major": "Kinesiology, Sports Management, Pre-Health, Pre-Physical Therapy"
     },
     {
+        "Name": "Claire Xu",
+        "Year": "2023",
+        "Email": "ccx1@rice.edu",
+        "Major": "Computer Science, Pre-Grad"
+    },
+    {
+        "Name": "Phoebe Scaccia",
+        "Year": "2023",
+        "Email": "pys1@rice.edu",
+        "Major": "Astronomy, Computer Science, Pre-Grad"
+    },
+    {
         "Name": "Tyler Braito",
         "Year": "2024",
         "Email": "ttb2@rice.edu",
@@ -84,22 +96,22 @@
         "Major": "Biosciences, Statistics minor, Ecology & Evolutionary Biology minor"
     },
     {
-        "Name": "Claire Xu",
-        "Year": "2023",
-        "Email": "ccx1@rice.edu",
-        "Major": "Computer Science, Pre-Grad"
+        "Name": "Maanvi Thawani",
+        "Year": "2024",
+        "Email": "mt78@rice.edu",
+        "Major": "Biosciences, Health Sciences, Pre-Health, Pre-Med"
+    },
+    {
+        "Name": "Hemish Thakkar",
+        "Year": "2024",
+        "Email": "hbt3@rice.edu",
+        "Major": "Mechanical Engineering, Chemistry, Pre-Grad"
     },
     {
         "Name": "Danika Li",
         "Year": "2025",
         "Email": "dl74@rice.edu",
         "Major": "Undecided, Pre-Grad"
-    },
-    {
-        "Name": "Phoebe Scaccia",
-        "Year": "2023",
-        "Email": "pys1@rice.edu",
-        "Major": "Astronomy, Computer Science, Pre-Grad"
     },
     {
         "Name": "Priya Tirumala",
@@ -112,17 +124,5 @@
         "Year": "2025",
         "Email": "eee2@rice.edu",
         "Major": "Economics, Cognitive Sciences, Neuroscience minor, Business minor, Pre-Business"
-    },
-    {
-        "Name": "Maanvi Thawani",
-        "Year": "2024",
-        "Email": "mt78@rice.edu",
-        "Major": "Biosciences, Health Sciences, Pre-Health, Pre-Med"
-    },
-    {
-        "Name": "Hemish Thakkar",
-        "Year": "2024",
-        "Email": "hbt3@rice.edu",
-        "Major": "Mechanical Engineering, Chemistry, Pre-Grad"
     }
 ]
