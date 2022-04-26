@@ -74,7 +74,31 @@
     {
         "Name": "Maggie Han",
         "Year": "2024",
-        "Email": "maggie.han@",
+        "Email": "myh2@",
         "Room": "Old Sid 753"
+    },
+    {
+        "Name": "Anushkka Agrawal",
+        "Year": "2024",
+        "Email": "aa157@",
+        "Room": "Old Sid "
+    },
+    {
+        "Name": "Mainavi Reddy",
+        "Year": "2024",
+        "Email": "mr72@",
+        "Room": "Hanszen 106"
+    },
+    {
+        "Name": "Izzi Childers",
+        "Year": "2024",
+        "Email": "icc4@",
+        "Room": "Old Sid 558"
+    },
+    {
+        "Name": "Ammar Siddiqi",
+        "Year": "2025",
+        "Email": "ads15@",
+        "Room": "Hanszen 214"
     }
 ]
