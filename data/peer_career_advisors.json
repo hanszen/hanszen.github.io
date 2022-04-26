@@ -6,6 +6,12 @@
         "Major": "Psychology, Political Science"
     },
     {
+        "Name": "Amey Maley",
+        "Year": "2023",
+        "Email": "asm14@",
+        "Major": ""
+    },
+    {
         "Name": "Makayla Brown",
         "Year": "2023",
         "Email": "mab33@",
@@ -16,5 +22,35 @@
         "Year": "2024",
         "Email": "jw139@",
         "Major": "Computer Science"
+    },
+    {
+        "Name": "Christina Wong",
+        "Year": "2025",
+        "Email": "cew8@",
+        "Major": ""
+    },
+    {
+        "Name": "Daniela Covarrubias",
+        "Year": "2025",
+        "Email": "dc66@",
+        "Major": ""
+    },
+    {
+        "Name": "Daniel Zhao",
+        "Year": "2025",
+        "Email": "dz35@",
+        "Major": ""
+    },
+    {
+        "Name": "Emery Engling",
+        "Year": "2025",
+        "Email": "eee2@",
+        "Major": ""
+    },
+    {
+        "Name": "Kenna Dixon",
+        "Year": "2025",
+        "Email": "kmd14@",
+        "Major": ""
     }
 ]
