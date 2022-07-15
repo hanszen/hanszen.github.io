@@ -2,25 +2,56 @@
     {
         "name": "Matthew Wettergreen",
         "email": "mwettergreen@",
-        "division": "Engineering",
-        "department": "Bioengineering"
+        "division": "Engineering"
+    },
+    {
+        "name": "John Greiner",
+        "email": "greiner@",
+        "division": "Engineering"
     },
     {
         "name": "Edison Liang",
         "email": "liang@",
-        "division": "Natural Sciences",
-        "department": "Physics & Astronomy"
+        "division": "Natural Sciences"
     },
     {
-        "name": "Lan Li",
-        "email": "ll@",
-        "division": "Humanities",
-        "department": "History/Medical Humanities"
+        "name": "Lam Yu",
+        "email": "lhyu@",
+        "division": "Natural Sciences"
+    },
+    {
+        "name": "Amanda Johnson",
+        "email": "amanda.l.johnson@",
+        "division": "Humanities"
+    },
+    {
+        "name": "Bryan Denny",
+        "email": "bryan.denny@",
+        "division": "Social Sciences"
     },
     {
         "name": "Songying Fang",
         "email": "sfang@",
-        "division": "Social Sciences",
-        "department": "Political Science"
+        "division": "Social Sciences"
+    },
+    {
+        "name": "Reto Geiser",
+        "email": "reto.geiser@",
+        "division": "Architecture"
+    },
+    {
+        "name": "Jenny Judge",
+        "email": "judge@",
+        "division": "Architecture"
+    },
+    {
+        "name": "Geoffrey Scott",
+        "email": "geoffrey.scott@",
+        "division": "Music"
+    },
+    {
+        "name": "Jeff Russell",
+        "email": "jeff.russell@",
+        "division": "Business"
     }
 ]

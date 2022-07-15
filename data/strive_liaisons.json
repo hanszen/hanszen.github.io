@@ -1,27 +1,27 @@
 [
     {
-        "Name": "Isabelle Scott",
-        "Year": "2022",
-        "Email": "ims3@"
-    },
-    {
-        "Name": "Vickie Liu",
-        "Year": "2022",
-        "Email": "vl9@"
-    },
-    {
         "Name": "Hope Moustakakis",
         "Year": "2023",
         "Email": "hcm2@"
     },
     {
-        "Name": "Michelle Martinez",
-        "Year": "2023",
-        "Email": "mm142@"
-    },
-    {
         "Name": "Claire Xu",
         "Year": "2023",
         "Email": "ccx1@"
+    },
+    {
+        "Name": "Kian Robinson",
+        "Year": "2024",
+        "Email": "kmr10@"
+    },
+    {
+        "Name": "Vu Luu",
+        "Year": "2025",
+        "Email": "havy@"
+    },
+    {
+        "Name": "Somya Mittal",
+        "Year": "2025",
+        "Email": "sm174@"
     }
 ]
