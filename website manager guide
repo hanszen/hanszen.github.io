@@ -1,6 +1,6 @@
 Hanszen Website Manager Guide
 Written by Alan Tapper '24
-Updated April 2022
+Last Updated August 2022
 
 Hello Hanszen Website Managers! This document is your guide for keeping Hanszen College's website functional, updated, and interesting.
 
@@ -19,6 +19,7 @@ The assets folder contains various documents images, and videos that are used th
 
 The data folder contains data about various positions and resources, and is referred to by some of the html files.
 
+Bootstrap grid tutorial (this is stuff like row and col-md-6): https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp
 
 Some of the folders contain files that deal with the behind-the-scenes stuff. You shouldn't need to mess with these:
 
@@ -31,7 +32,7 @@ Some of the folders contain files that deal with the behind-the-scenes stuff. Yo
 
 # DUTIES OF THE WEBSITE MANAGERS
 
-When changeover happens, update the positions of cab in the government file.
+The following pages need to be updated at least yearly: cabinet, justice, beer bike, resources, all of the O-Week pages, and any other page with people in positions
 
 Work with the IVP to get descriptions for committees.
 
@@ -42,6 +43,8 @@ Check the Website Change Requests form to see if anyone wants anything changed.
 In whatever way you like, make the website fun and interesting. Examples include putting pictures around the site, creating joke committees, hiding Harry Femur Hanszen somewhere on the website, etc.
 
 Make countdown timers for Beer Bike, O-Week, and whatever other events you feel like. I use https://www.timeanddate.com/clocks/freecountdown.html but you are welcome to use other sites.
+
+BE CONSISTENT.
 
 COMMENT YOUR CODE.
 
@@ -68,31 +71,3 @@ If using the command line, see https://cli.github.com/ for instructions.
 Once you commit a change, GitHub pages has to rebuild and republish the website. This happens automatically, and takes about 2 minutes. Check the status on the GitHub website under the actions tab.
 
 Once the site has been built, the site should be updated to include your change.
-
-
-# TO DO BY END OF SPRING
-
-Update DFs
-
-Get pictures for O-Week people from coords
-
-Remove seniors
-
-
-
-# TO DO AT BEGINNING OF FALL
-
-Update Head Caregivers
-
-Deal with O-Week and Beer Bike countdown timers
-
-Update Committees
-
-Get descriptions of committees
-
-
-
-
-# TO DO DURING FALL
-
-Update Genealogy to have 2022 matriculants
