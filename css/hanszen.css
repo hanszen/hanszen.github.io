@@ -39,6 +39,10 @@ Overwrites
   position: relative;
 }
 
+.social-icons:hover {
+  opacity: 0.75;
+}
+
 .card {
   width: 100% !important;
 }
