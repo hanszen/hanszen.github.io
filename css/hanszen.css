@@ -39,8 +39,9 @@ Overwrites
   position: relative;
 }
 
-.social-icons:hover {
+.socials-icon:hover {
   opacity: 0.75;
+  text-decoration: none;
 }
 
 .card {
