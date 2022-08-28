@@ -39,6 +39,10 @@ Overwrites
   position: relative;
 }
 
+.socials-icon {
+  padding: 0px 50px;
+}
+
 .socials-icon:hover {
   opacity: 0.75;
   text-decoration: none;
