@@ -1,11 +1,5 @@
 [
     {
-        "Name": "Lara Lin",
-        "Year": "2023",
-        "Email": "all11@",
-        "Major": "Psychology, Political Science"
-    },
-    {
         "Name": "Amey Maley",
         "Year": "2023",
         "Email": "asm14@",
@@ -16,12 +10,6 @@
         "Year": "2023",
         "Email": "mab33@",
         "Major": "Neuroscience"
-    },
-    {
-        "Name": "Jackie Wu",
-        "Year": "2024",
-        "Email": "jw139@",
-        "Major": "Computer Science"
     },
     {
         "Name": "Christina Wong",
