@@ -3,31 +3,31 @@
         "Name": "[HEAD] Andrew Li",
         "Year": "2023",
         "Email": "azl1@",
-        "Major": "Statistics, Data Science minor, Biochemistry and Cell Boilogy minor; Pre-Med"
+        "Major": "Statistics, Data Science minor, Pre-Med"
     },
     {
         "Name": "[HEAD] Piyusha Kundu",
         "Year": "2023",
         "Email": "pk29@",
-        "Major": "Cognitive Sciences; Pre-Med"
+        "Major": "Cognitive Sciences, Pre-Med"
     },
     {
         "Name": "[HEAD] Arnav Burudgunte",
         "Year": "2024",
         "Email": "ab141@",
-        "Major": "Computer Science, Data Science minor, Pre-Grad"
+        "Major": "Computer Science, Pre-Grad"
     },
     {
         "Name": "[O-WEEK] Christina Wong",
         "Year": "2025",
         "Email": "cew8@",
-        "Major": "Computer Science, Biosciences minor, Pre-Med, Pre-Grad"
+        "Major": "Computer Science, Biosciences minor, Pre-Med"
     },
     {
         "Name": "[O-WEEK] Genesis Hahn",
         "Year": "2025",
         "Email": "gh25@",
-        "Major": "Computational and Applied Mathematics"
+        "Major": "Economics"
     },
     {
         "Name": "[O-WEEK] Tanya Jain",
@@ -45,31 +45,31 @@
         "Name": "Heather Kong",
         "Year": "2023",
         "Email": "hzk1@",
-        "Major": "Kinesiology, Cognitive Sciences; Poverty, Justice, and Human Capabilities minor, Pre-Med"
+        "Major": "Health Sciences; Poverty, Justice, and Human Capabilities minor"
     },
     {
         "Name": "Michelle Martinez",
         "Year": "2023",
         "Email": "mm142@",
-        "Major": "Sports Management, Kinesiology, Pre-Med"
+        "Major": "Sports Medicine and Exercise Physiology, Sport Management"
     },
     {
         "Name": "Bill Qian",
         "Year": "2023",
         "Email": "zq4@",
-        "Major": "Computer Science, Pre-Grad"
+        "Major": "Computer Science"
     },
     {
         "Name": "Carlos Rivera",
         "Year": "2023",
         "Email": "cdr5@",
-        "Major": "Kinesiology, Sports Management, Pre-Health, Pre-Physical Therapy"
+        "Major": "Sports Medicine and Exercise Physiology, Sport Management, Pre-Physical Therapy"
     },
     {
         "Name": "Claire Xu",
         "Year": "2023",
         "Email": "ccx1@",
-        "Major": "Computer Science, Pre-Grad"
+        "Major": "Computer Science, Data Science minor, Business minor"
     },
     {
         "Name": "Phoebe Scaccia",
@@ -87,19 +87,19 @@
         "Name": "Robert Heeter",
         "Year": "2024",
         "Email": "rch5@",
-        "Major": "Bioengineering, Pre-Health"
+        "Major": "Bioengineering, Physics minor"
     },
     {
         "Name": "Brian Lee",
         "Year": "2024",
         "Email": "bsl4@",
-        "Major": "Biosciences, Statistics minor, Ecology & Evolutionary Biology minor"
+        "Major": "Biosciences, Environmental Studies minor"
     },
     {
         "Name": "Maanvi Thawani",
         "Year": "2024",
         "Email": "mt78@",
-        "Major": "Biosciences, Health Sciences, Pre-Health, Pre-Med"
+        "Major": "Biosciences, Health Sciences, Pre-Med"
     },
     {
         "Name": "Hemish Thakkar",
@@ -111,18 +111,18 @@
         "Name": "Danika Li",
         "Year": "2025",
         "Email": "dl74@",
-        "Major": "Undecided, Pre-Grad"
+        "Major": "Bioengineering, English"
     },
     {
         "Name": "Priya Tirumala",
         "Year": "2025",
         "Email": "ppt1@",
-        "Major": "Biochemistry, Global Health Technologies minor, Pre-Health, Pre-Med"
+        "Major": "Biochemistry, Global Health Technologies minor, Pre-Med"
     },
     {
         "Name": "Emery Engling",
         "Year": "2025",
         "Email": "eee2@",
-        "Major": "Economics, Cognitive Sciences, Neuroscience minor, Business minor, Pre-Business"
+        "Major": "Economics, Cognitive Sciences"
     }
 ]
