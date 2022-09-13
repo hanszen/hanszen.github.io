@@ -3,24 +3,28 @@
         "Name": "[HEAD] Carlos Rivera",
         "Year": "2023",
         "Email": "cdr5@",
-        "Room": "Off Campus"
+        "Phone": "832-853-1333",
+        "Room": "Old Sid 409"
     },
     {
         "Name": "[HEAD] Kourtney Kanja",
         "Year": "2023",
         "Email": "knk3@",
+        "Phone": "808-397-3710",
         "Room": "Old Sid 201"
     },
     {
         "Name": "Janya Ram",
         "Year": "2023",
         "Email": "jmr23@",
-        "Room": "Off Campus"
+        "Phone": "281-202-9835",
+        "Room": "Old Sid 702"
     },
     {
         "Name": "Jesus Galvan",
         "Year": "2023",
         "Email": "jmg29@",
+        "Phone": "409-665-5089",
         "Room": "Old Sid 509"
     },
     {
@@ -33,48 +37,63 @@
         "Name": "Michelle Martinez",
         "Year": "2023",
         "Email": "mm142@",
+        "Phone": "817-378-7419",
         "Room": "Off Campus"
+    },
+    {
+        "Name": "Temilade Dada",
+        "Year": "2023",
+        "Email": "tod2@",
+        "Phone": "972-765-6263",
+        "Room": "Old Sid 551"
     },
     {
         "Name": "Rian Philip",
         "Year": "2024",
         "Email": "rap9@",
-        "Room": "Old Sid 303"
+        "Phone": "678-906-0395",
+        "Room": "Old Sid 301"
     },
     {
         "Name": "William Zhang",
         "Year": "2024",
         "Email": "jz93@",
-        "Room": "Off Campus"
-    },
-    {
-        "Name": "Maggie Han",
-        "Year": "2024",
-        "Email": "myh2@",
-        "Room": "Old Sid 553"
+        "Phone": "347-210-1387",
+        "Room": "Off Campus (abroad)"
     },
     {
         "Name": "Anushka Agrawal",
         "Year": "2024",
         "Email": "aa157@",
+        "Phone": "217-417-4640",
         "Room": "Off Campus"
     },
     {
         "Name": "Mainavi Reddy",
         "Year": "2024",
         "Email": "mr72@",
-        "Room": "Hanszen 106"
+        "Phone": "972-998-6533",
+        "Room": "Off-Campus"
     },
     {
         "Name": "Izzi Childers",
         "Year": "2024",
         "Email": "icc4@",
+        "Phone": "254-449-4310",
         "Room": "Hanszen 104"
     },
     {
         "Name": "Ammar Siddiqi",
         "Year": "2025",
         "Email": "ads15@",
+        "Phone": "713-870-5090",
         "Room": "Off-Campus"
+    },
+    {
+        "Name": "Allison He",
+        "Year": "2025",
+        "Email": "arh7@",
+        "Phone": "972-757-5817",
+        "Room": "Off Campus"
     }
 ]
