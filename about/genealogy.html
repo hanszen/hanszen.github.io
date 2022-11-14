@@ -628,11 +628,11 @@ permalink: /about/genealogy/
                         var exploreDisplay = document.getElementById("exploredisplay2")
                         pathDisplay.innerHTML = ""
                         exploreDisplay.innerHTML = ""
+
+                        exploreDisplay.appendChild(text2html("<br>"))
                         
                         //looking at
-                        var lookingAt = text2html("Looking at:")
-                        var lookingAtPerson = text2link(person1)
-                        exploreDisplay.appendChild(lookingAt)
+                        var lookingAtPerson = text2html("<strong>" + person1 + "</strong> from the group <strong>" + getOWeekGroupName(person1) + "</strong>")
                         exploreDisplay.appendChild(lookingAtPerson)
 
                         //number of immediate connections
@@ -643,7 +643,7 @@ permalink: /about/genealogy/
 
                         //parents
                         if (getParents(person1).length) {
-                            exploreDisplay.appendChild(text2html("<br>Parents:<br>"))
+                            exploreDisplay.appendChild(text2html("<br><strong>Parents:</strong><br>"))
 
                             for (let parent of getParents(person1)) {
                                 exploreDisplay.appendChild(text2link(parent))
@@ -652,7 +652,7 @@ permalink: /about/genealogy/
 
                         //children
                         if (getChildren(person1).length) {
-                            var childrenLabel = text2html("<br>Children:<br>")
+                            var childrenLabel = text2html("<br><strong>Children:</strong><br>")
                             exploreDisplay.appendChild(childrenLabel)
 
                             for (let child of getChildren(person1)) {
@@ -662,7 +662,7 @@ permalink: /about/genealogy/
 
                         //siblings
                         if (getSiblings(person1).length) {
-                            var siblingsLabel = text2html("<br>Siblings:<br>")
+                            var siblingsLabel = text2html("<br><strong>Siblings:</strong><br>")
                             exploreDisplay.appendChild(siblingsLabel)
 
                             for (let sibling of getSiblings(person1)) {
@@ -672,7 +672,7 @@ permalink: /about/genealogy/
 
                         //cos
                         if (getCos(person1).length) {
-                            var cosLabel = text2html("<br>Cos:<br>")
+                            var cosLabel = text2html("<br><strong>Cos:</strong><br>")
                             exploreDisplay.appendChild(cosLabel)
 
                             for (let co of getCos(person1)) {
