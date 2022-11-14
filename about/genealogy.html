@@ -232,6 +232,16 @@ permalink: /about/genealogy/
                         }
                         return "Unknown matriculation year"
                     }
+
+                    //returns the O-Week group that source was in their freshman year
+                    function getOWeekGroupName(source) {
+                        for (let group of data) {
+                            if (group[1].includes(source)) {
+                                return group[3]
+                            }
+                        }
+                        return "Unknown O-Week Group"
+                    }
                     
                     //returns the children of source
                     function getChildren(source) {
@@ -457,8 +467,6 @@ permalink: /about/genealogy/
                         return toReturn
                     }
 
-                    console.log(getDescendants("Whitney Jin"))
-
                     //getDescendants rewrite
                     function getDescendants(source) {
                         var q = []
@@ -507,13 +515,23 @@ permalink: /about/genealogy/
                     }
 
                     //converts a name to a link
-                    function text2link(text) {
+                    function text2link(text, format) {
                         console.log("link")
                         
                         //creates a button
                         var node = document.createElement("button")
                         node.className = "text-justify link"
-                        node.style = "background:none; border:none; padding:0px"
+                        
+                        //styles depending on format
+                        switch (format) {
+                            case "normal":
+                            node.style = "background:none; border:none; padding:0px"
+                            break;
+                            case "header":
+                            node.style = "background:none; border:none; padding:0px; font-weight: bold"
+                            break;
+                        }
+                        
                         node.innerHTML = text
                         node.addEventListener("click", function(e) {
                             console.log(explore2(node.innerHTML))
@@ -620,9 +638,6 @@ permalink: /about/genealogy/
                         var exploreDisplay = document.getElementById("exploredisplay2")
                         pathDisplay.innerHTML = ""
                         exploreDisplay.innerHTML = ""
-
-                        console.log("previous is " + exploreDisplay.innerHTML)
-                        console.log("Looking at " + person1)
                         
                         //looking at
                         var lookingAt = text2html("Looking at:")
