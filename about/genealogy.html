@@ -515,23 +515,13 @@ permalink: /about/genealogy/
                     }
 
                     //converts a name to a link
-                    function text2link(text, format) {
+                    function text2link(text) {
                         console.log("link")
                         
                         //creates a button
                         var node = document.createElement("button")
                         node.className = "text-justify link"
-                        
-                        //styles depending on format
-                        switch (format) {
-                            case "normal":
-                            node.style = "background:none; border:none; padding:0px"
-                            break;
-                            case "header":
-                            node.style = "background:none; border:none; padding:0px; font-weight: bold"
-                            break;
-                        }
-                        
+                        node.style = "background:none; border:none; padding:0px"
                         node.innerHTML = text
                         node.addEventListener("click", function(e) {
                             console.log(explore2(node.innerHTML))
