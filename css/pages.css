@@ -62,3 +62,20 @@ Resources
     background-attachment: scroll;
     background-size: cover;
 }
+
+/*
+Resources sub-page
+*/
+.pg-header-resources-sub {
+    padding: 2rem 2rem;
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.3) 100%), url("../assets/img/Civil_War_2023_Group_Photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+    color: #FFF;
+
+    margin-bottom: 2rem;
+}
