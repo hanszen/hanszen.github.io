@@ -378,7 +378,7 @@ permalink: /about/genealogy/
                         
                         for (let source of everyone) {
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2019)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
                                 
                                 if (getImmediateFamily(source).length > num && source) {
                                     person = source
@@ -396,7 +396,7 @@ permalink: /about/genealogy/
                         
                         for (let source of everyone) {
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2019)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
                                 if (getDescendants(source).length > num && source) {
                                     person = source
                                     num = getDescendants(source).length
@@ -710,8 +710,8 @@ permalink: /about/genealogy/
                             var str = "<br> The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University."
                             str += "<br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree."
                             str += "<br><br> The system was initially created by Alan Tapper in December 2021, and includes every Hanszenite who matriculated in or after 2018, with some going back further. "
-                            str += "<br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older)."
-                            str += "The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students."
+                            str += "<br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). "
+                            str += "The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. "
                             str += "A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). "
                             str += "<br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person "
                             str += "<br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + numPeople + "<br>Most immediate connections (current student): " + mostImmediateConnections + " with " + numMostImmediateConnections + "<br>Most descendants (current student): " + mostDescendants + " with " + numMostDescendants
