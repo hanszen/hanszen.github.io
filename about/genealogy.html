@@ -389,7 +389,7 @@ permalink: /about/genealogy/
                     return person
                     }
                     
-                    //returns the person with the most descendants
+                    //returns the person with the most descendants (current students only)
                     function getMostDescendants() {
                         var num = 0
                         var person = ""
@@ -401,6 +401,20 @@ permalink: /about/genealogy/
                                     person = source
                                     num = getDescendants(source).length
                                 }
+                            }
+                        }
+                    return person
+                    }
+
+                    //returns the person with the most descendants
+                    function getMostDescendantsAllTime() {
+                        var num = 0
+                        var person = ""
+                        
+                        for (let source of everyone) {
+                            if (getDescendants(source).length > num && source) {
+                                person = source
+                                num = getDescendants(source).length
                             }
                         }
                     return person
@@ -700,9 +714,11 @@ permalink: /about/genealogy/
                     //calculate values for readMore()
                     const numPeople = everyone.length
                     const mostImmediateConnections = getMostImmediateConnections()
-                    const numMostImmediateConnections = getImmediateFamily(getMostImmediateConnections()).length
+                    const numMostImmediateConnections = getImmediateFamily(mostImmediateConnections).length
                     const mostDescendants = getMostDescendants()
-                    const numMostDescendants = getDescendants(getMostDescendants()).length
+                    const numMostDescendants = getDescendants(mostDescendants).length
+                    const mostDescendantsAllTime = getMostDescendantsAllTime()
+                    const numMostDescendantsAllTime = getDescendants(mostDescendantsAllTime).length
                     
                     //toggles the read more section
                     function readMore() {
@@ -715,6 +731,7 @@ permalink: /about/genealogy/
                             str += "A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). "
                             str += "<br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person "
                             str += "<br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + numPeople + "<br>Most immediate connections (current student): " + mostImmediateConnections + " with " + numMostImmediateConnections + "<br>Most descendants (current student): " + mostDescendants + " with " + numMostDescendants
+                            str += "<br>Most descendants (all time): " + mostDescendantsAllTime + " with " + numMostDescendantsAllTime
                             str += "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
                             document.getElementById("readmore").innerHTML = str
                         }
