@@ -134,7 +134,7 @@ permalink: /about/genealogy/
                         [["Katie Bablak", "Hope Moustakakis", "Anushka Agrawal", "John Cook (Will Rice)"], ["Nitin Reganti", "Warren Rose", "Laura Yee", "Karen Marquez", "Adara Toran", "Aryana Suhartono", "Darius Huang", "Emerson Coronel", "Mark Lopatofsky", "Esha Patel"], 2021, "Scoops!... I Did it Again"],
                         [["Marc Armeña", "Grace Kneidel (Brown)", "Khondker Salim", "Charlotte Cohen"], ["Natalie Byron", "Ava White", "Vy Luu", "Priya Tirumala", "David Kurp", "Daniel Stulski", "Taeho Choe", "Kausar Alkaderi", "Ai Bunchatheravate"], 2021, "Around the Swirled in 80 Days"],
                         [["Julia Englehardt (McMurtry)", "Anthony Guzzo", "Corey Donovan", "Sini Koivu"], ["Emily Pena", "Ellie Cha", "Darcey Lonsdale", "Nayna Nambiar", "Sara Price", "Joseph Flores", "Sam Sarver", "Suraj Chandramouli", "Noah Hight", "Grant Samara"], 2021, "Mission ImPopsicle"],
-                        [["Gia Braddock (Brown)", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Bella Bartos", "Adi Zytek", "Michelle Fox", "Yulin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"], 2021, "Spider-Man: Conecoming"],
+                        [["Gia Braddock (Brown)", "Daniel Rothfusz", "Dylan DuCharme", "Mabel Tang"], ["Maddy Garrity", "Isabella Bartos", "Adi Zytek", "Michelle Fox", "Yulin Lu", "Peter Reynolds", "Joseph Liu", "Liam Waite", "Ammar Siddiqi", "Brian Seo"], 2021, "Spider-Man: Conecoming"],
                         [["Ben Murdoch (Lovett)", "Aaron Lin", "Sarah Kim", "Victoria Johns"], ["Crystal Unegbu", "Danika Li", "Daniela Covarrubias", "Lauren Hu", "Thara Venkateswaran", "Emery Engling", "Jonathan Seyoum", "Zarek Lu", "Arturo Rodriguez Lopez", "James Belanger"], 2021, "High Scoop Musical"],
                         [["Sadie Siegel (Lovett)", "Madhu Venkatesalu", "Jarrett Prchal", "Arvind Ramesh"], ["Sarah Davidson", "Whitney Ball", "Jyotsna Harikrishna", "Genesis Hahn", "Riya Pagilla", "Marcus Williams", "Lucas Newman", "Jordan Contreras", "Nikhil Samudrala", "Ken Chen"], 2021, "Ghostcustards"],
                         [["Temi Dada", "Alp Yakici", "Ridhi Gari", "Andrew Li"], ["Stephanie Agu", "Leora Maksoud", "Basma Bedawi", "Kaylah Patel", "Jiwon Han", "Brian Baskin", "Shihab Ahmed", "Kai Cowin", "Hari Gotluru", "Bill Nguyen"], 2021, "Mangolorian: Attack of the Cones"],
@@ -378,7 +378,7 @@ permalink: /about/genealogy/
                         
                         for (let source of everyone) {
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2019)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
                                 
                                 if (getImmediateFamily(source).length > num && source) {
                                     person = source
@@ -389,18 +389,32 @@ permalink: /about/genealogy/
                     return person
                     }
                     
-                    //returns the person with the most descendants
+                    //returns the person with the most descendants (current students only)
                     function getMostDescendants() {
                         var num = 0
                         var person = ""
                         
                         for (let source of everyone) {
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2019)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
                                 if (getDescendants(source).length > num && source) {
                                     person = source
                                     num = getDescendants(source).length
                                 }
+                            }
+                        }
+                    return person
+                    }
+
+                    //returns the person with the most descendants
+                    function getMostDescendantsAllTime() {
+                        var num = 0
+                        var person = ""
+                        
+                        for (let source of everyone) {
+                            if (getDescendants(source).length > num && source) {
+                                person = source
+                                num = getDescendants(source).length
                             }
                         }
                     return person
@@ -700,9 +714,11 @@ permalink: /about/genealogy/
                     //calculate values for readMore()
                     const numPeople = everyone.length
                     const mostImmediateConnections = getMostImmediateConnections()
-                    const numMostImmediateConnections = getImmediateFamily(getMostImmediateConnections()).length
+                    const numMostImmediateConnections = getImmediateFamily(mostImmediateConnections).length
                     const mostDescendants = getMostDescendants()
-                    const numMostDescendants = getDescendants(getMostDescendants()).length
+                    const numMostDescendants = getDescendants(mostDescendants).length
+                    const mostDescendantsAllTime = getMostDescendantsAllTime()
+                    const numMostDescendantsAllTime = getDescendants(mostDescendantsAllTime).length
                     
                     //toggles the read more section
                     function readMore() {
@@ -710,11 +726,12 @@ permalink: /about/genealogy/
                             var str = "<br> The Hanszen O-Week Genealogy Project aims to document the complex family tree of O-Week families at Hanszen College, the best residential college of Rice University."
                             str += "<br><br> This site does not use any external family tree software, as those cannot handle all the relationships that are needed for this network to work. Specifically, the Hanszen \"family tree\" is not technically a tree."
                             str += "<br><br> The system was initially created by Alan Tapper in December 2021, and includes every Hanszenite who matriculated in or after 2018, with some going back further. "
-                            str += "<br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older)."
-                            str += "The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students."
+                            str += "<br><br> <strong>Structure</strong> <br><br> During O-Week, new students are placed in O-Week groups. An O-Week group at Hanszen consists of around 10 new students and 4 advisors (sophomores or older). "
+                            str += "The groups are made such that no two advisors in a group are immediately \"related\", i.e. one was not the other's advisor and they were not in the same group when they were new students. "
                             str += "A person's immediate family is their advisors (also called parents), the other new students in their group (siblings), and if they advised then the students they advised for (children), and the other advisors in their group (cos). "
                             str += "<br><br> <strong>Features</strong> <br><br> Find the path between any two people in the network<br><br>Explore the family around any specific person "
                             str += "<br><br> <strong>Statistics</strong> <br><br> Number of people in the network: " + numPeople + "<br>Most immediate connections (current student): " + mostImmediateConnections + " with " + numMostImmediateConnections + "<br>Most descendants (current student): " + mostDescendants + " with " + numMostDescendants
+                            str += "<br>Most descendants (all time): " + mostDescendantsAllTime + " with " + numMostDescendantsAllTime
                             str += "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
                             document.getElementById("readmore").innerHTML = str
                         }
