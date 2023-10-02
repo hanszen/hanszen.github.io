@@ -1,130 +1,170 @@
 [
     {
-        "Subject": "BIOS (especially 301!)",
+        "Subject": "MTEC/ECON",
         "Major": "SMEP, Pre-Med",
         "Minor": "BIOC",
-        "Name": "[HEAD] Truman Archer",
-        "Email": "tsa5@",
+        "Name": "[HEAD] Adi Zytek",
+        "Email": "az29@",
         "OfficeHours": "TBA",
-        "GradYear": "2023"
+        "GradYear": "2025"
     },
     {
-        "Subject": "BIOS (general, but only BIOS301 for F2021)",
+        "Subject": "BIOS",
         "Major": "BIOC, Pre-Med",
-        "Name": "[HEAD] Arvind Ramesh",
-        "Email": "avr8@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "CHEM 211/BIOS 201",
-        "Major": "BIOS, Pre-Med",
-        "Name": "[HEAD] Adam He",
-        "Email": "aqh1@",
+        "Name": "[HEAD] Jason Nguyen",
+        "Email": "jtn4@",
         "OfficeHours": "TBA",
         "GradYear": "2024"
     },
     {
-        "Subject": "CHEM 121/122",
+        "Subject": "ENGL",
         "Major": "BIOS, Pre-Med",
-        "Name": "Sai Govindu",
-        "Email": "srg10@",
+        "Name": "[HEAD] Ellie Cha",
+        "Email": "ecc11@",
         "OfficeHours": "TBA",
-        "GradYear": "2023"
+        "GradYear": "2025"
     },
     {
-        "Subject": "CHEM 211/212",
-        "Major": "BIOC, Pre-Med",
-        "Name": "Aaron Lin",
-        "Email": "ajl15@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "CHEM 211/212",
-        "Major": "BIOC, Pre-Med",
-        "Name": "Ananda Nandigam",
-        "Email": "aln7@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "CHEM 211/212",
-        "Major": "CHEM, BIOC, Pre-Med",
-        "Name": "Eliot Behr",
-        "Email": "eib2@",
-        "OfficeHours": "TBA",
-        "GradYear": "2023"
-    },
-    {
-        "Subject": "STAT",
-        "Major": "STAT, COMP, Pre-Grad",
-        "Name": "Zach Rewolinski",
-        "Email": "ztr2@",
-		"OfficeHours": "TBA",
-		"GradYear": "2023"
-    },
-    {
-        "Subject": "SOPA/SOCI",
-        "Major": "",
-        "Name": "Juan Rubio",
-        "Email": "jmr22@",
-		"OfficeHours": "TBA",
-		"GradYear": "2023"
-    },
-    {
-        "Subject": "SMEP",
-        "Major": "",
-        "Name": "Sawyer Archer",
-        "Email": "sga4@",
-		"OfficeHours": "TBA",
-		"GradYear": "2023"
-    },
-    {
-        "Subject": "MATH/COMP (especially upper-level MATH)",
-        "Major": "MATH, COMP",
+        "Subject": "COMP/MATH",
+        "Major": "COMP, MATH",
         "Name": "Alan Tapper",
         "Email": "amt15@",
         "OfficeHours": "TBA",
         "GradYear": "2024"
     },
     {
-        "Subject": "COMP/MATH/PHYS",
-        "Major": "",
-        "Name": "Stephen Xu",
-        "Email": "smx2@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "ENGL/PHIL",
-        "Major": "",
-        "Name": "Ellie Cha",
-        "Email": "ebc4@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "BIOE/MATH",
-        "Major": "",
-        "Name": "Riya Pagilla",
-        "Email": "rp53@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "MTEC/ECON",
-        "Major": "",
-        "Name": "Adi Zytek",
-        "Email": "az29@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "BIOS/Asian Studies",
-        "Major": "",
+        "Subject": "BIOS",
+        "Major": "BIOC, Pre-Med",
         "Name": "Lily Remington",
         "Email": "ler12@",
+        "OfficeHours": "TBA",
+        "GradYear": "2025"
+    },
+    {
+        "Subject": "MECH/HART",
+        "Major": "BIOC, Pre-Med",
+        "Name": "Marc Armeña",
+        "Email": "mba4@",
+        "OfficeHours": "TBA",
+        "GradYear": "2024"
+    },
+    {
+        "Subject": "CHEM/HART",
+        "Major": "CHEM, BIOC, Pre-Med",
+        "Name": "Nitin Reganti",
+        "Email": "nr33@",
+        "OfficeHours": "TBA",
+        "GradYear": "2025"
+    },
+    {
+        "Subject": "ANTH",
+        "Major": "STAT, COMP, Pre-Grad",
+        "Name": "Sara Price",
+        "Email": "sbp4@",
+		"OfficeHours": "TBA",
+		"GradYear": "2023"
+    },
+    {
+        "Subject": "BIOS",
+        "Major": "",
+        "Name": "Emily Han",
+        "Email": "egh5@",
+		"OfficeHours": "TBA",
+		"GradYear": "2023"
+    },
+    {
+        "Subject": "CHEM/PHYS/PHIL",
+        "Major": "",
+        "Name": "Nimah Shukkour",
+        "Email": "nfs1@",
+		"OfficeHours": "TBA",
+		"GradYear": "2023"
+    },
+    {
+        "Subject": "BIOS",
+        "Major": "MATH, COMP",
+        "Name": "Isha Khapre",
+        "Email": "ik15@",
+        "OfficeHours": "TBA",
+        "GradYear": "2024"
+    },
+    {
+        "Subject": "CHEM/SPAN",
+        "Major": "",
+        "Name": "Maria Contreras",
+        "Email": "mac50@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "CHEM",
+        "Major": "",
+        "Name": "Jamie Tellez",
+        "Email": "jt50@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "MTEC/ECON/BUSI",
+        "Major": "",
+        "Name": "Sean Cartwright",
+        "Email": "rsc8@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "ELEC",
+        "Major": "",
+        "Name": "Liam Waite",
+        "Email": "lcw6@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "ECON/BUSI/SPAN",
+        "Major": "",
+        "Name": "Pablo Solano",
+        "Email": "ps80@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "COMP/MATH",
+        "Major": "",
+        "Name": "Yumn Teshome",
+        "Email": "yt53@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "BIOS/PSYC",
+        "Major": "",
+        "Name": "Amar Siddiqi",
+        "Email": "ads15@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "CHEM",
+        "Major": "",
+        "Name": "Ray Xiang",
+        "Email": "rbx10@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "BIOS",
+        "Major": "",
+        "Name": "Anagha",
+        "Email": "@",
+		"OfficeHours": "TBA",
+		"GradYear": "2025"
+    },
+    {
+        "Subject": "ENGL",
+        "Major": "",
+        "Name": "Angela",
+        "Email": "@",
 		"OfficeHours": "TBA",
 		"GradYear": "2025"
     }
