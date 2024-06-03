@@ -10,7 +10,7 @@ convert_to_webp () {
   base="${1%.*}"
   echo "$base.webp"
   # Convert to webp using imagemagick
-  magick "$1" -quality 75 "$base.webp"
+  convert "$1" -quality 75 "$base.webp"
 }
 
 # Make this function visible to xargs below
