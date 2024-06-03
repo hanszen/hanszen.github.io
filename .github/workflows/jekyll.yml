@@ -42,6 +42,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Convert to webp
+        uses: jruipinto/ImageMagick-action@v1
+        with:
+          command: ./convert_webp
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
