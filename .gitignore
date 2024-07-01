@@ -4,3 +4,6 @@ _site
 
 # IDEA
 /.idea/
+
+# webp generated images
+assets/**/*.webp
