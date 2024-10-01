@@ -398,7 +398,7 @@ permalink: /about/genealogy/
 
                         for (let source of everyone) {
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= getSeniorMatriculationYear())) {
 
                                 if (getImmediateFamily(source).length > num && source) {
                                     person = source
@@ -409,29 +409,33 @@ permalink: /about/genealogy/
                         return person
                     }
 
+                    /*
+                    Calculate the matriculation year of this year's seniors
+                     */
+                    function getSeniorMatriculationYear() {
+                        const currentDate = new Date();
+                        const currentYear = currentDate.getFullYear();
+                        var seniorMatriculationYear;
+
+                        if ((currentDate.getMonth() === 0)
+                            || (currentDate.getMonth() === 4 && currentDate.getDate() <= 15)
+                            || (currentDate.getMonth() < 4)) {
+                            // From January 1st to May 15th
+                            return currentYear - 4;
+                        } else {
+                            // From May 16th to December 31st
+                            return currentYear - 3;
+                        }
+                    }
+
                     //returns the person with the most descendants (current students only)
                     function getMostDescendants() {
                         var num = 0
                         var person = ""
 
                         for (let source of everyone) {
-                            // Calculate the matriculation year of this year's seniors
-                            const currentDate = new Date();
-                            const currentYear = currentDate.getFullYear();
-                            var seniorMatriculationYear;
-
-                            if ((currentDate.getMonth() === 0)
-                                || (currentDate.getMonth() === 4 && currentDate.getDate() <= 15)
-                                || (currentDate.getMonth() < 4)) {
-                                // From January 1st to May 15th
-                                seniorMatriculationYear = currentYear - 4;
-                            } else {
-                                // From May 16th to December 31st
-                                seniorMatriculationYear = currentYear - 3;
-                            }
-
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= seniorMatriculationYear)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= getSeniorMatriculationYear())) {
                                 if (getDescendants(source).length > num && source) {
                                     person = source
                                     num = getDescendants(source).length
