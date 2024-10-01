@@ -14,28 +14,34 @@ permalink: /about/genealogy/
 <div class="container">
     <div class="row">
         <p class="text-justify">
-            This interactive site enables you to find the distance and path between two people in the tree through metaphorical "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").
-        </p>
-        
-        <br>
-        
-        <p class="text-justify">
-            Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the path traverses and their relationships.
-        </p>
-    
-        <br>
-    
-        <p class="text-justify">
-            Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate family.
+            This interactive site enables you to find the distance and path between two people in the tree through
+            metaphorical "families" (Hanszen O-Week groups, with advisors as "parents" and new students as "children").
         </p>
 
         <br>
-        
-        <h6 class="text-justify">Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want someone to be added,
-            <a href="https://forms.gle/s3uBvRxzFZyBDaVQ8">fill out the website feedback form</a> with the person to be added and a list of everyone (that you know of) in their O-Week Group.
-            Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!
+
+        <p class="text-justify">
+            Find Path: Finds the shortest path through the network from Person 1 to Person 2. Displays the people the
+            path traverses and their relationships.
+        </p>
+
+        <br>
+
+        <p class="text-justify">
+            Explore Tree: Displays the immediate family of Person 1. Click on other people to display their immediate
+            family.
+        </p>
+
+        <br>
+
+        <h6 class="text-justify">Note: I do <strong>not</strong> have everyone in Hanszen in the network. If you want
+            someone to be added,
+            <a href="https://forms.gle/s3uBvRxzFZyBDaVQ8">fill out the website feedback form</a> with the person to be
+            added and a list of everyone (that you know of) in their O-Week Group.
+            Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping
+            expand the network!
         </h6>
-        
+
         <br>
 
     </div>
@@ -77,29 +83,43 @@ permalink: /about/genealogy/
 
                     //runs when the submit button is clicked
                     function processData() {
-                        
+
                         //retrieve the data submitted
                         var action = document.getElementById("action").value
-                        
+
                         var person1 = document.getElementById("person1name").value
-                       
+
                         var person2 = document.getElementById("person2name").value
-                        
+
                         //prints the inputs to the console
                         console.log([action, person1, person2])
-                        
+
                         if (person1 !== "" && person2 !== "" && action === "find-path") {
                             findPath2(person1, person2)
                         }
-                        
+
                         if (person1 !== "" && action === "explore-tree") {
                             explore2(person1)
                         }
                     }
 
                     var data = [
-                    
+
                         //Each line is an O-Week Group. Format: List of Advisors, List of New Students, Matriculation Year, Group Name
+
+                        //2024 O-Week Groups
+                        [["Jason Swann (McMurtry)", "Nimah Shukkoor", "Olivia Finch", "Lily Remington"], ["Peter Burke", "David Fankhauser", "Douglass Liu", "Daniel Offor", "Sierra Ramlakhan", "DaVonte Smith", "Alyse Tran", "Ashley Wang", "Sebnem Yilmaz", "Mia DaPonte"], 2024, "DesBRICKable Me: Rise of LeGru"],
+                        [["Elie Wang (Brown)", "David Coronado", "Landry Wood", "Somya Mittal"], ["Thea Carter", "Ethan Judge", "Julihannah Lu", "Catalina Rodriguez", "Humaira Shaikh", "Cole Verdirame", "Hannah Yang", "Mert Esat Yercel", "Porter Gregg", "Denver Anglin"], 2024, "The BachLEGOrette: The Final Brick"],
+                        [["Isaiah Chen (Baker)", "Temi Fabuyi", "Ava Baraban", "Tess Mansfield"], ["Alivia Afable", "Dalton Beach", "Laila Flowers", "Richard Gao", "Lauriel Johnson", "Fer Martinez Hernandez", "Andy Park", "Ashley Suazo Reyes", "Christopher White", "Roy Zhang"], 2024, "The Incredibuilds"],
+                        [["Hugo Gerbich Pais", "Vedant Bhattacharyya", "AZ Ellis ", "Raven Shamoo"], ["Zeha Ahmed", "Vanessa De Leon Diaz", "Krishan Gupta", "Will Hagemeier", "Kyle Hwang", "Setsuna Jiang", "Treilokya Kancherla", "Linus Liu", "Hannah Loredo", "Elías Martí-Castro", "Chaianan Pongprasert"], 2024, "Lego Del Rey: Did You Know That There's a Lego under Brick Boulevard"],
+                        [["Everett Adkins (Brown)", "Matthew Ahn", "Omar Siman", "Sammi Frey"], ["Colt Adams", "Alejandro Andrade", "Viviana Chavarria", "Mythily Kalra", "Vincent Luo", "Landon Nickel", "Alyssa Sanchez", "Megan Zhang", "Samah Ahmed", "Yiyi Tu"], 2024, "Lego and Stitch: O-Week Means Family"],
+                        [["Jessica Hao (Lovett)", "Sarah Davidson", "Shivi Goyal ", "Andy Corliss"], ["Aishwarya Aggarwal", "Alex Aleman", "Bailee Byrd", "MJ Cohen", "Annie Durant", "Vuk Jovanovic", "Rafael Ramirez", "Aadhish Talekar", "Kemi Tytler"], 2024, "Bricki Minaj: LeGo to the Beach"],
+                        [["Krish Kumar (Sid)", "Hannah Son", "Aryana Suhartono", "Ryan Olatunji"], ["Caroline Larrabee", "Luis Sotelo", "Tony Castillo", "Mary Zhou", "Robae Joseph", "Arushi Dinker", "Vishal Kumar", "Ellis Garver", "Joann Jung", "Alivia-Rae Green"], 2024, "Just Wanna Block: Lego Uzi Vert"],
+                        [["Anvita Wadhwa (Baker)", "Maggie Xia", "Kalina Peneva", "Zarek Lu"], ["Jacqueline A. Hernandez", "Sumita M. Dantu", "Dorian Echasserieu", "Lindsay Levy", "Matthew G. Mancini", "Charlie Palmer", "Lily G. Secord", "Leslie T. Yakubu", "Evan Zhang", "Andy Liu", "Tyler Do"], 2024, "The Brickbiker's Guide to the Galaxy: Lego on an AdZENture!"],
+                        [["Henry Tran (Duncan)", "Sarah Johnson", "Cathy Barr", "Saathwik Saladi"], ["Tim Alechkevitch", "Connor Batsell", "Sanjana Dabbiru", "Brian Huang", "Nathan Luo", "Audrey Pham", "Abhiram Tallapragada", "Jordan Rahmfeld", "Emily Hattenbach", "Abe White"], 2024, "Men in Block"],
+                        [["Hannah Lloyd (Jones)", "Alejandro Salinas ", "Jyotsna Harikrishna", "Ryan Ellis"], ["Kianna Black", "Reese Cole", "Alexis Alfasi", "Khawaja Faizaan Javed", "Jackson Fleischer", "Zain Khemani", "Grace Park", "Medha Pulluru", "John Royce", "Benjamin Royston"], 2024, "Bricktopia: Try Everything"],
+                        [["Rita Ajit (Lovett)", "Meghan Paral", "Justin Dang", "Ben Montag"], ["Vanessa Cruz", "Isaac DeAvila", "Enzo Endtmann", "Christian Mingoti", "Zachary Mok", "Phoebe Schocket", "Connor Costello", "Ava Portello", "Kailey Lei", "Lorenzo Rios"], 2024, "Brick Time Rush"],
+                        [["Shriya Pendyala (McMurtry)", "Julian Puerto", "Emelia Gauch", "Simona Kao"], ["Kaden Alibhai", "Kevin Bao", "Max Basurto", "Luca Johnson", "Magnolia Hickey", "Sanjana Kavula", "Ella Lu", "Ell Roseborrough", "Jacob Bolanos", "Lexi Xu", "Samuel Estrada-Pardo"], 2024, "Brickelodean"],
 
                         //2023 O-Week Groups
                         [["Krish Kumar (Sid)", "Andrew Bare", "Hannah Kim", "Maggie Xia"], ["Moid Asif", "Calla Doh", "Jordan Edmondson", "Tess Mansfield", "Andrew Maughon", "Ryan Purdy", "Maisie Schorr", "William Volen", "Ash Zhou"], 2023, "My Little Ponyo: A New ZENeration"],
@@ -114,7 +134,7 @@ permalink: /about/genealogy/
                         [["Alice Zhou (Martel)", "Arnav Burudgunte", "Zach Wilson", "Madeline Ansley"], ["Michael Feeney", "Reese Keeney", "Michaela Koltz", "Hajime Kioi", "Makenna Mack", "Claire Teague", "Max Tippie", "Haley Truss", "Sai Vemu", "Ella Zhou"], 2023, "Chihiro Solo: A Galaxy Far Far (Spirited) Away..."],
                         [["Ananya Rao (Jones)", "Kian Robinson", "Isabella Bartos", "Kendrick Lounsbury"], ["Isaac Al-Ramahi", "Sophia Burbano", "Ana Contrucci", "Ryan Ellis", "Sammi Frey", "Kat Han", "Will Ingersoll", "Pranav Monoj", "William Wheeler"], 2023, "Sprite at the Museum"],
                         [["Anna Hsu", "Sarah Kim", "Liam Waite", "Steven Maradiaga"], ["Jassim Al Thani", "Moiz Asif", "David Coronado", "Temi Febuyi", "Andrew Fox", "Abigail Jaimes", "William Liu", "Cindy Li", "Alyssa Sanchez", "Sophia Xing"], 2023, "Totoro-Crossing: New HoriZENs"],
-                    
+
                         //2022 O-Week Groups
                         [["Allison He", "Astra Burke", "Nitin Reganti", "Truman Archer"], ["Camille Wong", "Emily Han", "Ash Bixby", "Sara Szymaniak", "Ava Thienel", "Henry Pu", "Alex Sansom", "Ethan Nava Maldonado", "Thomas Moore", "AJ Shin"], 2022, "Pixelmon: Gotta Caption Them All"],
                         [["Ana Tiscareño (Lovett)", "Juan Rubio", "McKenna Tanner", "Kian Robinson"], ["Alysia Palomo", "Marga Lee", "Sanjana Jain", "Raven Shamoo", "Melissa Tariq Rodriguez", "Sebastian Spataro Solorzano", "John Israel", "Landry Wood", "Nathaniel Boateng", "Luke Liu"], 2022, "Fro-Zen: Let it GoPro"],
@@ -142,7 +162,7 @@ permalink: /about/genealogy/
                         [["Claire Xu", "Moses Glickman (Martel)", "McKenna Tanner", "Carlos Rivera"], ["Claire Brix", "A'Zhariya Ellis", "Lily Remington", "Hannah Kim", "Christy Deng", "Stephen Xu", "Jay Folmar", "Dillon Akerman", "Jonah Lubin", "Wyatt Cho"], 2021, "Zen & Jerry's"],
                         [["Jackie Wu", "Sara Mansfield", "Isabelle Scott", "Jose Oviedo"], ["Lillian Sims", "Emily Wu", "Alison Qiu", "Celeste Colato", "Dylan Grant", "Byron Hart", "Pablo Solano", "Charlie Wells", "David Zhu"], 2021, "Around the Swirled in 80 Days"],
                         [["Christa Westheimer (McMurtry)", "Valentina Osorio", "Bert Odinet", "Juan Rubio"], ["Angelina Puente-Perez", "Julia Hanson", "Laney Schewgman", "Anagha Alapati", "Michelle Pham", "Nathaniel Moriss", "Sebastian Molina", "Ben Montag", "Daniel Zhao"], 2021, "Star Wars: The Cone Wars"],
-                        
+
                         //2020 O-Week Groups
                         [["Alp Yakici", "Amanda Mae Ashley", "Cole Ponsi (Will Rice)", "Tessa Schreiber"], ["Alan Tapper", "Brian Lee", "Marc Armeña", "Noah Elzner", "Astra Burke", "Reece Lusich", "Valentina Osorio", "Hemish Thakkar", "Jun-Ha Jung"], 2020, "The Great British Rock-Off"],
                         [["Mason Reece", "Radhika Patel", "Alizay Azeem (Wiess)", "Abby Webb"], ["Kian Robinson", "Alex Holzbach", "Anushka Agrawal", "Ella Price", "Tammy Feng", "Kelly Shang", "Yajing Hu", "Nora Han"], 2020, "Young, Dumb, and Baroque"],
@@ -156,7 +176,7 @@ permalink: /about/genealogy/
                         [["Lila Frenkel (Duncan)", "Kourtney Kanja", "Bert Odinet", "Makayla Franco"], ["Sarah Kim", "Maggie Han", "Seniha Elcik", "Robert Heeter", "Eric Savarese", "Fred Bush", "Khondker Salim", "Ebube Ukabiala"], 2020, "Party in the HFH"],
                         [["Eric Torres (Wiess)", "Matthew Brun", "Emily Chang", "Nana Mensah-Bosu"], ["Ricardo Robles", "Adam Cohen", "Daniel Cho", "Bruce Xu", "Valerie Elizondo", "Rian Philip", "Isha Khapre", "Hannah Kang"], 2020, "Stranger Strings: The Octave Down"],
                         [["Shawn Zheng", "Hannah Meeks", "Lexi Ellerbe", "George Liu (Will Rice)"], ["Valerie Swe", "Mallory Tucker", "Sena Ahadzie", "Lily Primus", "Rick Castellon", "Josh Fang", "William Burbank", "Riley Barker"], 2020, "Uke Skywalker: I Am Your Father"],
-                        
+
                         //2019 O-Week Groups
                         [["Matthew Brun", "Lisa Shi", "Hannah Vincent", "Andrew Abhikhaled (Jones)"], ["Katie Bablak", "Kourtney Kanja", "Jesus Galvan", "Kieren Boyd", "Tara Simpson-Sullivan", "Roscoe Bussell", "Bill Qian", "Juan Rubio"], 2019, "WWBean Presents: Dwayne \"The Guac\" Johnson"],
                         [["Bert Odinet", "Bharathvi Selvan", "Vy Dang", "Shryans Goyal (Will Rice)"], ["Andrew Li", "Arvind Ramesh", "Ginny Qian", "Divya Venkatesh", "Ella Hoyt", "Sophia Zhou", "Cole Rabson", "Cameron Noorbakhsh"], 2019, "Don't Stop Brie-lievin"],
@@ -170,7 +190,7 @@ permalink: /about/genealogy/
                         [["Karen Qi", "Hociel Landa", "Amanda Lopatin", "Nathaniel Wu (Wiess)"], ["Carlos Rivera", "Leigh Gabriely", "Charlotte Cohen", "Colter Decker", "Heather Kong", "Eliot Behr", "Jeffrey Salgado", "Katherine Chen"], 2019, "Dip Too Hard"],
                         [["Savannah Kuchar", "Mason Reece", "Victor Nguyen (Lovett)", "Natalie Gault"], ["Zach Rewolinski", "Lara Lin", "Daniel Schrager", "Grace Stewart", "Luis Leal", "Nasha Wanichwecharungruang", "Aubrey Hoekma"], 2019, "Drop It Like It's Hot Sauce"],
                         [["Morgan Seay", "Saipriya Lammata (Jones)", "Jordan Pflum", "Vickie Lu"], ["Michelle Martinez", "Summer Nguyen", "Nana Mensah-Bonsu", "Quincy Olivari", "Sean Nail", "Wally Odom", "Owen Right"], 2019, "Tostada: Everytime We Munch"],
-                        
+
                         //2018 O-Week Groups
                         [["Valerie Du", "Bill Huynh", "Sabrina Hernandez (Jones)", "Natalie Gault"], ["Alp Yakici", "Shawn Zheng", "Annie Nguyen", "Ben Glotzer", "Mattie Meacham", "Meerae Kim", "Oscar Soto"], 2018, "Unknown Group Name"],
                         [["Michelle Nguyen", "Katub Gandhi (Sid)", "Harish Krishnamoorthy", "Abigail Tucker"], ["Daniel Rothfusz", "Lauren Ivory", "Isabelle Scott", "David Tarte", "Gabe Gress", "Shije Fan", "Elina Chen"], 2018, "Unknown Group Name"],
@@ -195,46 +215,46 @@ permalink: /about/genealogy/
                     for (let group of data) {
                         addOWeekGroup(group[0], group[1])
                     }
-                    
+
                     //prints the parentsOf dictionary
                     function printParentsOf() {
                         for (let child of Object.keys(parentsOf)) {
                             console.log(child, parentsOf[child])
                         }
                     }
-                    
+
                     //tree building functions
-                   
+
                     //adds a name with parents given by parentsList
                     function addPerson(source, parentList) {
                         parentsOf[source] = parentList
                     }
-                    
+
                     //adds sibling as a sibling of refrence
                     function addSibling(sibling, source) {
                         addPerson(sibling, parentsOf[source])
                     }
-                    
+
                     //adds the members of siblings as siblings of source
                     function addSiblings(siblings, source) {
                         for (let sibling of siblings.entries()) {
                             addSibling(sibling[1], source)
                         }
                     }
-                    
+
                     //adds parent to source's list of parents
                     function addParent(parent, source) {
                         parentsOf[source].push(parent)
                     }
-                    
+
                     //adds an entire O-Week Group
                     function addOWeekGroup(advisors, newStudents) {
                         for (let ns of newStudents) {
                             addPerson(ns, advisors)
                         }
                     }
-                    
-                    
+
+
                     //other helper functions
 
                     //returns the matriculation year of source
@@ -256,7 +276,7 @@ permalink: /about/genealogy/
                         }
                         return "Unknown O-Week Group"
                     }
-                    
+
                     //returns the children of source
                     function getChildren(source) {
                         var toReturn = []
@@ -269,7 +289,7 @@ permalink: /about/genealogy/
                         }
                         return toReturn.sort()
                     }
-                    
+
                     //returns the parents of source
                     function getParents(source) {
                         if (parentsOf[source]) {
@@ -277,7 +297,7 @@ permalink: /about/genealogy/
                         }
                         return []
                     }
-                    
+
                     //returns the cos of source
                     function getCos(source) {
                         var toReturn = []
@@ -290,9 +310,9 @@ permalink: /about/genealogy/
                                 }
                             }
                         }
-                        
+
                         var toReturn2 = []
-                        
+
                         for (let advisor of toReturn) {
                             if (!toReturn2.includes(advisor) && advisor !== source) {
                                 toReturn2.push(advisor)
@@ -300,11 +320,11 @@ permalink: /about/genealogy/
                         }
                         return toReturn2.sort()
                     }
-                    
+
                     //returns the siblings of source
                     function getSiblings(source) {
                         var toReturn = []
-                        
+
                         if (getParents(source)) {
                             for (let name of Object.keys(parentsOf)) {
                                 if (getParents(source) === getParents(name) && source !== name) {
@@ -314,15 +334,15 @@ permalink: /about/genealogy/
                         }
                         return toReturn.sort()
                     }
-                    
+
                     //returns a sorted list of everyone in the tree
                     function getEveryone() {
                         var people = []
-                        
+
                         for (let person of Object.keys(parentsOf)) {
                             people.push(person)
                         }
-                        
+
                         for (let advisingTeam of Object.values(parentsOf)) {
                             for (let advisor of advisingTeam) {
                                 if (!people.includes(advisor)) {
@@ -335,17 +355,17 @@ permalink: /about/genealogy/
 
                     //a sorted list of everyone in the tree
                     everyone = getEveryone()
-                    
+
                     //returns the immediate family of source
                     function getImmediateFamily(source) {
                         return getChildren(source).concat(getParents(source), getCos(source), getSiblings(source)).sort()
                     }
-                    
+
                     //returns the average distance from everyone in the network
                     function avgDistance(source) {
                         var sum = 0
                         var people = 0
-                        
+
                         for (let person of everyone) {
                             sum += findDistance(source, person)
                             people += 1
@@ -358,7 +378,7 @@ permalink: /about/genealogy/
                     function minAvgDistancePerson() {
                         minAvg = 1000
                         minAvgPerson = everyone[0]
-                        
+
                         for (person in everyone) {
                             console.log(person, avgDistance(person))
                             if (person) {
@@ -370,68 +390,83 @@ permalink: /about/genealogy/
                         }
                         return [minAvgPerson, minAvg]
                     }
-                    
+
                     //returns the person with the most immediate connections
                     function getMostImmediateConnections() {
                         var num = 0
                         var person = ""
-                        
+
                         for (let source of everyone) {
                             //only check people who haven't graduated
                             if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
-                                
+
                                 if (getImmediateFamily(source).length > num && source) {
                                     person = source
                                     num = getImmediateFamily(source).length
                                 }
                             }
                         }
-                    return person
+                        return person
                     }
-                    
+
                     //returns the person with the most descendants (current students only)
                     function getMostDescendants() {
                         var num = 0
                         var person = ""
-                        
+
                         for (let source of everyone) {
+                            // Calculate the matriculation year of this year's seniors
+                            const currentDate = new Date();
+                            const currentYear = currentDate.getFullYear();
+                            var seniorMatriculationYear;
+
+                            if ((currentDate.getMonth() === 0)
+                                || (currentDate.getMonth() === 4 && currentDate.getDate() <= 15)
+                                || (currentDate.getMonth() < 4)) {
+                                // From January 1st to May 15th
+                                seniorMatriculationYear = currentYear - 4;
+                            } else {
+                                // From May 16th to December 31st
+                                seniorMatriculationYear = currentYear - 3;
+                            }
+
                             //only check people who haven't graduated
-                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= 2020)) {
+                            if ((typeof getMatriculationYear(source) === "number") && (getMatriculationYear(source) >= seniorMatriculationYear)) {
                                 if (getDescendants(source).length > num && source) {
                                     person = source
                                     num = getDescendants(source).length
                                 }
                             }
                         }
-                    return person
+                        return person
                     }
 
                     //returns the person with the most descendants
                     function getMostDescendantsAllTime() {
                         var num = 0
                         var person = ""
-                        
+
                         for (let source of everyone) {
                             if (getDescendants(source).length > num && source) {
                                 person = source
                                 num = getDescendants(source).length
                             }
                         }
-                    return person
+                        return person
                     }
-                    
+
                     //print functions
-                    
+
                     //prints the immediate family of source
                     function printImmediateFamily(source) {
                         for (let i of getImmediateFamily(source).values()) {
                             console.log(i)
                         }
                     }
-                    
-                    
+
+
                     //other
-                   
+
                     //finds the relation between name and source
                     function findRelation(name, source) {
                         for (let parent of getParents(source)) {
@@ -439,40 +474,40 @@ permalink: /about/genealogy/
                                 return "Parent"
                             }
                         }
-                        
+
                         for (let child of getChildren(source)) {
                             if (name === child) {
                                 return "Child"
                             }
                         }
-                        
+
                         for (let sibling of getSiblings(source)) {
                             if (name === sibling) {
                                 return "Sibling"
                             }
                         }
-                        
+
                         for (let co of getCos(source)) {
                             if (name === co) {
                                 return "Co"
                             }
                         }
                     }
-                    
+
                     //returns the distances of everyone and their predecessor from the point of view of source
                     function BFSMap(source) {
                         var q = []
                         var dist = {}
                         var predecessor = {}
-                        
+
                         for (let person in everyone) {
                             dist[person] = null
                             predecessor[person] = null
                         }
-                        
+
                         dist[source] = 0
                         q.push(source)
-                        
+
                         while (q.length > 0) {
                             var u = q.shift()
                             for (let i in getImmediateFamily(u)) {
@@ -484,11 +519,11 @@ permalink: /about/genealogy/
                                 }
                             }
                         }
-                        
+
                         dist[source] = 0
                         predecessor[source] = null
                         var toReturn = {}
-                        
+
                         for (let person of everyone) {
                             toReturn[person] = [dist[person], predecessor[person]]
                         }
@@ -500,15 +535,15 @@ permalink: /about/genealogy/
                         var q = []
                         var dist = {}
                         var predecessor = {}
-                        
+
                         for (let person in everyone) {
                             dist[person] = null
                             predecessor[person] = null
                         }
-                        
+
                         dist[source] = 0
                         q.push(source)
-                        
+
                         while (q.length > 0) {
                             var u = q.shift()
                             for (let v of getChildren(u)) {
@@ -519,11 +554,11 @@ permalink: /about/genealogy/
                                 }
                             }
                         }
-                        
+
                         dist[source] = 0
                         predecessor[source] = null
                         var toReturn = []
-                        
+
                         for (let person of everyone) {
                             if (dist[person]) {
                                 toReturn.push(person)
@@ -545,13 +580,13 @@ permalink: /about/genealogy/
                     //converts a name to a link
                     function text2link(text) {
                         console.log("link")
-                        
+
                         //creates a button
                         var node = document.createElement("button")
                         node.className = "text-justify link"
                         node.style = "background:none; border:none; padding:0px"
                         node.innerHTML = text
-                        node.addEventListener("click", function(e) {
+                        node.addEventListener("click", function (e) {
                             console.log(explore2(node.innerHTML))
                         })
 
@@ -568,13 +603,13 @@ permalink: /about/genealogy/
                     //converts a name to an inline link
                     function text2inlinelink(text) {
                         console.log("link")
-                        
+
                         //creates a button
                         var node = document.createElement("button")
                         node.className = "text-justify link"
                         node.style = "background:none; border:none; padding:0px"
                         node.innerHTML = text
-                        node.addEventListener("click", function(e) {
+                        node.addEventListener("click", function (e) {
                             console.log(explore2(node.innerHTML))
                         })
 
@@ -622,7 +657,7 @@ permalink: /about/genealogy/
                         var len = path.length - 1
                         pathDisplay.appendChild(text2html("Path length: " + len + "<br>"))
                     }
-                    
+
                     //web-friendly path printer with links
                     function printPath(source, name) {
                         var path = findPath(source, name)
@@ -658,7 +693,7 @@ permalink: /about/genealogy/
                         exploreDisplay.innerHTML = ""
 
                         exploreDisplay.appendChild(text2html("<br>"))
-                        
+
                         //looking at
                         var lookingAtPerson = text2html("<strong>" + person1 + "</strong> from the group <strong>" + getOWeekGroupName(person1) + "</strong>")
                         exploreDisplay.appendChild(lookingAtPerson)
@@ -719,7 +754,7 @@ permalink: /about/genealogy/
                     const numMostDescendants = getDescendants(mostDescendants).length
                     const mostDescendantsAllTime = getMostDescendantsAllTime()
                     const numMostDescendantsAllTime = getDescendants(mostDescendantsAllTime).length
-                    
+
                     //toggles the read more section
                     function readMore() {
                         if (document.getElementById("readmore").innerHTML.length < 10) {
@@ -734,9 +769,7 @@ permalink: /about/genealogy/
                             str += "<br>Most descendants (all time): " + mostDescendantsAllTime + " with " + numMostDescendantsAllTime
                             str += "<br><br><br> If you want someone to be added, email amt15@rice.edu with the person to be added and a list of everyone (that you know of) in their O-Week Group. Also email if something you see is incorrect, or if you have any other suggestions. Thanks for helping expand the network!"
                             document.getElementById("readmore").innerHTML = str
-                        }
-
-                        else {
+                        } else {
                             document.getElementById("readmore").innerHTML = ""
                         }
                     }
@@ -761,10 +794,10 @@ permalink: /about/genealogy/
     <div class="row">
         <!--These are disabled by default and are enabled to show the path between people or a single person's immediate family-->
         <p class="text-justify" id="pathdisplay"></p>
-    
+
         <p class="text-justify" id="exploredisplay"></p>
 
-        <div class="text-justify" id="exploredisplay2"></p>
+        <div class="text-justify" id="exploredisplay2"></div>
 
     </div>
 </div>
@@ -772,8 +805,9 @@ permalink: /about/genealogy/
 <div class="container">
     <div class="row">
 
-        <button class="text-justify btn btn-primary" type="button" onclick="readMore()">Read more about the project!</button>
-        
+        <button class="text-justify btn btn-primary" type="button" onclick="readMore()">Read more about the project!
+        </button>
+
         <br>
 
         <p class="text-justify" id="readmore"></p>
