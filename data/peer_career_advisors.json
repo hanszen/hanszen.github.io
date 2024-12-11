@@ -1,44 +1,22 @@
 [
     {
-        "Name": "Amey Maley",
-        "Year": "2023",
-        "Email": "asm14@",
-        "Major": "Statistics"
-    },
-    {
-        "Name": "Makayla Brown",
-        "Year": "2023",
-        "Email": "mab33@",
-        "Major": "Neuroscience"
-    },
-    {
-        "Name": "Christina Wong",
-        "Year": "2025",
-        "Email": "cew8@",
-        "Major": "Computer Science, Pre-Med"
-    },
-    {
         "Name": "Daniela Covarrubias",
-        "Year": "2025",
-        "Email": "dc66@",
-        "Major": "Biosciences"
+        "Email": "dc66@rice.edu",
+        "Major": "Biosciences / Medical Humanities and Neuroscience ",
+        "Career Interests": "Pre-med"
     },
     {
-        "Name": "Daniel Zhao",
-        "Year": "2025",
-        "Email": "dz35@",
-        "Major": "Business"
+        "Name": "Nathaniel Boateng",
+        "Email": "nab15@rice.edu",
+        "Major": "Biosciences",
+        "Career Interests": "Physician-Scientist"
     },
     {
-        "Name": "Emery Engling",
-        "Year": "2025",
-        "Email": "eee2@",
-        "Major": "Economics, Cognitive Sciences, Neuroscience minor, Business minor, Pre-Business"
-    },
-    {
-        "Name": "Kenna Dixon",
-        "Year": "2025",
-        "Email": "kmd14@",
-        "Major": "Biosciences"
+        "Name": "Cindy Li",
+        "Email": "xl150@rice.edu",
+        "Major": "Psychology & Operations Research",
+        "Certificates": "Civic Leadership",
+        "Career Interests": "Industry like HR (intersection of psyc busi and tech)"
     }
+    
 ]
