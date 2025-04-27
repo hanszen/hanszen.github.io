@@ -31,3 +31,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "rexml", "~> 3.2"
 
 gem 'csv', '~> 3.0'
+gem 'base64', '~> 0.1.0'
