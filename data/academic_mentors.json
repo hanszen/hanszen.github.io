@@ -1,171 +1,90 @@
 [
     {
-        "Subject": "MTEC/ECON",
-        "Major": "SMEP, Pre-Med",
-        "Minor": "NEUR",
-        "Name": "[HEAD] Adi Zytek",
-        "Email": "az29@",
-        "OfficeHours": "TBA",
-        "GradYear": "2025"
+        "Name": "Jordan Rahmfeld",
+        "Email": "jr203@",
+        "Graduation year": "2028",
+        "Major": "Computational neuroscience & biochemistry",
+        "Minor": "",
+        "Course Number": "CHEM121, CHEM122, COMP140"
     },
     {
-        "Subject": "BIOS",
-        "Major": "BIOC, Pre-Med",
-        "Name": "[HEAD] Jason Nguyen",
-        "Email": "jtn4@",
-        "OfficeHours": "TBA",
-        "GradYear": "2024"
+        "Name": "Kiana Komeiji",
+        "Email": "krk10@",
+        "Graduation year": "2026",
+        "Major": "Applied Physics",
+        "Minor": "Energy & Water Sustainability",
+        "Course Number": "PHYS 101, PHYS 125, MATH 101, MATH 102"
     },
     {
-        "Subject": "ENGL",
-        "Major": "BIOS, Pre-Med",
-        "Name": "[HEAD] Ellie Cha",
-        "Email": "ecc11@",
-        "OfficeHours": "TBA",
-        "GradYear": "2025"
+        "Name": "Andy Park",
+        "Email": "ap252@",
+        "Graduation year": "2027",
+        "Major": "Political Science/Asian Studies ",
+        "Minor": "",
+        "Course Number": "SOSC 302, POLI 212, POLI 395, KOR 302"
     },
     {
-        "Subject": "COMP/MATH",
-        "Major": "COMP, MATH",
-        "Name": "Alan Tapper",
-        "Email": "amt15@",
-        "OfficeHours": "TBA",
-        "GradYear": "2024"
+        "Name": "Kenzie Langhorne",
+        "Email": "kl150@",
+        "Graduation year": "2027",
+        "Major": "History and English ",
+        "Minor": "PLST",
+        "Course Number": "ENGL 200 & 300 , Any History Seminar Course so 400s, PLST course such as SOCI 325 & PLST 316 "
     },
     {
-        "Subject": "BIOS",
-        "Major": "BIOC, Pre-Med",
-        "Name": "Lily Remington",
-        "Email": "ler12@",
-        "OfficeHours": "TBA",
-        "GradYear": "2025"
+        "Name": "Laila Charlton",
+        "Email": "lf53@",
+        "Graduation year": "2028",
+        "Major": "Psychology and Political Science",
+        "Minor": "Neuroscience and Politics, Law, and Social Thought",
+        "Course Number": "SOSC 302, POLI 102, POLI 395"
     },
     {
-        "Subject": "MECH/HART",
-        "Major": "BIOC, Pre-Med",
-        "Name": "Marc Armeña",
-        "Email": "mba4@",
-        "OfficeHours": "TBA",
-        "GradYear": "2024"
+        "Name": "Alyse Tran",
+        "Email": "at162@",
+        "Graduation year": "2028",
+        "Major": "Biosciences and Asian Studies",
+        "Minor": "",
+        "Course Number": "ECON 100, BIOS 300, MATH 102, CHEM 122/124"
     },
     {
-        "Subject": "CHEM/HART",
-        "Major": "CHEM, BIOC, Pre-Med",
-        "Name": "Nitin Reganti",
-        "Email": "nr33@",
-        "OfficeHours": "TBA",
-        "GradYear": "2025"
+        "Name": "Medha Pulluru",
+        "Email": "mp161@",
+        "Graduation year": "2028",
+        "Major": "Neuroscience, Art",
+        "Minor": "MedHum, GHT",
+        "Course Number": "Chemistry 122 (Gen Chem 1), Chemistry 124 (Gen Chem 2) "
     },
     {
-        "Subject": "ANTH",
-        "Major": "STAT, COMP, Pre-Grad",
-        "Name": "Sara Price",
-        "Email": "sbp4@",
-		"OfficeHours": "TBA",
-		"GradYear": "2023"
+        "Name": "Andy Corliss",
+        "Email": "ac185@",
+        "Graduation year": "2026",
+        "Major": "BIOE",
+        "Minor": "Spanish, maybe GLHT",
+        "Course Number": "Intro CHEM, BIOE courses, Intro Physics, CMOR 220"
     },
     {
-        "Subject": "BIOS",
-        "Major": "",
         "Name": "Emily Han",
         "Email": "egh5@",
-		"OfficeHours": "TBA",
-		"GradYear": "2023"
+        "Graduation year": "2026",
+        "Major": "Biosciences ",
+        "Minor": "Medical Humanities",
+        "Course Number": ""
     },
     {
-        "Subject": "CHEM/PHYS/PHIL",
-        "Major": "",
-        "Name": "Nimah Shukkour",
-        "Email": "nfs1@",
-		"OfficeHours": "TBA",
-		"GradYear": "2023"
-    },
-    {
-        "Subject": "BIOS",
-        "Major": "MATH, COMP",
-        "Name": "Isha Khapre",
-        "Email": "ik15@",
-        "OfficeHours": "TBA",
-        "GradYear": "2024"
-    },
-    {
-        "Subject": "CHEM/SPAN",
-        "Major": "",
-        "Name": "Maria Contreras",
-        "Email": "mac50@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "CHEM",
-        "Major": "",
-        "Name": "Jamie Tellez",
-        "Email": "jt50@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "MTEC/ECON/BUSI",
-        "Major": "",
-        "Name": "Sean Cartwright",
-        "Email": "rsc8@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "ELEC",
-        "Major": "",
-        "Name": "Liam Waite",
-        "Email": "lcw6@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "ECON/BUSI/SPAN",
-        "Major": "",
-        "Name": "Pablo Solano",
-        "Email": "ps80@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "COMP/MATH",
-        "Major": "",
         "Name": "Yumn Teshome",
         "Email": "yt53@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
+        "Graduation year": "2026",
+        "Major": "Comp and math",
+        "Minor": "",
+        "Course Number": "COMP 140, MATH 212, COMP 182, MATH 102"
     },
     {
-        "Subject": "BIOS/PSYC",
+        "Name": "Tyler Do",
+        "Email": "td72@",
+        "Graduation year": "2028",
         "Major": "",
-        "Name": "Amar Siddiqi",
-        "Email": "ads15@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "CHEM",
-        "Major": "",
-        "Name": "Ray Xiang",
-        "Email": "rbx10@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "BIOS",
-        "Major": "",
-        "Name": "Anagha Alapati",
-        "Email": "aa168@rice.edu",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
-    },
-    {
-        "Subject": "ENGL",
-        "Major": "",
-        "Name": "Angela",
-        "Email": "@",
-		"OfficeHours": "TBA",
-		"GradYear": "2025"
+        "Minor": "",
+        "Course Number": ""
     }
 ]

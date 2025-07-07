@@ -1,128 +1,202 @@
 [
     {
-        "Name": "[HEAD] Andrew Li",
-        "Year": "2023",
-        "Email": "azl1@",
-        "Major": "Statistics, Data Science minor, Pre-Med"
+        "First Name": "Cindy",
+        "Last Name": "Li",
+        "Email": "xl150@rice.edu",
+        "Position": "Head PAA",
+        "Intended graduation": "May 2027",
+        "Declared/intended major(s) ": "Psychology and Operations Research",
+        "Declared/intended minor(s) and/or certificate(s)": "Civic Leadership",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "[HEAD] Piyusha Kundu",
-        "Year": "2023",
-        "Email": "pk29@",
-        "Major": "Cognitive Sciences, Pre-Med"
+        "First Name": "Yumn",
+        "Last Name": "Teshome",
+        "Email": "yt53@rice.edu",
+        "Position": "Head PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Computer Science, Math",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "[HEAD] Arnav Burudgunte",
-        "Year": "2024",
-        "Email": "ab141@",
-        "Major": "Computer Science, Pre-Grad"
+        "First Name": "Angela",
+        "Last Name": "Hu",
+        "Email": "ah110@rice.edu",
+        "Position": "Head PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Biosciences (Cell Biology and Genetics)",
+        "Declared/intended minor(s) and/or certificate(s)": "Medical Humanities",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "[O-WEEK] Christina Wong",
-        "Year": "2025",
-        "Email": "cew8@",
-        "Major": "Computer Science, Biosciences minor, Pre-Med"
+        "First Name": "Landry",
+        "Last Name": "Wood",
+        "Email": "lkw1@rice.edu",
+        "Position": "O-Week PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "English and Classical Studies",
+        "Declared/intended minor(s) and/or certificate(s)": "Medieval and Early Modern Studies",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "[O-WEEK] Genesis Hahn",
-        "Year": "2025",
-        "Email": "gh25@",
-        "Major": "Economics"
+        "First Name": "Temilolu",
+        "Last Name": "Fabuyi",
+        "Email": "tf27@rice.edu",
+        "Position": "O-Week PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Economics",
+        "Declared/intended minor(s) and/or certificate(s)": "Sociology",
+        "Pre-professional interests ": "Pre-Law"
     },
     {
-        "Name": "[O-WEEK] Tanya Jain",
-        "Year": "2025",
-        "Email": "tj23@",
-        "Major": "Biosciences, Pre-Med"
+        "First Name": "Tyler",
+        "Last Name": "Do",
+        "Email": "td72@rice.edu",
+        "Position": "O-Week PAA",
+        "Intended graduation": "May 2028",
+        "Declared/intended major(s) ": "Electrical and Computer Engineering",
+        "Declared/intended minor(s) and/or certificate(s)": "Operational Research",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "[O-WEEK] Zarek Lu",
-        "Year": "2025",
-        "Email": "zfl1@",
-        "Major": "Computer Science, Pre-Grad"
+        "First Name": "Cathy",
+        "Last Name": "Barr",
+        "Email": "cb115@rice.edu",
+        "Position": "O-Week PAA",
+        "Intended graduation": "May 2027",
+        "Declared/intended major(s) ": "Business and Political Science",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": ""
     },
     {
-        "Name": "Heather Kong",
-        "Year": "2023",
-        "Email": "hzk1@",
-        "Major": "Health Sciences; Poverty, Justice, and Human Capabilities minor"
+        "First Name": "Amanda ",
+        "Last Name": "Giordano",
+        "Email": "alg25@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Environmental Science and Biosciences",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "Michelle Martinez",
-        "Year": "2023",
-        "Email": "mm142@",
-        "Major": "Sports Medicine and Exercise Physiology, Sport Management"
+        "First Name": "Kacey",
+        "Last Name": "Chapman",
+        "Email": "kc122@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2027",
+        "Declared/intended major(s) ": "Anthropology and Biosciences",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "Bill Qian",
-        "Year": "2023",
-        "Email": "zq4@",
-        "Major": "Computer Science"
+        "First Name": "Bailee",
+        "Last Name": "Byrd",
+        "Email": "bb111@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2028",
+        "Declared/intended major(s) ": "Environmental Engineering",
+        "Declared/intended minor(s) and/or certificate(s)": "Energy and Water Sustainability",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "Carlos Rivera",
-        "Year": "2023",
-        "Email": "cdr5@",
-        "Major": "Sports Medicine and Exercise Physiology, Sport Management, Pre-Physical Therapy"
+        "First Name": "Tess",
+        "Last Name": "Mansfield",
+        "Email": "tlm10@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2027",
+        "Declared/intended major(s) ": "English and Psychology",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Graduate School"
     },
     {
-        "Name": "Claire Xu",
-        "Year": "2023",
-        "Email": "ccx1@",
-        "Major": "Computer Science, Data Science minor, Business minor"
+        "First Name": "Mia",
+        "Last Name": "Baumann",
+        "Email": "mib5@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Biosciences and Spanish",
+        "Declared/intended minor(s) and/or certificate(s)": "Medical Humanities",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "Phoebe Scaccia",
-        "Year": "2023",
-        "Email": "pys1@",
-        "Major": "Astronomy, Computer Science, Pre-Grad"
+        "First Name": "Shivi",
+        "Last Name": "Goyal",
+        "Email": "sg186@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2027",
+        "Declared/intended major(s) ": "Biosciences and Health Sciences",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "Tyler Braito",
-        "Year": "2024",
-        "Email": "ttb2@",
-        "Major": "Linguistics, Cognitive Sciences, Data Science minor"
+        "First Name": "Matthew",
+        "Last Name": "Ahn",
+        "Email": "mca3@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Biosciences and Asian Studies",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "Robert Heeter",
-        "Year": "2024",
-        "Email": "rch5@",
-        "Major": "Bioengineering, Physics minor"
+        "First Name": "Kirstie",
+        "Last Name": "Qian",
+        "Email": "kq10@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2027",
+        "Declared/intended major(s) ": "Architecture",
+        "Declared/intended minor(s) and/or certificate(s)": "Art History and Spanish Certificate",
+        "Pre-professional interests ": ""
     },
     {
-        "Name": "Brian Lee",
-        "Year": "2024",
-        "Email": "bsl4@",
-        "Major": "Biosciences, Environmental Studies minor"
+        "First Name": "Sophia",
+        "Last Name": "Jacob",
+        "Email": "sgj3@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Biosciences",
+        "Declared/intended minor(s) and/or certificate(s)": "English",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "Maanvi Thawani",
-        "Year": "2024",
-        "Email": "mt78@",
-        "Major": "Biosciences, Health Sciences, Pre-Med"
+        "First Name": "Krishan",
+        "Last Name": "Gupta",
+        "Email": "kg78@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2028",
+        "Declared/intended major(s) ": "Computer Science and Math",
+        "Declared/intended minor(s) and/or certificate(s)": "Physics",
+        "Pre-professional interests ": ""
     },
     {
-        "Name": "Hemish Thakkar",
-        "Year": "2024",
-        "Email": "hbt3@",
-        "Major": "Mechanical Engineering, Chemistry, Pre-Grad"
+        "First Name": "Sage",
+        "Last Name": "Lee",
+        "Email": "jl285@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Neuroscience and Art History",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Grad"
     },
     {
-        "Name": "Danika Li",
-        "Year": "2025",
-        "Email": "dl74@",
-        "Major": "Bioengineering, English"
+        "First Name": "Justin",
+        "Last Name": "Dang",
+        "Email": "jd110@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Biosciences and Business (Finance)",
+        "Declared/intended minor(s) and/or certificate(s)": "",
+        "Pre-professional interests ": "Pre-Med"
     },
     {
-        "Name": "Priya Tirumala",
-        "Year": "2025",
-        "Email": "ppt1@",
-        "Major": "Biochemistry, Global Health Technologies minor, Pre-Med"
-    },
-    {
-        "Name": "Emery Engling",
-        "Year": "2025",
-        "Email": "eee2@",
-        "Major": "Economics, Cognitive Sciences"
+        "First Name": "AJ",
+        "Last Name": "Shin",
+        "Email": "ajs27@rice.edu",
+        "Position": "YL PAA",
+        "Intended graduation": "May 2026",
+        "Declared/intended major(s) ": "Philosophy",
+        "Declared/intended minor(s) and/or certificate(s)": "French Studies, Asian Studies, Art History, Korean CLIC Certificate",
+        "Pre-professional interests ": "Pre-Law, Pre-Grad"
     }
 ]
