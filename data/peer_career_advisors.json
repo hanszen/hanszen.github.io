@@ -2,16 +2,29 @@
     {
         "Name": "Nathaniel Boateng",
         "Email": "nab15@rice.edu",
-        "Major": "Biosciences",
-        "Year": "2026",
-        "Career Interests": "Pre-med"
+        "Graduation Year": "2026",
+        "Track": "Biosciences",
+        "Career Interests": "Physician-Scientist"
+    },
+    {
+        "Name": "Vanessa Cruz",
+        "Email": "vc56@rice.edu",
+        "Graduation Year": "2028",
+        "Track": "Business Finance, Data Science (Minor), Study of Women, Gender, and Sexuality (Minor)",
+        "Career Interests": "Financial Analyst, CEO "
     },
     {
         "Name": "Cindy Li",
         "Email": "xl150@rice.edu",
-        "Major": "Psychology & Operations Research",
-        "Year": "2027",
-        "Career Interests": "Pre-grad"
+        "Graduation Year": "2027",
+        "Track": "Pyschology, Operations Research",
+        "Career Interests": "PhD in Business School"
+    },
+    {
+        "Name": "Ethan Nava Maldando",
+        "Email": "esn5@rice.edu",
+        "Graduation Year": "2026",
+        "Track": "Operations Research, Business (Minor)",
+        "Career Interests": "Consulting, Supply Chain"
     }
-    
 ]
