@@ -44,7 +44,9 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Convert to webp
         run: |
-          sudo apt install imagemagick
+          sudo apt-get update
+          sudo apt-get upgrade
+          sudo apt install imagemagick --fix-missing
           chmod +x convert_webp.sh 
           ./convert_webp.sh
       - name: Build with Jekyll
