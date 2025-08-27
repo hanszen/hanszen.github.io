@@ -75,16 +75,16 @@
         "Name": "Yumn Teshome",
         "Email": "yt53@",
         "Graduation year": "2026",
-        "Major": "Comp and math",
+        "Major": "Computer Science and Math",
         "Minor": "",
         "Course Number": "COMP 140, MATH 212, COMP 182, MATH 102"
     },
     {
         "Name": "Tyler Do",
-        "Email": "td72@",
+        "Email Address": "td72@rice.edu",
         "Graduation year": "2028",
-        "Major": "",
+        "Major": "ELEC + OR",
         "Minor": "",
-        "Course Number": ""
+        "Course Number": "PHYS 101/102, PHYS 125/126, MATH 212, MATH 355"
     }
 ]
