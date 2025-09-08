@@ -371,7 +371,7 @@ permalink: /opportunities/
                 const timeDifference = beerBike.getTime() - startDate.getTime();
 
                 // Convert milliseconds to days
-                const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
                 document.getElementById("days-away").innerHTML = `Do you love biking, chugging, or just being part of Hanszen culture? Well, Beer Bike is just ${daysDifference} days away! If you want to be a part of the
                             bike, chug, or pit teams, reach out to the captains on the <a href="/about/beer_bike/">Beer Bike</a> page.`;
