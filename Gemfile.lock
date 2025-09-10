@@ -82,6 +82,8 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  arm64-darwin
+  x86_64-linux
 
 DEPENDENCIES
   base64 (~> 0.1.0)
