@@ -87,11 +87,11 @@ PLATFORMS
 
 DEPENDENCIES
   base64 (~> 0.3.0)
-  csv (~> 3.3.5)
+  csv (~> 3.3)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
-  rexml (~> 3.4.4)
+  rexml (~> 3.4)
   tzinfo-data
 
 BUNDLED WITH
