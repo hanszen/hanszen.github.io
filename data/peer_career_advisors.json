@@ -1,44 +1,30 @@
 [
     {
-        "Name": "Amey Maley",
-        "Year": "2023",
-        "Email": "asm14@",
-        "Major": "Statistics"
+        "Name": "Nathaniel Boateng",
+        "Email": "nab15@rice.edu",
+        "Graduation Year": "2026",
+        "Track": "Biosciences",
+        "Career Interests": "Physician-Scientist"
     },
     {
-        "Name": "Makayla Brown",
-        "Year": "2023",
-        "Email": "mab33@",
-        "Major": "Neuroscience"
+        "Name": "Vanessa Cruz",
+        "Email": "vc56@rice.edu",
+        "Graduation Year": "2028",
+        "Track": "Business Finance, Data Science (Minor), Study of Women, Gender, and Sexuality (Minor)",
+        "Career Interests": "Financial Analyst, CEO "
     },
     {
-        "Name": "Christina Wong",
-        "Year": "2025",
-        "Email": "cew8@",
-        "Major": "Computer Science, Pre-Med"
+        "Name": "Cindy Li",
+        "Email": "xl150@rice.edu",
+        "Graduation Year": "2027",
+        "Track": "Pyschology, Operations Research",
+        "Career Interests": "PhD in Business School"
     },
     {
-        "Name": "Daniela Covarrubias",
-        "Year": "2025",
-        "Email": "dc66@",
-        "Major": "Biosciences"
-    },
-    {
-        "Name": "Daniel Zhao",
-        "Year": "2025",
-        "Email": "dz35@",
-        "Major": "Business"
-    },
-    {
-        "Name": "Emery Engling",
-        "Year": "2025",
-        "Email": "eee2@",
-        "Major": "Economics, Cognitive Sciences, Neuroscience minor, Business minor, Pre-Business"
-    },
-    {
-        "Name": "Kenna Dixon",
-        "Year": "2025",
-        "Email": "kmd14@",
-        "Major": "Biosciences"
+        "Name": "Ethan Nava Maldando",
+        "Email": "esn5@rice.edu",
+        "Graduation Year": "2026",
+        "Track": "Operations Research, Business (Minor)",
+        "Career Interests": "Consulting, Supply Chain"
     }
 ]

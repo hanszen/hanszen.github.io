@@ -1,7 +1,7 @@
 [
     {
-        "name": "Matthew Wettergreen",
-        "email": "mwettergreen@",
+        "name": "Yu Kee Ooi",
+        "email": "yu.kee.ooi@@",
         "division": "Engineering"
     },
     {
@@ -10,8 +10,13 @@
         "division": "Engineering"
     },
     {
-        "name": "Edison Liang",
-        "email": "eliang@",
+        "name": "Denva Gallant",
+        "email": "denva.gallant@",
+        "division": "Humanities"
+    },
+    {
+        "name": "Amanda Perkins-Ball",
+        "email": "aperkinsball@",
         "division": "Natural Sciences"
     },
     {
@@ -20,38 +25,28 @@
         "division": "Natural Sciences"
     },
     {
-        "name": "Amanda Johnson",
-        "email": "amanda.l.johnson@",
-        "division": "Humanities"
-    },
-    {
         "name": "Bryan Denny",
         "email": "bryan.denny@",
         "division": "Social Sciences"
     },
     {
-        "name": "Songying Fang",
-        "email": "sfang@",
+        "name": "Hua Gong",
+        "email": "hua.gong@",
         "division": "Social Sciences"
     },
     {
-        "name": "Reto Geiser",
-        "email": "reto.geiser@",
-        "division": "Architecture"
+        "name": "Nell Putnam-Farr",
+        "email": "elpf@",
+        "division": "Business"
     },
     {
-        "name": "Jenny Judge",
-        "email": "judge@",
+        "name": "Andrew Colopy",
+        "email": "colopy@",
         "division": "Architecture"
     },
     {
         "name": "Geoffrey Scott",
         "email": "geoffrey.scott@",
         "division": "Music"
-    },
-    {
-        "name": "Jeff Russell",
-        "email": "jeff.russell@",
-        "division": "Business"
     }
 ]
