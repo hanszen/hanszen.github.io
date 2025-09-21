@@ -30,4 +30,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "rexml", "~> 3.4"
 gem 'csv', '~> 3.3'
-gem 'base64', '~> 0.3'
+gem 'base64', '~> 0.3.0'
