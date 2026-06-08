@@ -155,15 +155,14 @@ PLATFORMS
   riscv64-linux-gnu
   riscv64-linux-musl
   ruby
+  x64-mingw-ucrt
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
+  x86_64-linux
   x86_64-linux-android
   x86_64-linux-gnu
   x86_64-linux-musl
-  x64-mingw-ucrt
-  x86_64-linux
-
 
 DEPENDENCIES
   base64 (~> 0.3.0)
