@@ -45,7 +45,6 @@ jobs:
       - name: Convert to webp
         run: |
           sudo apt-get update
-          sudo apt-get upgrade
           sudo apt install imagemagick --fix-missing
           chmod +x convert_webp.sh 
           ./convert_webp.sh
