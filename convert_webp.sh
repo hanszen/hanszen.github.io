@@ -10,7 +10,10 @@ convert_to_webp () {
   base="${1%.*}"
   echo "$base.webp"
   # Convert to webp using imagemagick
-  convert "$1" -auto-orient -quality 75 "$base.webp"
+  error=$(convert "$1" -auto-orient -quality 75 "$base.webp" 2>&1)
+  if [ $? -ne 0 ]; then
+    echo "WARNING: skipped $1 ($error)" >&2
+  fi
 }
 
 # Make this function visible to xargs below
