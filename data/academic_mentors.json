@@ -1,35 +1,35 @@
 [
     {
-        "Name": "Jordan Rahmfeld",
-        "Email": "jr203@",
+        "Name": "Cole Verdirame",
+        "Email": "cv51@",
         "Graduation year": "2028",
-        "Major": "Computational neuroscience & biochemistry",
+        "Major": "Sport Analytics & Sports Management",
         "Minor": "",
-        "Course Number": "CHEM121, CHEM122, COMP140"
+        "Course Number": ""
     },
     {
-        "Name": "Kiana Komeiji",
-        "Email": "krk10@",
-        "Graduation year": "2026",
-        "Major": "Applied Physics",
-        "Minor": "Energy & Water Sustainability",
-        "Course Number": "PHYS 101, PHYS 125, MATH 101, MATH 102"
+        "Name": "Shyla Jogi",
+        "Email": "Shyla.Jogi@",
+        "Graduation year": "2029",
+        "Major": "English and Business",
+        "Minor": "Pre-law",
+        "Course Number": ""
     },
     {
-        "Name": "Andy Park",
-        "Email": "ap252@",
-        "Graduation year": "2027",
-        "Major": "Political Science/Asian Studies ",
+        "Name": "Mert Esat Yercel",
+        "Email": "my66@",
+        "Graduation year": "2028",
+        "Major": "Computer Science",
         "Minor": "",
-        "Course Number": "SOSC 302, POLI 212, POLI 395, KOR 302"
+        "Course Number": ""
     },
     {
-        "Name": "Kenzie Langhorne",
-        "Email": "kl150@",
+        "Name": "Cathy Barr",
+        "Email": "cb115@",
         "Graduation year": "2027",
-        "Major": "History and English ",
-        "Minor": "PLST",
-        "Course Number": "ENGL 200 & 300 , Any History Seminar Course so 400s, PLST course such as SOCI 325 & PLST 316 "
+        "Major": "Business and Political Science",
+        "Minor": "Pre-business",
+        "Course Number": ""
     },
     {
         "Name": "Laila Charlton",
@@ -48,42 +48,50 @@
         "Course Number": "ECON 100, BIOS 300, MATH 102, CHEM 122/124"
     },
     {
-        "Name": "Medha Pulluru",
-        "Email": "mp161@",
+        "Name": "Vuk Jovanovic",
+        "Email": "vj20@",
         "Graduation year": "2028",
-        "Major": "Neuroscience, Art",
-        "Minor": "MedHum, GHT",
-        "Course Number": "Chemistry 122 (Gen Chem 1), Chemistry 124 (Gen Chem 2) "
+        "Major": "Bioscience",
+        "Minor": "Biochem",
+        "Course Number": ""
     },
     {
-        "Name": "Andy Corliss",
-        "Email": "ac185@",
-        "Graduation year": "2026",
-        "Major": "BIOE",
-        "Minor": "Spanish, maybe GLHT",
-        "Course Number": "Intro CHEM, BIOE courses, Intro Physics, CMOR 220"
-    },
-    {
-        "Name": "Emily Han",
-        "Email": "egh5@",
-        "Graduation year": "2026",
-        "Major": "Biosciences ",
-        "Minor": "Medical Humanities",
-        "Course Number": "CHEM 211, CHEM 313, BIOS 211"
-    },
-    {
-        "Name": "Yumn Teshome",
-        "Email": "yt53@",
-        "Graduation year": "2026",
-        "Major": "Computer Science and Math",
+        "Name": "Sumita Dantu",
+        "Email": "sd162@",
+        "Graduation year": "2028",
+        "Major": " Bioscience",
         "Minor": "",
-        "Course Number": "COMP 140, MATH 212, COMP 182, MATH 102"
+        "Course Number": ""
+    },
+    {
+        "Name": "Brian Huang",
+        "Email": "rh102@",
+        "Graduation year": "",
+        "Major": "Physics",
+        "Minor": "",
+        "Course Number": ""
+    },
+    {
+        "Name": "Laila Charlton",
+        "Email": "lf53@",
+        "Graduation year": "2028",
+        "Major": "Psychology and Political Science",
+        "Minor": "",
+        "Course Number": ""
+    },
+    {
+        "Name": "Jordan Rahmfeld",
+        "Email": "jr203@",
+        "Graduation year": "2028",
+        "Major": "Computational Neuroscience",
+        "Minor": "",
+        "Course Number": ""
     },
     {
         "Name": "Tyler Do",
         "Email": "td72@",
         "Graduation year": "2028",
-        "Major": "ELEC + OR",
+        "Major": "Electrical Engineering",
         "Minor": "",
         "Course Number": "PHYS 101/102, PHYS 125/126, MATH 212, MATH 355"
     }
